@@ -1,5 +1,17 @@
 # Cloudflare deployment — 4 October 2026
 
+## GitHub deployments — 8 October 2026
+
+The existing `melodymeter` Pages project uses Direct Upload. Cloudflare does not support converting it to native Git integration. `.github/workflows/deploy-pages.yml` instead deploys this same project through GitHub Actions after pushes to `main`, or a manual workflow run on `main`. The custom domain and Pages-to-Worker service binding remain on the existing project.
+
+The workflow installs locked dependencies with Node 24 and the pnpm version in `package.json`, checks frontend/Worker types, runs unit/API tests, builds static pages, uploads Pages assets and Functions, and verifies the live asset manifest and API health. Deployment runs are serialized. This workflow publishes the web app and Pages Functions; the standalone API Worker and database migrations retain their separate deployment commands below.
+
+One-time activation: create a Cloudflare API token with **Account / Cloudflare Pages / Edit**, restricted to account `68f7d76f0db9c20630b0b4b97505f5d0`. Save it as the repository Actions secret `CLOUDFLARE_API_TOKEN` at https://github.com/dipeshonnet/MelodyMeter/settings/secrets/actions. Do not commit or paste the token into chat. If a public Turnstile key is used, store it as repository Actions variable `PUBLIC_TURNSTILE_SITE_KEY`. The site URL and account ID are configured in the workflow. The local Wrangler OAuth login is not used by CI.
+
+After saving the secret, rerun the deployment workflow from https://github.com/dipeshonnet/MelodyMeter/actions. Until the secret exists, validation/build steps can run, but the deployment step fails with a setup message and leaves the live site unchanged. Subsequent pushes to `main` deploy automatically after checks pass.
+
+References: [Cloudflare Direct Upload limitation](https://developers.cloudflare.com/pages/get-started/direct-upload/) and [GitHub Actions deployment guide](https://developers.cloudflare.com/pages/how-to/use-direct-upload-with-continuous-integration/).
+
 Google sign-in is now deployed using the Melody project's Web OAuth client ID. Migration `0004_google_login.sql` was applied to production and local D1. API version `d72ac689-61dd-4be9-8a38-8e92b626b12f` and Pages deployment `da8e0f44.melodymeter.pages.dev` include the sign-in flow. The live configuration reports enabled, the start endpoint issues a Secure/HttpOnly browser nonce, and Google's real button renders on a catalog song after the user requests it. Actual account consent and a production rating remain for user acceptance; no test votes were added to production. Local API tests (17), desktop/Android browser checks (4), build, and type checks pass. The installed WebKit browser could not launch, so iPhone verification remains pending. Email delivery remains unconfigured, but Google sign-in provides the rating verification option.
 
 Public PWA: https://melody.everydayai.work
