@@ -1,0 +1,21 @@
+---
+import Layout from '../layouts/Layout.astro';
+import SongCard from '../components/SongCard.astro';
+import { songs, catalogStats, decades } from '../lib/catalog';
+---
+<Layout>
+  <section class="catalog-page">
+    <div class="intro-row"><div><p class="eyebrow"><span class="tiny-bars" aria-hidden="true">▂ ▅ ▃ ▇</span> FIND YOUR SING-ALONG</p><h1>A song that fits<br class="mobile-break" /> your next moment.</h1><p class="intro-copy">Know how easy it is to sing, before you give it a go.</p></div><div class="scale-note"><span class="scale-dots" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span><strong>10 is easiest to sing</strong><span>AI estimates. Real audience feedback.</span></div></div>
+    <div class="search-panel"><label for="song-search" class="sr-only">Search song, artist, or film</label><svg viewBox="0 0 24 24" width="23" height="23" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.7"/><path d="m16 16 4.5 4.5"/></svg><input id="song-search" type="search" placeholder="Search a song, artist, or film…" autocomplete="off" maxlength="160" /><span class="search-hint">Hindi & English</span></div>
+    <section class="catalog-bottom easy-start"><div><h2>Start with an easy song</h2><p>Explore relaxed melodies and familiar sing-alongs rated 7–10. Pick a comfortable key.</p></div><a class="secondary-button" id="browse-easy" href="/?ease=easy">Show easy songs</a></section>
+    <div class="catalog-controls"><div class="filter-tabs" role="group" aria-label="Filter songs"><button class="selected" data-language="all" aria-pressed="true">All songs</button><button data-language="Hindi" aria-pressed="false">Hindi</button><button data-language="English" aria-pressed="false">English</button><button id="saved-filter" data-language="saved" aria-pressed="false">♡ Saved</button></div><div class="sort-controls"><label for="decade-filter" class="sr-only">Filter by decade</label><select id="decade-filter"><option value="all">All decades</option>{decades.map(decade => <option value={decade}>{decade}s</option>)}</select><label for="ease-filter" class="sr-only">Filter by ease</label><select id="ease-filter"><option value="all">Any difficulty</option><option value="easy">Easy · 7–10</option><option value="medium">Moderate · 5–6</option><option value="hard">Challenging · 1–4</option></select><label for="song-sort" class="sr-only">Sort songs</label><select id="song-sort"><option value="featured">Featured first</option><option value="easy">Easiest first</option><option value="hard">Most challenging</option><option value="title">Title A–Z</option></select></div></div>
+    <div class="results-caption"><p id="results-count">{catalogStats.total} songs to explore</p><span><span class="estimate-dot" aria-hidden="true"></span>Higher score, easier melody</span></div>
+    <div id="song-grid" class="song-grid">{songs.map(song => <SongCard song={song} />)}</div>
+    <div id="empty-state" class="empty-state" hidden><span class="empty-icon" aria-hidden="true">♩</span><h2 id="empty-title">No songs found</h2><p id="empty-copy">Try another spelling, artist, or film.</p><button class="secondary-button" id="clear-filters">Clear filters</button></div>
+    <section class="catalog-bottom"><div><h2>Not in the catalog yet?</h2><p>Find a recording and request an AI estimate. New ratings join the catalog for everyone.</p></div><button class="secondary-button" id="external-search">Search more recordings</button></section>
+    <div id="external-results" class="external-results" aria-live="polite" hidden></div>
+    <p class="catalog-disclosure">{catalogStats.hindi} Hindi and {catalogStats.english} English songs, grouped by original release decade. {catalogStats.rated} saved AI estimates; other songs await assessment. Audio has not been analyzed. Audience scores qualify after 10 verified ratings.</p>
+  </section>
+  <script id="catalog-data" type="application/json" set:html={JSON.stringify(songs).replace(/</g, '\u003c')} />
+  <script>import '../scripts/catalog';</script>
+</Layout>

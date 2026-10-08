@@ -1,0 +1,10 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import SongDetail from '../../components/SongDetail.astro';
+import { songs } from '../../lib/catalog';
+import type { Song } from '../../../shared/rating';
+export function getStaticPaths() { return songs.map(song => ({ params: { slug: song.slug }, props: { song } })); }
+interface Props { song: Song; }
+const { song } = Astro.props;
+---
+<Layout title={`${song.title} — singing difficulty | MelodyMeter`} description={`How easy is ${song.title} by ${song.artist} to sing? See its MelodyMeter estimate and audience ratings.`}><SongDetail song={song} /></Layout>

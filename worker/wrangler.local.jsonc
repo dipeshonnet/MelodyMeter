@@ -1,0 +1,16 @@
+{
+  "$schema": "../node_modules/wrangler/config-schema.json",
+  "name": "melodymeter-api",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-09-17",
+  "d1_databases": [{ "binding": "DB", "database_name": "melodymeter", "database_id": "00000000-0000-0000-0000-000000000000", "migrations_dir": "../migrations" }],
+  "vars": {
+    "APP_ORIGIN": "http://127.0.0.1:4321",
+    "DEV_MODE": "true",
+    "AI_MODEL": "@cf/meta/llama-3.1-8b-instruct-fp8-fast",
+    "AI_DAILY_BUDGET": "8000",
+    "EMAIL_DAILY_LIMIT": "90",
+    "EMAIL_MONTHLY_LIMIT": "2700",
+    "MUSICBRAINZ_CONTACT": "https://melody.everydayai.work"
+  }
+}

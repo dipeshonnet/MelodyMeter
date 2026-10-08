@@ -1,0 +1,18 @@
+---
+import { FACTORS, overallLabel, type Song } from '../../shared/rating';
+interface Props { song: Song; }
+const { song } = Astro.props;
+const score = song.ai?.overall;
+const initials = song.title.split(/\s+/).slice(0, 2).map(word => word[0]).join('').toUpperCase();
+const tier = score === undefined ? 'pending' : score >= 7 ? 'easy' : score >= 5 ? 'medium' : 'hard';
+---
+<article class="song-card" data-song-id={song.id} data-language={song.language} data-score={score ?? ''}>
+  <div class:list={['song-art', `art-${song.color}`]} aria-hidden="true"><span>{initials}</span><div class="art-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+  <div class="card-content">
+    <div class="card-topline"><span class="language-label">{song.language} <span>· {song.year || 'Studio recording'}</span></span><button class="save-button" data-save={song.id} aria-label={`Save ${song.title}`} aria-pressed="false"><svg viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4z"/></svg></button></div>
+    <a href={`/songs/${song.slug}/`} class="song-title-link"><h2>{song.title}</h2></a>
+    <p class="artist">{song.artist}</p>
+    <div class="card-score-row"><span class:list={['score-badge', tier]}><strong>{score ?? '—'}</strong><span>/10</span></span><div><strong data-card-label>{score !== undefined ? overallLabel(score) : 'Not rated yet'}</strong><span class="source-label" data-card-source>{song.ai ? 'AI estimate' : 'Audience ratings welcome'}</span></div></div>
+    <div class="mini-factors">{FACTORS.slice(0, 3).map(f => <span>{f.short}<b>{song.ai?.factors[f.id] ?? '—'}</b></span>)}</div>
+  </div>
+</article>

@@ -1,0 +1,46 @@
+---
+import { FACTORS, overallLabel, easeLabel, type Song } from '../../shared/rating';
+import { practiceLinks } from '../../shared/song-resources';
+interface Props { song?: Song; }
+const { song } = Astro.props;
+const score = song?.ai?.overall;
+const initials = song?.title.split(/\s+/).slice(0, 2).map(w => w[0]).join('').toUpperCase() || 'MM';
+const links = practiceLinks(song?.id || '', song);
+---
+<section class="detail-page" id="song-detail" data-song-id={song?.id || ''}>
+  <div class="breadcrumb"><a href="/">Explore songs</a><span>/</span><span data-song-title>{song?.title || 'Selected recording'}</span></div>
+  <div class="detail-grid"><div>
+    <div class="detail-header"><div class:list={['song-art', 'detail-art', `art-${song?.color || 'teal'}`]} aria-hidden="true"><span data-initials>{initials}</span><div class="art-bars"><i></i><i></i><i></i><i></i><i></i></div></div><div class="detail-title"><p class="eyebrow">YOUR NEXT SONG</p><h1 data-song-title>{song?.title || 'Loading recording…'}</h1><p class="artist" data-song-artist>{song?.artist}</p><div class="song-meta"><span data-language>{song?.language || 'Recording'}</span><span data-year>{song?.year || 'Studio recording'}</span><span data-version>{song?.version || 'Main lead melody'}</span></div></div></div>
+    <div class="detail-actions"><button class="save-button" data-save={song?.id || ''} aria-label={`Save ${song?.title || 'song'}`} aria-pressed="false"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4z"/></svg> Save song</button><button class="secondary-button" id="share-song">Share song</button></div>
+    <section class="practice-panel" id="practice-panel" aria-labelledby="practice-heading" hidden={!links.length}>
+      <h2 id="practice-heading">Lyrics, listen & sing along</h2>
+      <div class="practice-links" id="practice-links">{links.map(link => <a class="practice-link" href={link.url} target="_blank" rel="noopener noreferrer" aria-label={`${link.title}: ${link.action} on ${link.provider} (opens in a new tab)`}><span class="practice-icon" aria-hidden="true">{link.icon}</span><strong>{link.title}</strong><span>{link.action} <span aria-hidden="true">↗</span></span><small>{link.provider}</small></a>)}</div>
+      <p class="practice-note">Links open in a new tab. Karaoke is a backing track for practice; its key or arrangement may differ.</p>
+    </section>
+    <div class="panel score-panel"><div class="big-score" id="primary-score" data-tier={score === undefined ? 'pending' : score >= 7 ? 'easy' : score >= 5 ? 'medium' : 'hard'}><strong>{score ?? '—'}</strong><span>/10</span></div><div class="score-copy"><h2 id="primary-label">{score !== undefined ? overallLabel(score) : 'Estimate not available yet'}</h2><p id="primary-source">{song?.ai ? 'AI estimate · 10 is easiest' : 'Request an estimate below'}</p><span class="estimate-label" id="ai-status-label">Audio not analyzed</span><p id="ai-secondary" hidden></p><div class="review-progress"><div class="progress-track"><i id="community-progress" style="width:0%"></i></div><span id="community-count">0 of 10 audience ratings received</span></div></div></div>
+    <div id="generation-panel" class="generation-panel" hidden><p id="generation-copy">Request an AI estimate for this recording.</p><div id="generation-challenge" class="turnstile-container"></div><button class="primary-button" id="request-estimate">Request AI estimate</button></div>
+    <p class="assessment" id="assessment">{song?.ai?.explanation || 'A rating will appear here once the selected recording has been assessed.'}</p>
+    <div class="tip-panel" id="tip-panel" hidden={!song?.ai}><span aria-hidden="true">♩</span><div><h3>Make it more comfortable</h3><p id="singing-tip">{song?.ai?.tip}</p></div></div>
+    <div class="section-heading"><h2>The singing breakdown</h2><p>Higher scores are easier</p></div>
+    <div class="factor-list"><div class="factor-table-header"><span>Factor</span><span>AI</span><span>Audience</span></div>
+      {FACTORS.slice(0, 4).map(factor => <div class="factor-row" data-factor={factor.id}><div class="factor-name"><span class="factor-icon" aria-hidden="true">{factor.icon}</span><div><strong>{factor.label}</strong><p data-factor-reason>{song?.ai?.reasons[factor.id] || factor.description}</p></div></div><div class="factor-score" data-factor-ai>{song?.ai?.factors[factor.id] ?? '—'}<small>{song?.ai ? easeLabel(song.ai.factors[factor.id]) : 'Pending'}</small></div><div class="factor-community" data-factor-community>0 of 10<br/>ratings</div></div>)}
+      <details class="further-factors"><summary>Full breakdown · 5 more factors</summary>{FACTORS.slice(4).map(factor => <div class="factor-row" data-factor={factor.id}><div class="factor-name"><span class="factor-icon" aria-hidden="true">{factor.icon}</span><div><strong>{factor.label}</strong><p data-factor-reason>{song?.ai?.reasons[factor.id] || factor.description}</p></div></div><div class="factor-score" data-factor-ai>{song?.ai?.factors[factor.id] ?? '—'}<small>{song?.ai ? easeLabel(song.ai.factors[factor.id]) : 'Pending'}</small></div><div class="factor-community" data-factor-community>0 of 10<br/>ratings</div></div>)}</details>
+    </div>
+    <p class="starter-note" id="rating-date">{song?.ai ? `${song.ai.model === 'authoring-ai-provisional' ? 'Provisional AI judgment' : 'AI estimate'} · Updated ${new Date(song.ai.generatedAt).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' })}` : 'Ratings describe the main lead melody in a comfortable key.'}</p>
+    <div class="report-panel"><span>Something doesn’t sound right?</span><button id="report-rating">Report a rating problem</button></div>
+  </div><aside class="panel vote-panel"><h2>How easy was it for you?</h2><p class="vote-intro">Rate singing the main melody in a comfortable key. Your experience helps the next singer.</p>
+    <form id="vote-form"><fieldset><legend>Overall ease of singing <span aria-hidden="true">*</span></legend><div class="score-picker">{Array.from({ length: 10 }, (_, i) => <label class="score-choice"><input type="radio" name="overall" value={i + 1} required aria-label={`${i + 1} out of 10`} /><span>{i + 1}</span></label>)}</div><div class="picker-labels"><span>1 · Very hard</span><span>10 · Very easy</span></div></fieldset>
+    <details class="optional-scores"><summary>Rate individual factors (optional)</summary><div class="optional-fields">{FACTORS.map(factor => <div class="optional-field"><label for={`vote-${factor.id}`}>{factor.label}</label><select id={`vote-${factor.id}`} name={factor.id}><option value="">Skip this factor</option>{Array.from({ length: 10 }, (_, i) => <option value={i + 1}>{i + 1} · {easeLabel(i + 1)}</option>)}</select></div>)}</div></details>
+    <div class="verified-session" id="verified-session" hidden>You’re verified on this device.<br/><button type="button" id="change-email" class="text-button">Use another account</button></div>
+    <div id="google-login" hidden><button type="button" class="secondary-button" id="show-google-login">Use Google instead of email</button><div id="google-login-button" style="margin-top:12px"></div><p class="email-help">Sign in once, then submit your rating. Your scores stay here.</p></div>
+    <div id="email-field"><label for="vote-email">Email address</label><input class="email-input" id="vote-email" name="email" type="email" autocomplete="email" placeholder="you@example.com" maxlength="254" required /><p class="email-help">We’ll send a confirmation link. Your email stays private and is used only to verify your rating.</p></div>
+    <div id="vote-challenge" class="turnstile-container"></div>
+    <button class="primary-button vote-submit" type="submit" id="submit-vote">Verify & submit rating</button><p class="verification-copy">One verified email, one rating per song. Updating a rating replaces your previous vote.</p><div id="vote-status" class="form-status" role="status" aria-live="polite" hidden></div><a class="secondary-button" id="open-local-inbox" href="/dev-mail/" hidden style="margin-top:12px">Open local test inbox</a>
+    </form>
+    <noscript><p class="no-js">Enable JavaScript to submit a rating. You can still read the saved AI estimate.</p></noscript>
+  </aside></div>
+  <dialog class="feedback-dialog" id="feedback-dialog"><h2>Report a rating problem</h2><form id="feedback-form"><label for="feedback-message" class="sr-only">Describe the problem</label><textarea class="feedback-input" id="feedback-message" minlength="10" maxlength="1000" required placeholder="What should we take another look at?"></textarea><div id="feedback-challenge" class="turnstile-container"></div><div class="form-status" id="feedback-status" hidden role="status"></div><div class="dialog-actions"><button class="secondary-button" type="button" id="close-feedback">Cancel</button><button class="primary-button" type="submit">Send feedback</button></div></form></dialog>
+  <script id="song-data" type="application/json" set:html={JSON.stringify(song || null).replace(/</g, '\u003c')} />
+  <script id="turnstile-config" type="application/json" set:html={JSON.stringify({ siteKey: import.meta.env.PUBLIC_TURNSTILE_SITE_KEY || '' }).replace(/</g, '\u003c')} />
+  <script>import '../scripts/detail';</script>
+</section>

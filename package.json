@@ -1,0 +1,40 @@
+{
+  "name": "melodymeter",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.19.0",
+  "scripts": {
+    "dev": "node scripts/run.mjs astro dev --host 127.0.0.1",
+    "build": "node scripts/run.mjs astro check && node scripts/run.mjs astro build",
+    "preview": "node scripts/run.mjs astro preview --host 127.0.0.1",
+    "check": "node scripts/run.mjs astro check && node scripts/run.mjs typescript -p tsconfig.worker.json --noEmit",
+    "test": "node scripts/run.mjs tsx --test tests/*.test.ts",
+    "test:browser": "node scripts/run.mjs @playwright/test test",
+    "setup:local": "node scripts/setup-local.mjs && node scripts/icons.mjs",
+    "start:local": "node scripts/start-local.mjs",
+    "db:local": "node scripts/run.mjs wrangler d1 migrations apply melodymeter --local --config worker/wrangler.local.jsonc",
+    "seed:local": "node scripts/run.mjs tsx scripts/seed.ts --local",
+    "api:dev": "node scripts/run.mjs wrangler dev --config worker/wrangler.local.jsonc --port 8787",
+    "catalog:import": "node scripts/run.mjs tsx scripts/catalog.ts import",
+    "catalog:enqueue": "node scripts/run.mjs tsx scripts/catalog.ts enqueue",
+    "catalog:export": "node scripts/run.mjs tsx scripts/catalog.ts export",
+    "catalog:status": "node scripts/run.mjs tsx scripts/catalog.ts status",
+    "launch:check": "node scripts/run.mjs tsx scripts/launch-check.ts",
+    "deploy:api": "node scripts/run.mjs wrangler deploy --config worker/wrangler.jsonc",
+    "deploy:web": "node scripts/run.mjs wrangler pages deploy dist --project-name melodymeter --branch main"
+  },
+  "dependencies": {
+    "astro": "^7.3.8",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.4",
+    "@cloudflare/workers-types": "^4.20250917.0",
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.3.0",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2",
+    "wrangler": "^4.35.0"
+  }
+}

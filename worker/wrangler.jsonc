@@ -1,0 +1,24 @@
+{
+  "$schema": "../node_modules/wrangler/config-schema.json",
+  "name": "melodymeter-api",
+  "account_id": "68f7d76f0db9c20630b0b4b97505f5d0",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-09-17",
+  "d1_databases": [{
+    "binding": "DB", "database_name": "melodymeter",
+    "database_id": "8896068d-2e1b-478b-ab30-bdc31153a7b5",
+    "migrations_dir": "../migrations"
+  }],
+  "ai": { "binding": "AI" },
+  "triggers": { "crons": ["* * * * *"] },
+  "vars": {
+    "APP_ORIGIN": "https://melody.everydayai.work",
+    "GOOGLE_CLIENT_ID": "988826421875-767tpdhfss93ntuqv4eah4598o9mguct.apps.googleusercontent.com",
+    "AI_MODEL": "@cf/meta/llama-3.1-8b-instruct-fp8-fast",
+    "AI_DAILY_BUDGET": "8000",
+    "EMAIL_DAILY_LIMIT": "90",
+    "EMAIL_MONTHLY_LIMIT": "2700",
+    "MAIL_FROM": "MelodyMeter <verify@mail.everydayai.work>",
+    "MUSICBRAINZ_CONTACT": "https://melody.everydayai.work"
+  }
+}

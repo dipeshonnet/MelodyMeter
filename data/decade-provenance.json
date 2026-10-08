@@ -1,0 +1,2586 @@
+[
+  {
+    "songId": "mb:4dd0f910-5739-4fa3-be84-a48d7b9b2753",
+    "originalYear": 2015,
+    "album": "Tamasha",
+    "referenceUrl": "https://musicbrainz.org/recording/4dd0f910-5739-4fa3-be84-a48d7b9b2753",
+    "yearBasis": "Existing catalog; original song/film release year curated separately from compilation dates"
+  },
+  {
+    "songId": "mb:e53edec4-4e56-4543-8737-2a25be46ba2d",
+    "originalYear": 1975,
+    "album": "A Night at the Opera",
+    "referenceUrl": "https://musicbrainz.org/recording/e53edec4-4e56-4543-8737-2a25be46ba2d",
+    "musicbrainzFirstRelease": "2005-11-18",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:e27ee5d7-703d-4985-a183-e5eef0020fb5",
+    "originalYear": 2016,
+    "album": "Ae Dil Hai Mushkil",
+    "referenceUrl": "https://musicbrainz.org/recording/e27ee5d7-703d-4985-a183-e5eef0020fb5",
+    "musicbrainzFirstRelease": "2016-10-26",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:d792099b-7189-4598-860a-2513f634b06f",
+    "originalYear": 1974,
+    "album": "Ajanabee",
+    "referenceUrl": "https://musicbrainz.org/recording/d792099b-7189-4598-860a-2513f634b06f",
+    "musicbrainzFirstRelease": "1974",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:47a1520a-c583-40c6-b208-1501a33e7e90",
+    "originalYear": 2015,
+    "album": "Hamari Adhuri Kahani",
+    "referenceUrl": "https://musicbrainz.org/recording/47a1520a-c583-40c6-b208-1501a33e7e90",
+    "musicbrainzFirstRelease": "2015-05-15",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:eb97a500-e1a5-4f07-bcbc-8bd510fb65cc",
+    "originalYear": 2013,
+    "album": "Yeh Jawaani Hai Deewani",
+    "referenceUrl": "https://musicbrainz.org/recording/eb97a500-e1a5-4f07-bcbc-8bd510fb65cc",
+    "musicbrainzFirstRelease": "2013-04-29",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:1366b057-6d90-4880-a1ba-9b8029bc759c",
+    "originalYear": 1971,
+    "album": "Imagine",
+    "referenceUrl": "https://musicbrainz.org/recording/1366b057-6d90-4880-a1ba-9b8029bc759c",
+    "musicbrainzFirstRelease": "2001",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:2c79b42b-6c9a-4df7-a0ea-94f859bea3f3",
+    "originalYear": 2015,
+    "album": "Badlapur",
+    "referenceUrl": "https://musicbrainz.org/recording/2c79b42b-6c9a-4df7-a0ea-94f859bea3f3",
+    "musicbrainzFirstRelease": "2014-12-09",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:fb43bc8c-99d0-42cd-b1d8-9293ec7bd377",
+    "originalYear": 2013,
+    "album": "Yeh Jawaani Hai Deewani",
+    "referenceUrl": "https://musicbrainz.org/recording/fb43bc8c-99d0-42cd-b1d8-9293ec7bd377",
+    "yearBasis": "Existing catalog; original song/film release year curated separately from compilation dates"
+  },
+  {
+    "songId": "mb:f2a2ffcc-4ca6-4534-b02a-6eb9befa1bb3",
+    "originalYear": 2003,
+    "album": "Kal Ho Naa Ho",
+    "referenceUrl": "https://musicbrainz.org/recording/f2a2ffcc-4ca6-4534-b02a-6eb9befa1bb3",
+    "musicbrainzFirstRelease": "2003",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:393ad701-a13d-4f1c-9e3f-65dfd7cac167",
+    "originalYear": 2022,
+    "album": "Brahmastra",
+    "referenceUrl": "https://musicbrainz.org/recording/393ad701-a13d-4f1c-9e3f-65dfd7cac167",
+    "musicbrainzFirstRelease": "2022-07-17",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:a522733c-8808-4e8f-8ea0-28f2c01fb97f",
+    "originalYear": 1973,
+    "album": "Pat Garrett",
+    "referenceUrl": "https://musicbrainz.org/recording/a522733c-8808-4e8f-8ea0-28f2c01fb97f",
+    "musicbrainzFirstRelease": "1976-05-03",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:2bba1a1d-39eb-4caf-aeac-33fa5baf4eb2",
+    "originalYear": 2011,
+    "album": "Rockstar",
+    "referenceUrl": "https://musicbrainz.org/recording/2bba1a1d-39eb-4caf-aeac-33fa5baf4eb2",
+    "yearBasis": "Existing catalog; original song/film release year curated separately from compilation dates"
+  },
+  {
+    "songId": "mb:8b6a8b89-4d4c-4164-8433-75b58bd48799",
+    "originalYear": 2001,
+    "album": "Donnie Darko",
+    "referenceUrl": "https://musicbrainz.org/recording/8b6a8b89-4d4c-4164-8433-75b58bd48799",
+    "yearBasis": "Existing catalog; original song/film release year curated separately from compilation dates"
+  },
+  {
+    "songId": "mb:932a1647-af79-41d8-8efe-145a7bd5c7d8",
+    "originalYear": 2017,
+    "album": "Bareilly Ki Barfi",
+    "referenceUrl": "https://musicbrainz.org/recording/932a1647-af79-41d8-8efe-145a7bd5c7d8",
+    "musicbrainzFirstRelease": "2017-08-11",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:c53f4c04-feda-43b8-b341-6eecffc47133",
+    "originalYear": 2010,
+    "album": "Once Upon a Time in Mumbaai",
+    "referenceUrl": "https://musicbrainz.org/recording/c53f4c04-feda-43b8-b341-6eecffc47133",
+    "musicbrainzFirstRelease": "2010-06-29",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:332a9bd7-e7b2-4fbe-a18a-fa956c7fc06b",
+    "originalYear": 1992,
+    "album": "Jo Jeeta Wohi Sikandar",
+    "referenceUrl": "https://musicbrainz.org/recording/332a9bd7-e7b2-4fbe-a18a-fa956c7fc06b",
+    "yearBasis": "Existing catalog; original song/film release year curated separately from compilation dates"
+  },
+  {
+    "songId": "mb:b84dd2d1-2bf1-4fcc-aadc-6cc39c36ba35",
+    "originalYear": 2017,
+    "album": "Divide",
+    "referenceUrl": "https://musicbrainz.org/recording/b84dd2d1-2bf1-4fcc-aadc-6cc39c36ba35",
+    "musicbrainzFirstRelease": "2017-03-03",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:a12467af-5c00-4fbf-8615-4dbab2cf8ea2",
+    "originalYear": 2012,
+    "album": "Agent Vinod",
+    "referenceUrl": "https://musicbrainz.org/recording/a12467af-5c00-4fbf-8615-4dbab2cf8ea2",
+    "musicbrainzFirstRelease": "2012-02-24",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:d7500dd6-b815-4299-88c6-3fbda358f1fc",
+    "originalYear": 2017,
+    "album": "Divide",
+    "referenceUrl": "https://musicbrainz.org/recording/d7500dd6-b815-4299-88c6-3fbda358f1fc",
+    "musicbrainzFirstRelease": "2017-01-06",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:028efe7f-cdfb-4135-846f-848f2fff15b1",
+    "originalYear": 2011,
+    "album": "21",
+    "referenceUrl": "https://musicbrainz.org/recording/028efe7f-cdfb-4135-846f-848f2fff15b1",
+    "musicbrainzFirstRelease": "2011-01-19",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:b3a891ad-83a5-4080-bb1d-5b5386e24161",
+    "originalYear": 1961,
+    "album": "Don't Play That Song",
+    "referenceUrl": "https://musicbrainz.org/recording/b3a891ad-83a5-4080-bb1d-5b5386e24161",
+    "musicbrainzFirstRelease": "2004",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:195d5e57-96b8-4fd4-9212-3d17d2334a1f",
+    "originalYear": 2019,
+    "album": "Kabir Singh",
+    "referenceUrl": "https://musicbrainz.org/recording/195d5e57-96b8-4fd4-9212-3d17d2334a1f",
+    "musicbrainzFirstRelease": "2019-06-14",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:a8b58047-ec5c-441a-a289-c77426cf986e",
+    "originalYear": 1977,
+    "album": "Exodus",
+    "referenceUrl": "https://musicbrainz.org/recording/a8b58047-ec5c-441a-a289-c77426cf986e",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:3e5bc764-dfa4-454d-a2a9-0ee84ae35db2",
+    "originalYear": 2013,
+    "album": "Aashiqui 2",
+    "referenceUrl": "https://musicbrainz.org/recording/3e5bc764-dfa4-454d-a2a9-0ee84ae35db2",
+    "musicbrainzFirstRelease": "2013-04-03",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:34fa4a16-dac7-4413-a59f-e6a8f021b19c",
+    "originalYear": 1970,
+    "album": "Kati Patang",
+    "referenceUrl": "https://musicbrainz.org/recording/34fa4a16-dac7-4413-a59f-e6a8f021b19c",
+    "musicbrainzFirstRelease": "1970",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:45310e75-4252-424c-a62f-09a3082d30e8",
+    "originalYear": 1966,
+    "album": "Revolver",
+    "referenceUrl": "https://musicbrainz.org/recording/45310e75-4252-424c-a62f-09a3082d30e8",
+    "musicbrainzFirstRelease": "2022-10-28",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:f0e5a1dd-c7ff-4c95-a347-ae01fb52dbcb",
+    "originalYear": 1951,
+    "album": "Awara",
+    "referenceUrl": "https://musicbrainz.org/recording/f0e5a1dd-c7ff-4c95-a347-ae01fb52dbcb",
+    "musicbrainzFirstRelease": "1951",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:e9e369c3-a3ec-4b36-ace7-46a443cdde99",
+    "originalYear": 1951,
+    "album": "Awara",
+    "referenceUrl": "https://musicbrainz.org/recording/e9e369c3-a3ec-4b36-ace7-46a443cdde99",
+    "musicbrainzFirstRelease": "1951",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:1044a2df-b580-4476-a898-ee8bd3c38f19",
+    "originalYear": 1955,
+    "album": "Shree 420",
+    "referenceUrl": "https://musicbrainz.org/recording/1044a2df-b580-4476-a898-ee8bd3c38f19",
+    "musicbrainzFirstRelease": "1955",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:5322ebea-e13d-46e5-a3ef-d8bf77c393a9",
+    "originalYear": 1955,
+    "album": "Shree 420",
+    "referenceUrl": "https://musicbrainz.org/recording/5322ebea-e13d-46e5-a3ef-d8bf77c393a9",
+    "musicbrainzFirstRelease": "1955",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:fd7c9691-e370-4cd2-8d3c-c0e3ffcc0b41",
+    "originalYear": 1955,
+    "album": "Shree 420",
+    "referenceUrl": "https://musicbrainz.org/recording/fd7c9691-e370-4cd2-8d3c-c0e3ffcc0b41",
+    "musicbrainzFirstRelease": "1955",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:3e0d3b0c-46d1-4c95-81c0-becd240703d2",
+    "originalYear": 1955,
+    "album": "Shree 420",
+    "referenceUrl": "https://musicbrainz.org/recording/3e0d3b0c-46d1-4c95-81c0-becd240703d2",
+    "musicbrainzFirstRelease": "1955",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:4dbfacf5-cbc9-4e24-b874-05255e01628e",
+    "originalYear": 1956,
+    "album": "Chori Chori",
+    "referenceUrl": "https://musicbrainz.org/recording/4dbfacf5-cbc9-4e24-b874-05255e01628e",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:60b54e74-95bd-4487-8f23-8ea5e1ba1455",
+    "originalYear": 1956,
+    "album": "Chori Chori",
+    "referenceUrl": "https://musicbrainz.org/recording/60b54e74-95bd-4487-8f23-8ea5e1ba1455",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:6b232efe-9f50-417d-a461-dbc1255050e3",
+    "originalYear": 1956,
+    "album": "Chori Chori",
+    "referenceUrl": "https://musicbrainz.org/recording/6b232efe-9f50-417d-a461-dbc1255050e3",
+    "musicbrainzFirstRelease": "2006",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:8ca7f547-9c11-4524-8be4-c9411a9d7477",
+    "originalYear": 1958,
+    "album": "Chalti Ka Naam Gaadi",
+    "referenceUrl": "https://musicbrainz.org/recording/8ca7f547-9c11-4524-8be4-c9411a9d7477",
+    "musicbrainzFirstRelease": "1957",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:e0fd4d37-90c1-40e1-82fb-3382329f0cf9",
+    "originalYear": 1958,
+    "album": "Chalti Ka Naam Gaadi",
+    "referenceUrl": "https://musicbrainz.org/recording/e0fd4d37-90c1-40e1-82fb-3382329f0cf9",
+    "musicbrainzFirstRelease": "1957",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:f2b8c7eb-47c7-4e29-8c26-ebaaeddde7bf",
+    "originalYear": 1958,
+    "album": "Kala Pani",
+    "referenceUrl": "https://musicbrainz.org/recording/f2b8c7eb-47c7-4e29-8c26-ebaaeddde7bf",
+    "musicbrainzFirstRelease": "1996",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:f1a75b37-2468-4f86-a5cf-80d82fc20ee2",
+    "originalYear": 1958,
+    "album": "Solva Saal",
+    "referenceUrl": "https://musicbrainz.org/recording/f1a75b37-2468-4f86-a5cf-80d82fc20ee2",
+    "musicbrainzFirstRelease": "1977",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:74c1da04-18de-4c38-9e5c-01147d4c15e0",
+    "originalYear": 1957,
+    "album": "Pyaasa",
+    "referenceUrl": "https://musicbrainz.org/recording/74c1da04-18de-4c38-9e5c-01147d4c15e0",
+    "musicbrainzFirstRelease": "1971",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:f3b760c8-5d70-4de5-a5f0-151ab3c96ff2",
+    "originalYear": 1957,
+    "album": "Pyaasa",
+    "referenceUrl": "https://musicbrainz.org/recording/f3b760c8-5d70-4de5-a5f0-151ab3c96ff2",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:41dc930d-13c9-42d9-87fd-2d7a2ca94c6a",
+    "originalYear": 1957,
+    "album": "Pyaasa",
+    "referenceUrl": "https://musicbrainz.org/recording/41dc930d-13c9-42d9-87fd-2d7a2ca94c6a",
+    "musicbrainzFirstRelease": "2006-11-13",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:b6c98c36-15c5-4015-a3d1-4a7b46de0e24",
+    "originalYear": 1958,
+    "album": "Madhumati",
+    "referenceUrl": "https://musicbrainz.org/recording/b6c98c36-15c5-4015-a3d1-4a7b46de0e24",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:1b2334ae-806a-4f3d-8fca-ef3e882cc6e5",
+    "originalYear": 1958,
+    "album": "Madhumati",
+    "referenceUrl": "https://musicbrainz.org/recording/1b2334ae-806a-4f3d-8fca-ef3e882cc6e5",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:2cc6f143-4c71-4cb0-bb20-7aedc2728a0b",
+    "originalYear": 1958,
+    "album": "Madhumati",
+    "referenceUrl": "https://musicbrainz.org/recording/2cc6f143-4c71-4cb0-bb20-7aedc2728a0b",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:f683d388-4a66-4131-92fc-e2c43e6221de",
+    "originalYear": 1952,
+    "album": "Baiju Bawra",
+    "referenceUrl": "https://musicbrainz.org/recording/f683d388-4a66-4131-92fc-e2c43e6221de",
+    "musicbrainzFirstRelease": "1975",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:86788018-eb99-4de1-a3a1-e2004fe75ce9",
+    "originalYear": 1956,
+    "album": "Love Me Tender",
+    "referenceUrl": "https://musicbrainz.org/recording/86788018-eb99-4de1-a3a1-e2004fe75ce9",
+    "musicbrainzFirstRelease": "1956-09-28",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:137b53e7-57e3-4a07-85e3-fcf733ae0a0d",
+    "originalYear": 1957,
+    "album": "Jailhouse Rock",
+    "referenceUrl": "https://musicbrainz.org/recording/137b53e7-57e3-4a07-85e3-fcf733ae0a0d",
+    "musicbrainzFirstRelease": "1957-09-24",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:8debe8d9-a657-4a93-b37f-0f5363c71958",
+    "originalYear": 1956,
+    "album": "",
+    "referenceUrl": "https://musicbrainz.org/recording/8debe8d9-a657-4a93-b37f-0f5363c71958",
+    "musicbrainzFirstRelease": "1956-07-13",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:35a80fe5-10d1-4ab3-94a9-9d21fef795cf",
+    "originalYear": 1956,
+    "album": "",
+    "referenceUrl": "https://musicbrainz.org/recording/35a80fe5-10d1-4ab3-94a9-9d21fef795cf",
+    "musicbrainzFirstRelease": "1956-01-27",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:d56aadd8-8dfb-4f1b-81b4-e0325e873af4",
+    "originalYear": 1956,
+    "album": "",
+    "referenceUrl": "https://musicbrainz.org/recording/d56aadd8-8dfb-4f1b-81b4-e0325e873af4",
+    "musicbrainzFirstRelease": "1956",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:9aa8bd61-65cd-4252-8634-8bdc1b97c20c",
+    "originalYear": 1957,
+    "album": "",
+    "referenceUrl": "https://musicbrainz.org/recording/9aa8bd61-65cd-4252-8634-8bdc1b97c20c",
+    "musicbrainzFirstRelease": "1957-03-22",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:10ba9e37-682a-4472-b4ea-9243b1a30db2",
+    "originalYear": 1956,
+    "album": "",
+    "referenceUrl": "https://musicbrainz.org/recording/10ba9e37-682a-4472-b4ea-9243b1a30db2",
+    "musicbrainzFirstRelease": "1956-01-21",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:495ee756-9389-4d7e-b3d3-7d533c78dff8",
+    "originalYear": 1958,
+    "album": "",
+    "referenceUrl": "https://musicbrainz.org/recording/495ee756-9389-4d7e-b3d3-7d533c78dff8",
+    "musicbrainzFirstRelease": "1958",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:00cc00aa-7859-43b3-9293-4766554eeb87",
+    "originalYear": 1955,
+    "album": "",
+    "referenceUrl": "https://musicbrainz.org/recording/00cc00aa-7859-43b3-9293-4766554eeb87",
+    "musicbrainzFirstRelease": "1955",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:ffe4a448-1b9f-4458-a8ce-7402f5a28130",
+    "originalYear": 1956,
+    "album": "",
+    "referenceUrl": "https://musicbrainz.org/recording/ffe4a448-1b9f-4458-a8ce-7402f5a28130",
+    "musicbrainzFirstRelease": "1956-05",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:584d321c-4eb8-431c-b865-30fb660d1c95",
+    "originalYear": 1957,
+    "album": "",
+    "referenceUrl": "https://musicbrainz.org/recording/584d321c-4eb8-431c-b865-30fb660d1c95",
+    "musicbrainzFirstRelease": "1957",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:c6247fa3-b825-460a-b6bd-490319a1b887",
+    "originalYear": 1957,
+    "album": "",
+    "referenceUrl": "https://musicbrainz.org/recording/c6247fa3-b825-460a-b6bd-490319a1b887",
+    "musicbrainzFirstRelease": "1957-03-15",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:ffe1e560-93ca-44af-a2cd-eb88bb82e952",
+    "originalYear": 1957,
+    "album": "The Chirping Crickets",
+    "referenceUrl": "https://musicbrainz.org/recording/ffe1e560-93ca-44af-a2cd-eb88bb82e952",
+    "musicbrainzFirstRelease": "1957-11-27",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:88945d6e-c094-497b-a383-032762f4d9b0",
+    "originalYear": 1957,
+    "album": "",
+    "referenceUrl": "https://musicbrainz.org/recording/88945d6e-c094-497b-a383-032762f4d9b0",
+    "musicbrainzFirstRelease": "1958",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:49b27419-b5f5-4807-8b14-9be4df0d7e4c",
+    "originalYear": 1957,
+    "album": "",
+    "referenceUrl": "https://musicbrainz.org/recording/49b27419-b5f5-4807-8b14-9be4df0d7e4c",
+    "musicbrainzFirstRelease": "1957-09-20",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:06f4fba5-bf78-44ef-be00-34a2e3237658",
+    "originalYear": 1954,
+    "album": "",
+    "referenceUrl": "https://musicbrainz.org/recording/06f4fba5-bf78-44ef-be00-34a2e3237658",
+    "musicbrainzFirstRelease": "2015",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:3daf86f3-f77b-43ec-b99b-af45a59ba418",
+    "originalYear": 1955,
+    "album": "",
+    "referenceUrl": "https://musicbrainz.org/recording/3daf86f3-f77b-43ec-b99b-af45a59ba418",
+    "musicbrainzFirstRelease": "1955-10",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:e23c1961-d725-445e-900c-3d57393fa0c8",
+    "originalYear": 1956,
+    "album": "",
+    "referenceUrl": "https://musicbrainz.org/recording/e23c1961-d725-445e-900c-3d57393fa0c8",
+    "musicbrainzFirstRelease": "1957-03-01",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:21c1dc9c-a40a-4281-9df8-64be86bc958f",
+    "originalYear": 1955,
+    "album": "",
+    "referenceUrl": "https://musicbrainz.org/recording/21c1dc9c-a40a-4281-9df8-64be86bc958f",
+    "musicbrainzFirstRelease": "1955-11",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:0e241041-6b39-469e-bf0f-b63c66499efe",
+    "originalYear": 1955,
+    "album": "",
+    "referenceUrl": "https://musicbrainz.org/recording/0e241041-6b39-469e-bf0f-b63c66499efe",
+    "musicbrainzFirstRelease": "1956",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:2b43e85a-8332-4622-acc3-0c27fc019254",
+    "originalYear": 1964,
+    "album": "Woh Kaun Thi",
+    "referenceUrl": "https://musicbrainz.org/recording/2b43e85a-8332-4622-acc3-0c27fc019254",
+    "musicbrainzFirstRelease": "1963",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:6e15e6f7-5951-4693-89f2-067a504a7b30",
+    "originalYear": 1964,
+    "album": "Woh Kaun Thi",
+    "referenceUrl": "https://musicbrainz.org/recording/6e15e6f7-5951-4693-89f2-067a504a7b30",
+    "musicbrainzFirstRelease": "2018-02-28",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:0f445a7a-712c-431e-aa79-88fe20544f1c",
+    "originalYear": 1962,
+    "album": "Anpadh",
+    "referenceUrl": "https://musicbrainz.org/recording/0f445a7a-712c-431e-aa79-88fe20544f1c",
+    "musicbrainzFirstRelease": "2001",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:ee486529-9d60-486f-9766-0152ad0786a6",
+    "originalYear": 1960,
+    "album": "Dil Apna Aur Preet Parai",
+    "referenceUrl": "https://musicbrainz.org/recording/ee486529-9d60-486f-9766-0152ad0786a6",
+    "musicbrainzFirstRelease": "1960-12-31",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:814b56c8-0afc-41d7-899c-945979d26bc5",
+    "originalYear": 1960,
+    "album": "Mughal-E-Azam",
+    "referenceUrl": "https://musicbrainz.org/recording/814b56c8-0afc-41d7-899c-945979d26bc5",
+    "musicbrainzFirstRelease": "1960",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:8eb8ace2-b173-4a2e-bd1a-8b00faf9fd52",
+    "originalYear": 1960,
+    "album": "Chaudhvin Ka Chand",
+    "referenceUrl": "https://musicbrainz.org/recording/8eb8ace2-b173-4a2e-bd1a-8b00faf9fd52",
+    "musicbrainzFirstRelease": "1961",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:68adb637-7d56-4c95-b194-5cfea2da27b5",
+    "originalYear": 1961,
+    "album": "Hum Dono",
+    "referenceUrl": "https://musicbrainz.org/recording/68adb637-7d56-4c95-b194-5cfea2da27b5",
+    "musicbrainzFirstRelease": "1961",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:c605a3fe-750b-43db-a764-243c62c7fc86",
+    "originalYear": 1961,
+    "album": "Hum Dono",
+    "referenceUrl": "https://musicbrainz.org/recording/c605a3fe-750b-43db-a764-243c62c7fc86",
+    "musicbrainzFirstRelease": "1961",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:6ae2db34-1275-4934-ad76-4b57c274a55b",
+    "originalYear": 1965,
+    "album": "Guide",
+    "referenceUrl": "https://musicbrainz.org/recording/6ae2db34-1275-4934-ad76-4b57c274a55b",
+    "musicbrainzFirstRelease": "1965",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:34a31061-85db-4b51-be6f-8c6e7a90fa09",
+    "originalYear": 1965,
+    "album": "Guide",
+    "referenceUrl": "https://musicbrainz.org/recording/34a31061-85db-4b51-be6f-8c6e7a90fa09",
+    "musicbrainzFirstRelease": "1966",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:9a2df628-3418-461b-857f-780441fdce22",
+    "originalYear": 1965,
+    "album": "Guide",
+    "referenceUrl": "https://musicbrainz.org/recording/9a2df628-3418-461b-857f-780441fdce22",
+    "musicbrainzFirstRelease": "1965",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:a8249b9c-f5a1-472f-a864-2008d5968a86",
+    "originalYear": 1965,
+    "album": "Guide",
+    "referenceUrl": "https://musicbrainz.org/recording/a8249b9c-f5a1-472f-a864-2008d5968a86",
+    "musicbrainzFirstRelease": "1966",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:6db4f936-d46a-4953-8b1e-467f45f091a5",
+    "originalYear": 1969,
+    "album": "Aradhana",
+    "referenceUrl": "https://musicbrainz.org/recording/6db4f936-d46a-4953-8b1e-467f45f091a5",
+    "musicbrainzFirstRelease": "1969",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:917db1b9-1cc5-40dd-a8d6-fb7582c8de7e",
+    "originalYear": 1969,
+    "album": "Aradhana",
+    "referenceUrl": "https://musicbrainz.org/recording/917db1b9-1cc5-40dd-a8d6-fb7582c8de7e",
+    "musicbrainzFirstRelease": "1969",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:38c52295-6a99-4159-9d74-0ba1ecc0ca80",
+    "originalYear": 1969,
+    "album": "Aradhana",
+    "referenceUrl": "https://musicbrainz.org/recording/38c52295-6a99-4159-9d74-0ba1ecc0ca80",
+    "musicbrainzFirstRelease": "1969",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:519ef6c6-780c-40d0-b001-94d06389bcea",
+    "originalYear": 1966,
+    "album": "Teesri Manzil",
+    "referenceUrl": "https://musicbrainz.org/recording/519ef6c6-780c-40d0-b001-94d06389bcea",
+    "musicbrainzFirstRelease": "1966",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:5f6de82b-7875-4b18-8266-ea8e623ba956",
+    "originalYear": 1966,
+    "album": "Teesri Manzil",
+    "referenceUrl": "https://musicbrainz.org/recording/5f6de82b-7875-4b18-8266-ea8e623ba956",
+    "musicbrainzFirstRelease": "1966",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:e323e03b-8ea7-4179-9685-7a3ff34339f6",
+    "originalYear": 1964,
+    "album": "Kashmir Ki Kali",
+    "referenceUrl": "https://musicbrainz.org/recording/e323e03b-8ea7-4179-9685-7a3ff34339f6",
+    "musicbrainzFirstRelease": "2010-01",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:93733b0c-ea48-458f-9901-60f634d49b4d",
+    "originalYear": 1964,
+    "album": "Kashmir Ki Kali",
+    "referenceUrl": "https://musicbrainz.org/recording/93733b0c-ea48-458f-9901-60f634d49b4d",
+    "musicbrainzFirstRelease": "1964",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:7d2ea58a-2feb-4abd-bbd0-9b2a357a1278",
+    "originalYear": 1961,
+    "album": "Junglee",
+    "referenceUrl": "https://musicbrainz.org/recording/7d2ea58a-2feb-4abd-bbd0-9b2a357a1278",
+    "musicbrainzFirstRelease": "1961-01-01",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:7b0b9016-59c5-4a83-9bcc-a6051453e422",
+    "originalYear": 1968,
+    "album": "",
+    "referenceUrl": "https://musicbrainz.org/recording/7b0b9016-59c5-4a83-9bcc-a6051453e422",
+    "musicbrainzFirstRelease": "1968-08-26",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:0aa1938a-ee7f-487b-b742-8b2cfa110c85",
+    "originalYear": 1965,
+    "album": "Help!",
+    "referenceUrl": "https://musicbrainz.org/recording/0aa1938a-ee7f-487b-b742-8b2cfa110c85",
+    "musicbrainzFirstRelease": "1965-08-06",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:36747635-46d4-45d5-bcbc-fed49776f878",
+    "originalYear": 1965,
+    "album": "Help!",
+    "referenceUrl": "https://musicbrainz.org/recording/36747635-46d4-45d5-bcbc-fed49776f878",
+    "musicbrainzFirstRelease": "1965",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:cc707da8-b3bb-4c37-885d-fc9a74109a7d",
+    "originalYear": 1967,
+    "album": "",
+    "referenceUrl": "https://musicbrainz.org/recording/cc707da8-b3bb-4c37-885d-fc9a74109a7d",
+    "musicbrainzFirstRelease": "1967-11-27",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:7660d381-6717-4447-a538-5d2343362beb",
+    "originalYear": 1963,
+    "album": "",
+    "referenceUrl": "https://musicbrainz.org/recording/7660d381-6717-4447-a538-5d2343362beb",
+    "musicbrainzFirstRelease": "1964",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:b08ef894-540d-4456-8cd0-cf3beb080678",
+    "originalYear": 1963,
+    "album": "",
+    "referenceUrl": "https://musicbrainz.org/recording/b08ef894-540d-4456-8cd0-cf3beb080678",
+    "musicbrainzFirstRelease": "1963-10-09",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:775bcc4e-3ef5-4b63-b279-6b83ea580a4f",
+    "originalYear": 1961,
+    "album": "Blue Hawaii",
+    "referenceUrl": "https://musicbrainz.org/recording/775bcc4e-3ef5-4b63-b279-6b83ea580a4f",
+    "musicbrainzFirstRelease": "1961-10-01",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:5c761f81-80ec-4123-8fee-d41ad814eb44",
+    "originalYear": 1969,
+    "album": "",
+    "referenceUrl": "https://musicbrainz.org/recording/5c761f81-80ec-4123-8fee-d41ad814eb44",
+    "musicbrainzFirstRelease": "1969-08",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:2f196a1b-a423-4590-83da-b8fb68a7ece6",
+    "originalYear": 1960,
+    "album": "",
+    "referenceUrl": "https://musicbrainz.org/recording/2f196a1b-a423-4590-83da-b8fb68a7ece6",
+    "musicbrainzFirstRelease": "1960-11-01",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:b9006f15-4942-4981-97b1-f4a82fc7472c",
+    "originalYear": 1961,
+    "album": "",
+    "referenceUrl": "https://musicbrainz.org/recording/b9006f15-4942-4981-97b1-f4a82fc7472c",
+    "musicbrainzFirstRelease": "1961",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:09163c2c-f365-47d3-867d-d12b532d0e55",
+    "originalYear": 1960,
+    "album": "The Genius Hits the Road",
+    "referenceUrl": "https://musicbrainz.org/recording/09163c2c-f365-47d3-867d-d12b532d0e55",
+    "musicbrainzFirstRelease": "1967",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:836a0baa-1bc1-4da2-ac6d-37176d61c202",
+    "originalYear": 1965,
+    "album": "",
+    "referenceUrl": "https://musicbrainz.org/recording/836a0baa-1bc1-4da2-ac6d-37176d61c202",
+    "musicbrainzFirstRelease": "1965",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:20896def-8ca1-4c8a-855a-97873318e881",
+    "originalYear": 1964,
+    "album": "",
+    "referenceUrl": "https://musicbrainz.org/recording/20896def-8ca1-4c8a-855a-97873318e881",
+    "musicbrainzFirstRelease": "1964-12-21",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:4855f9bc-1189-4915-aeba-1871cf6016c9",
+    "originalYear": 1967,
+    "album": "I Never Loved a Man",
+    "referenceUrl": "https://musicbrainz.org/recording/4855f9bc-1189-4915-aeba-1871cf6016c9",
+    "musicbrainzFirstRelease": "1967-03-10",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:01a99371-8e31-4380-924b-142146219676",
+    "originalYear": 1968,
+    "album": "",
+    "referenceUrl": "https://musicbrainz.org/recording/01a99371-8e31-4380-924b-142146219676",
+    "musicbrainzFirstRelease": "1964",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:20655d93-c325-4825-9018-50fa1b54bf77",
+    "originalYear": 1967,
+    "album": "",
+    "referenceUrl": "https://musicbrainz.org/recording/20655d93-c325-4825-9018-50fa1b54bf77",
+    "musicbrainzFirstRelease": "1967-10",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:d636857f-afca-434e-8d2c-56a61bcdd97c",
+    "originalYear": 1967,
+    "album": "Blowin' Your Mind",
+    "referenceUrl": "https://musicbrainz.org/recording/d636857f-afca-434e-8d2c-56a61bcdd97c",
+    "musicbrainzFirstRelease": "1967",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:25f4602d-c811-4832-a951-b35d45ab2439",
+    "originalYear": 1964,
+    "album": "Wednesday Morning",
+    "referenceUrl": "https://musicbrainz.org/recording/25f4602d-c811-4832-a951-b35d45ab2439",
+    "musicbrainzFirstRelease": "1968",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:c2edb846-01e0-4abf-b3b1-953418e5979a",
+    "originalYear": 1973,
+    "album": "Blackmail",
+    "referenceUrl": "https://musicbrainz.org/recording/c2edb846-01e0-4abf-b3b1-953418e5979a",
+    "musicbrainzFirstRelease": "1973",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:60d2f2bd-0cd8-4ce6-99f8-a2d22682f12c",
+    "originalYear": 1972,
+    "album": "Mere Jeevan Saathi",
+    "referenceUrl": "https://musicbrainz.org/recording/60d2f2bd-0cd8-4ce6-99f8-a2d22682f12c",
+    "musicbrainzFirstRelease": "1972",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:9f682b98-da1e-4f1e-becd-645592248fe4",
+    "originalYear": 1972,
+    "album": "Amar Prem",
+    "referenceUrl": "https://musicbrainz.org/recording/9f682b98-da1e-4f1e-becd-645592248fe4",
+    "musicbrainzFirstRelease": "1971",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:3d0c79df-b072-4f09-9c33-4600d05ccdac",
+    "originalYear": 1972,
+    "album": "Amar Prem",
+    "referenceUrl": "https://musicbrainz.org/recording/3d0c79df-b072-4f09-9c33-4600d05ccdac",
+    "musicbrainzFirstRelease": "2001",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:5062fe39-9338-4401-883a-88a68455a1c7",
+    "originalYear": 1972,
+    "album": "Amar Prem",
+    "referenceUrl": "https://musicbrainz.org/recording/5062fe39-9338-4401-883a-88a68455a1c7",
+    "musicbrainzFirstRelease": "2001",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:e359c061-ae19-42e9-b678-3b952dd51b83",
+    "originalYear": 1970,
+    "album": "Kati Patang",
+    "referenceUrl": "https://musicbrainz.org/recording/e359c061-ae19-42e9-b678-3b952dd51b83",
+    "musicbrainzFirstRelease": "1970",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:e27f446e-e404-48e6-8498-a7cdb2c7976c",
+    "originalYear": 1970,
+    "album": "Kati Patang",
+    "referenceUrl": "https://musicbrainz.org/recording/e27f446e-e404-48e6-8498-a7cdb2c7976c",
+    "musicbrainzFirstRelease": "1970",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:88588dd0-c711-45a7-a3de-9bbd2295c0e9",
+    "originalYear": 1976,
+    "album": "Mehbooba",
+    "referenceUrl": "https://musicbrainz.org/recording/88588dd0-c711-45a7-a3de-9bbd2295c0e9",
+    "musicbrainzFirstRelease": "1976",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:26e526b0-6f35-4e11-aedb-2e619d8ebb16",
+    "originalYear": 1976,
+    "album": "Kabhi Kabhie",
+    "referenceUrl": "https://musicbrainz.org/recording/26e526b0-6f35-4e11-aedb-2e619d8ebb16",
+    "musicbrainzFirstRelease": "1976-12-30",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:84c6b912-c386-49c6-8c3d-fc7f541aa36d",
+    "originalYear": 1976,
+    "album": "Kabhi Kabhie",
+    "referenceUrl": "https://musicbrainz.org/recording/84c6b912-c386-49c6-8c3d-fc7f541aa36d",
+    "musicbrainzFirstRelease": "1976-12-30",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:12cd53b1-6a42-46c6-b8bf-0c77b6b9e988",
+    "originalYear": 1975,
+    "album": "Aandhi",
+    "referenceUrl": "https://musicbrainz.org/recording/12cd53b1-6a42-46c6-b8bf-0c77b6b9e988",
+    "musicbrainzFirstRelease": "2004",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:f1d6a1d4-1b6f-4a52-b4ec-77cc0cd7206a",
+    "originalYear": 1975,
+    "album": "Aandhi",
+    "referenceUrl": "https://musicbrainz.org/recording/f1d6a1d4-1b6f-4a52-b4ec-77cc0cd7206a",
+    "musicbrainzFirstRelease": "1975",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:b7c30957-9f46-4ae0-ad41-2fba88563f55",
+    "originalYear": 1975,
+    "album": "Aandhi",
+    "referenceUrl": "https://musicbrainz.org/recording/b7c30957-9f46-4ae0-ad41-2fba88563f55",
+    "musicbrainzFirstRelease": "1975",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:4af72f2b-71dd-433b-bcdd-4acc22f4eb87",
+    "originalYear": 1978,
+    "album": "Ghar",
+    "referenceUrl": "https://musicbrainz.org/recording/4af72f2b-71dd-433b-bcdd-4acc22f4eb87",
+    "musicbrainzFirstRelease": "1977",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:35bcfbab-2b79-4a7e-8a05-7be96482d3ca",
+    "originalYear": 1978,
+    "album": "Ghar",
+    "referenceUrl": "https://musicbrainz.org/recording/35bcfbab-2b79-4a7e-8a05-7be96482d3ca",
+    "musicbrainzFirstRelease": "2015-05-19",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:35908b1c-d0d8-4d2c-9ee1-8c3556c73c93",
+    "originalYear": 1979,
+    "album": "Gol Maal",
+    "referenceUrl": "https://musicbrainz.org/recording/35908b1c-d0d8-4d2c-9ee1-8c3556c73c93",
+    "musicbrainzFirstRelease": "1979-02-25",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:f8778228-7547-4040-8a7f-d96c29c35195",
+    "originalYear": 1977,
+    "album": "Hum Kisise Kum Naheen",
+    "referenceUrl": "https://musicbrainz.org/recording/f8778228-7547-4040-8a7f-d96c29c35195",
+    "musicbrainzFirstRelease": "1977",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:518fb499-4d3d-4053-a0d4-670d3a9ed7bb",
+    "originalYear": 1972,
+    "album": "Parichay",
+    "referenceUrl": "https://musicbrainz.org/recording/518fb499-4d3d-4053-a0d4-670d3a9ed7bb",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:d709d857-f10c-4e10-9763-c36b6cd08d55",
+    "originalYear": 1970,
+    "album": "Let It Be",
+    "referenceUrl": "https://musicbrainz.org/recording/d709d857-f10c-4e10-9763-c36b6cd08d55",
+    "musicbrainzFirstRelease": "1972",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:9a7d706e-a342-4ea1-ab49-f6be526228cc",
+    "originalYear": 1970,
+    "album": "Bridge over Troubled Water",
+    "referenceUrl": "https://musicbrainz.org/recording/9a7d706e-a342-4ea1-ab49-f6be526228cc",
+    "musicbrainzFirstRelease": "1970-01-26",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:60572fab-c835-4733-aa5a-2864c318c9c8",
+    "originalYear": 1970,
+    "album": "Elton John",
+    "referenceUrl": "https://musicbrainz.org/recording/60572fab-c835-4733-aa5a-2864c318c9c8",
+    "musicbrainzFirstRelease": "1970-07-22",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:d63bf39f-ec30-4f9f-b5a1-1397756016a3",
+    "originalYear": 1971,
+    "album": "Madman Across the Water",
+    "referenceUrl": "https://musicbrainz.org/recording/d63bf39f-ec30-4f9f-b5a1-1397756016a3",
+    "musicbrainzFirstRelease": "1971-11-05",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:63816c69-f8cc-4cc6-a933-c31466025049",
+    "originalYear": 1972,
+    "album": "Honky",
+    "referenceUrl": "https://musicbrainz.org/recording/63816c69-f8cc-4cc6-a933-c31466025049",
+    "musicbrainzFirstRelease": "1973",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:92ac918a-07f6-4f5e-b356-5897723310ca",
+    "originalYear": 1973,
+    "album": "Piano Man",
+    "referenceUrl": "https://musicbrainz.org/recording/92ac918a-07f6-4f5e-b356-5897723310ca",
+    "musicbrainzFirstRelease": "1973-11-09",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:14126611-94fc-45df-9b2a-e6d3a98d2e46",
+    "originalYear": 1976,
+    "album": "Hotel California",
+    "referenceUrl": "https://musicbrainz.org/recording/14126611-94fc-45df-9b2a-e6d3a98d2e46",
+    "musicbrainzFirstRelease": "1976",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:a0afbeeb-8f66-408a-bdcb-79a9dcb4777c",
+    "originalYear": 1972,
+    "album": "Eagles",
+    "referenceUrl": "https://musicbrainz.org/recording/a0afbeeb-8f66-408a-bdcb-79a9dcb4777c",
+    "musicbrainzFirstRelease": "1972-06-01",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:248cc9d1-97ea-493e-84d4-4c5ec718683b",
+    "originalYear": 1977,
+    "album": "Rumours",
+    "referenceUrl": "https://musicbrainz.org/recording/248cc9d1-97ea-493e-84d4-4c5ec718683b",
+    "musicbrainzFirstRelease": "1977-02-04",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:66908b7f-050f-4e8d-82b0-a768a3d80c63",
+    "originalYear": 1976,
+    "album": "Rumours",
+    "referenceUrl": "https://musicbrainz.org/recording/66908b7f-050f-4e8d-82b0-a768a3d80c63",
+    "musicbrainzFirstRelease": "1976-12-20",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:a502f559-f70c-4e0d-a5e5-e0cc319d0bd7",
+    "originalYear": 1976,
+    "album": "Arrival",
+    "referenceUrl": "https://musicbrainz.org/recording/a502f559-f70c-4e0d-a5e5-e0cc319d0bd7",
+    "musicbrainzFirstRelease": "1976-08-15",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:5e0aa7e4-01cb-441c-9fc2-d89e890cb981",
+    "originalYear": 1975,
+    "album": "ABBA",
+    "referenceUrl": "https://musicbrainz.org/recording/5e0aa7e4-01cb-441c-9fc2-d89e890cb981",
+    "musicbrainzFirstRelease": "1975-04-21",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:b64bdccc-64eb-4ead-864d-bd8a7914f7da",
+    "originalYear": 1977,
+    "album": "Saturday Night Fever",
+    "referenceUrl": "https://musicbrainz.org/recording/b64bdccc-64eb-4ead-864d-bd8a7914f7da",
+    "musicbrainzFirstRelease": "1977-11-07",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:21c22022-3d36-4e6b-a542-5d964297491a",
+    "originalYear": 1972,
+    "album": "Still Bill",
+    "referenceUrl": "https://musicbrainz.org/recording/21c22022-3d36-4e6b-a542-5d964297491a",
+    "musicbrainzFirstRelease": "1972-05-20",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:3442b706-8cef-4053-ab3e-dca0283c41dc",
+    "originalYear": 1971,
+    "album": "Just as I Am",
+    "referenceUrl": "https://musicbrainz.org/recording/3442b706-8cef-4053-ab3e-dca0283c41dc",
+    "musicbrainzFirstRelease": "1971-05",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:2b03e9e9-0593-448d-898f-9a79c91cec34",
+    "originalYear": 1977,
+    "album": "Menagerie",
+    "referenceUrl": "https://musicbrainz.org/recording/2b03e9e9-0593-448d-898f-9a79c91cec34",
+    "musicbrainzFirstRelease": "1977-12",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:32ace8c1-2e27-4c58-a1c8-655a3b5d2657",
+    "originalYear": 1981,
+    "album": "Kudrat",
+    "referenceUrl": "https://musicbrainz.org/recording/32ace8c1-2e27-4c58-a1c8-655a3b5d2657",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:fe7b2ece-624e-45cc-9041-1d4f9516361c",
+    "originalYear": 1981,
+    "album": "Yaarana",
+    "referenceUrl": "https://musicbrainz.org/recording/fe7b2ece-624e-45cc-9041-1d4f9516361c",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:494c3d14-27ec-4fdf-b0d4-4b731f27ecb2",
+    "originalYear": 1981,
+    "album": "Yaarana",
+    "referenceUrl": "https://musicbrainz.org/recording/494c3d14-27ec-4fdf-b0d4-4b731f27ecb2",
+    "musicbrainzFirstRelease": "1980",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:55337e67-7677-47da-a62f-343873257f2d",
+    "originalYear": 1981,
+    "album": "Umrao Jaan",
+    "referenceUrl": "https://musicbrainz.org/recording/55337e67-7677-47da-a62f-343873257f2d",
+    "musicbrainzFirstRelease": "1981",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:a0ffbee6-410e-4bf2-a949-aad194dfe5e2",
+    "originalYear": 1981,
+    "album": "Umrao Jaan",
+    "referenceUrl": "https://musicbrainz.org/recording/a0ffbee6-410e-4bf2-a949-aad194dfe5e2",
+    "musicbrainzFirstRelease": "1981",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:6de67371-b9a3-4cc4-a613-e65b73a0566a",
+    "originalYear": 1981,
+    "album": "Silsila",
+    "referenceUrl": "https://musicbrainz.org/recording/6de67371-b9a3-4cc4-a613-e65b73a0566a",
+    "musicbrainzFirstRelease": "1981-05-18",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:7a81b029-a056-4c33-960d-6c7107d88908",
+    "originalYear": 1981,
+    "album": "Silsila",
+    "referenceUrl": "https://musicbrainz.org/recording/7a81b029-a056-4c33-960d-6c7107d88908",
+    "musicbrainzFirstRelease": "1981-05-18",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:d44611bf-25d4-49e3-8dd0-dc4d3a98e4f1",
+    "originalYear": 1982,
+    "album": "Saath Saath",
+    "referenceUrl": "https://musicbrainz.org/recording/d44611bf-25d4-49e3-8dd0-dc4d3a98e4f1",
+    "musicbrainzFirstRelease": "1982-03-04",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:5b2e8290-ea51-4a46-8af8-ae3031e4888e",
+    "originalYear": 1981,
+    "album": "Prem Geet",
+    "referenceUrl": "https://musicbrainz.org/recording/5b2e8290-ea51-4a46-8af8-ae3031e4888e",
+    "musicbrainzFirstRelease": "1981",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:817c68d4-9376-46bc-9902-c6af4861c98d",
+    "originalYear": 1986,
+    "album": "Naam",
+    "referenceUrl": "https://musicbrainz.org/recording/817c68d4-9376-46bc-9902-c6af4861c98d",
+    "musicbrainzFirstRelease": "2008",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:4986727b-1d56-44cb-bd73-84133c9554fe",
+    "originalYear": 1988,
+    "album": "Qayamat Se Qayamat Tak",
+    "referenceUrl": "https://musicbrainz.org/recording/4986727b-1d56-44cb-bd73-84133c9554fe",
+    "musicbrainzFirstRelease": "1988-04-23",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:b5ba4741-803c-4aab-a006-a7f839f7649a",
+    "originalYear": 1988,
+    "album": "Qayamat Se Qayamat Tak",
+    "referenceUrl": "https://musicbrainz.org/recording/b5ba4741-803c-4aab-a006-a7f839f7649a",
+    "musicbrainzFirstRelease": "1988-04-23",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:ea0008ea-ebab-447d-bc02-6352908cb7d0",
+    "originalYear": 1988,
+    "album": "Qayamat Se Qayamat Tak",
+    "referenceUrl": "https://musicbrainz.org/recording/ea0008ea-ebab-447d-bc02-6352908cb7d0",
+    "musicbrainzFirstRelease": "1988-04-23",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:592f73bf-10f3-48ad-b65d-5e93528acec3",
+    "originalYear": 1988,
+    "album": "Tezaab",
+    "referenceUrl": "https://musicbrainz.org/recording/592f73bf-10f3-48ad-b65d-5e93528acec3",
+    "musicbrainzFirstRelease": "1988-06-10",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:2c72f9cf-cefd-4dc5-9ad1-92a52620594a",
+    "originalYear": 1988,
+    "album": "Tezaab",
+    "referenceUrl": "https://musicbrainz.org/recording/2c72f9cf-cefd-4dc5-9ad1-92a52620594a",
+    "musicbrainzFirstRelease": "1988-06-10",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:31ef19c6-46bc-44c1-b94f-701b3bc95384",
+    "originalYear": 1986,
+    "album": "Nagina",
+    "referenceUrl": "https://musicbrainz.org/recording/31ef19c6-46bc-44c1-b94f-701b3bc95384",
+    "musicbrainzFirstRelease": "1986-07-20",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:6bf961d8-2674-4513-a756-938032bea6cd",
+    "originalYear": 1987,
+    "album": "Mr. India",
+    "referenceUrl": "https://musicbrainz.org/recording/6bf961d8-2674-4513-a756-938032bea6cd",
+    "musicbrainzFirstRelease": "1987",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:5a875440-ea31-4f66-bee0-f22725c5e320",
+    "originalYear": 1987,
+    "album": "Mr. India",
+    "referenceUrl": "https://musicbrainz.org/recording/5a875440-ea31-4f66-bee0-f22725c5e320",
+    "musicbrainzFirstRelease": "1987",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:45242448-4e8c-4e9b-a2b0-902683864077",
+    "originalYear": 1988,
+    "album": "Dayavan",
+    "referenceUrl": "https://musicbrainz.org/recording/45242448-4e8c-4e9b-a2b0-902683864077",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:6e5632ad-ca31-470d-b7cb-85f872518f1b",
+    "originalYear": 1982,
+    "album": "Disco Dancer",
+    "referenceUrl": "https://musicbrainz.org/recording/6e5632ad-ca31-470d-b7cb-85f872518f1b",
+    "musicbrainzFirstRelease": "1982-12",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:dd2ff45f-dcf8-469f-b210-964a0c1af406",
+    "originalYear": 1982,
+    "album": "Thriller",
+    "referenceUrl": "https://musicbrainz.org/recording/dd2ff45f-dcf8-469f-b210-964a0c1af406",
+    "musicbrainzFirstRelease": "1982",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:69921f9b-de1f-43e3-94d9-92199478db27",
+    "originalYear": 1982,
+    "album": "Thriller",
+    "referenceUrl": "https://musicbrainz.org/recording/69921f9b-de1f-43e3-94d9-92199478db27",
+    "musicbrainzFirstRelease": "1982",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:a3a352b6-d5d9-4b59-9bb8-cc6799237a71",
+    "originalYear": 1982,
+    "album": "Thriller",
+    "referenceUrl": "https://musicbrainz.org/recording/a3a352b6-d5d9-4b59-9bb8-cc6799237a71",
+    "musicbrainzFirstRelease": "1982",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:41a84b8b-5bc7-4266-82f5-4d2e6e0f84e6",
+    "originalYear": 1985,
+    "album": "Hunting High and Low",
+    "referenceUrl": "https://musicbrainz.org/recording/41a84b8b-5bc7-4266-82f5-4d2e6e0f84e6",
+    "musicbrainzFirstRelease": "1985",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:4d259f41-29b1-44d6-b67f-bdb02fa63414",
+    "originalYear": 1982,
+    "album": "Toto IV",
+    "referenceUrl": "https://musicbrainz.org/recording/4d259f41-29b1-44d6-b67f-bdb02fa63414",
+    "musicbrainzFirstRelease": "1982-12",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:3e19df7a-3f9a-4d42-adbf-31867646f602",
+    "originalYear": 1983,
+    "album": "Synchronicity",
+    "referenceUrl": "https://musicbrainz.org/recording/3e19df7a-3f9a-4d42-adbf-31867646f602",
+    "musicbrainzFirstRelease": "1983-05-20",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:93036a0a-0513-4d27-b384-4a5d9b674a37",
+    "originalYear": 1981,
+    "album": "Escape",
+    "referenceUrl": "https://musicbrainz.org/recording/93036a0a-0513-4d27-b384-4a5d9b674a37",
+    "musicbrainzFirstRelease": "1981-07-17",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:c7e5ae79-b20b-46ab-89b4-63612ac3206f",
+    "originalYear": 1986,
+    "album": "Slippery When Wet",
+    "referenceUrl": "https://musicbrainz.org/recording/c7e5ae79-b20b-46ab-89b4-63612ac3206f",
+    "musicbrainzFirstRelease": "1986-08-10",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:1a8b5f7c-58ed-4757-a8d3-47bf7f77a32f",
+    "originalYear": 1987,
+    "album": "Appetite for Destruction",
+    "referenceUrl": "https://musicbrainz.org/recording/1a8b5f7c-58ed-4757-a8d3-47bf7f77a32f",
+    "musicbrainzFirstRelease": "1987-07-21",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:bf8e28bb-b4ef-4b9a-bc64-8f58dd4ff5dd",
+    "originalYear": 1983,
+    "album": "Sweet Dreams",
+    "referenceUrl": "https://musicbrainz.org/recording/bf8e28bb-b4ef-4b9a-bc64-8f58dd4ff5dd",
+    "musicbrainzFirstRelease": "1983-01-21",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:b532ef62-42ba-44ea-9a9c-47321968126f",
+    "originalYear": 1983,
+    "album": "Touch",
+    "referenceUrl": "https://musicbrainz.org/recording/b532ef62-42ba-44ea-9a9c-47321968126f",
+    "musicbrainzFirstRelease": "1983-11-14",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:801f1694-32aa-4cc4-8a17-ecef3fb23347",
+    "originalYear": 1983,
+    "album": "She's So Unusual",
+    "referenceUrl": "https://musicbrainz.org/recording/801f1694-32aa-4cc4-8a17-ecef3fb23347",
+    "musicbrainzFirstRelease": "1984-06",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:0e5f1add-c943-49a0-b824-169e7f7b82da",
+    "originalYear": 1983,
+    "album": "She's So Unusual",
+    "referenceUrl": "https://musicbrainz.org/recording/0e5f1add-c943-49a0-b824-169e7f7b82da",
+    "musicbrainzFirstRelease": "1983-10-14",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:531c800f-ae39-4942-aeeb-05a44f1dcdcf",
+    "originalYear": 1986,
+    "album": "True Colors",
+    "referenceUrl": "https://musicbrainz.org/recording/531c800f-ae39-4942-aeeb-05a44f1dcdcf",
+    "musicbrainzFirstRelease": "1986-09-05",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:7313c159-ee3b-4f16-b46c-81f7982b91db",
+    "originalYear": 1984,
+    "album": "Make It Big",
+    "referenceUrl": "https://musicbrainz.org/recording/7313c159-ee3b-4f16-b46c-81f7982b91db",
+    "musicbrainzFirstRelease": "1984-07-24",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:80033c72-aa19-4ba8-9227-afb075fec46e",
+    "originalYear": 1984,
+    "album": "Make It Big",
+    "referenceUrl": "https://musicbrainz.org/recording/80033c72-aa19-4ba8-9227-afb075fec46e",
+    "musicbrainzFirstRelease": "1984-07-21",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:5e996aa8-9cf9-450e-8423-a85aad6d8464",
+    "originalYear": 1987,
+    "album": "Faith",
+    "referenceUrl": "https://musicbrainz.org/recording/5e996aa8-9cf9-450e-8423-a85aad6d8464",
+    "musicbrainzFirstRelease": "1987",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:4699d5a2-ac71-4189-b797-c86114eac4a1",
+    "originalYear": 1984,
+    "album": "The Works",
+    "referenceUrl": "https://musicbrainz.org/recording/4699d5a2-ac71-4189-b797-c86114eac4a1",
+    "musicbrainzFirstRelease": "1984-02-27",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:714525e5-d298-4535-8440-9d05f5249e9a",
+    "originalYear": 1980,
+    "album": "The Game",
+    "referenceUrl": "https://musicbrainz.org/recording/714525e5-d298-4535-8440-9d05f5249e9a",
+    "musicbrainzFirstRelease": "1980",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:8c5c4bfc-9b6c-4f41-a7b1-d772710316f0",
+    "originalYear": 1981,
+    "album": "Hot Space",
+    "referenceUrl": "https://musicbrainz.org/recording/8c5c4bfc-9b6c-4f41-a7b1-d772710316f0",
+    "musicbrainzFirstRelease": "1985-11-28",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:299400ad-fa1c-426d-b1fd-f1d6bb6ead62",
+    "originalYear": 1995,
+    "album": "Dilwale Dulhania Le Jayenge",
+    "referenceUrl": "https://musicbrainz.org/recording/299400ad-fa1c-426d-b1fd-f1d6bb6ead62",
+    "musicbrainzFirstRelease": "1995-07",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:b323d9ae-d654-4057-9734-0a272105992c",
+    "originalYear": 1995,
+    "album": "Dilwale Dulhania Le Jayenge",
+    "referenceUrl": "https://musicbrainz.org/recording/b323d9ae-d654-4057-9734-0a272105992c",
+    "musicbrainzFirstRelease": "1995-07",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:9fa83cf0-05e3-41cb-96ba-9b52f0b5da65",
+    "originalYear": 1995,
+    "album": "Dilwale Dulhania Le Jayenge",
+    "referenceUrl": "https://musicbrainz.org/recording/9fa83cf0-05e3-41cb-96ba-9b52f0b5da65",
+    "musicbrainzFirstRelease": "1995-07",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:e786587b-172d-4eb6-9a54-cb77651cd1f2",
+    "originalYear": 1995,
+    "album": "Dilwale Dulhania Le Jayenge",
+    "referenceUrl": "https://musicbrainz.org/recording/e786587b-172d-4eb6-9a54-cb77651cd1f2",
+    "musicbrainzFirstRelease": "1995-07",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:d10249f7-8394-4cc2-a012-3b9de7af09c5",
+    "originalYear": 1994,
+    "album": "1942 A Love Story",
+    "referenceUrl": "https://musicbrainz.org/recording/d10249f7-8394-4cc2-a012-3b9de7af09c5",
+    "musicbrainzFirstRelease": "1994-04-15",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:3f8ddf45-5e9b-475e-8a04-8150e59b1825",
+    "originalYear": 1994,
+    "album": "1942 A Love Story",
+    "referenceUrl": "https://musicbrainz.org/recording/3f8ddf45-5e9b-475e-8a04-8150e59b1825",
+    "musicbrainzFirstRelease": "1994-04-15",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:356bb432-7014-488e-b6f0-b6ba99438fea",
+    "originalYear": 1994,
+    "album": "1942 A Love Story",
+    "referenceUrl": "https://musicbrainz.org/recording/356bb432-7014-488e-b6f0-b6ba99438fea",
+    "musicbrainzFirstRelease": "1994-04-15",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:be5c7308-74c1-4108-965a-76d03cacc654",
+    "originalYear": 1995,
+    "album": "Bombay",
+    "referenceUrl": "https://musicbrainz.org/recording/be5c7308-74c1-4108-965a-76d03cacc654",
+    "musicbrainzFirstRelease": "1995",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:3687e7cf-3a5c-4e5d-b358-a4f723d59bf0",
+    "originalYear": 1995,
+    "album": "Bombay",
+    "referenceUrl": "https://musicbrainz.org/recording/3687e7cf-3a5c-4e5d-b358-a4f723d59bf0",
+    "musicbrainzFirstRelease": "1995",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:40b68fb0-4df0-4122-a769-ca504c7b25b0",
+    "originalYear": 1995,
+    "album": "Bombay",
+    "referenceUrl": "https://musicbrainz.org/recording/40b68fb0-4df0-4122-a769-ca504c7b25b0",
+    "musicbrainzFirstRelease": "1995-12-10",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:8ed86b84-bb30-46f2-b527-1855c7d44812",
+    "originalYear": 1998,
+    "album": "Dil Se",
+    "referenceUrl": "https://musicbrainz.org/recording/8ed86b84-bb30-46f2-b527-1855c7d44812",
+    "musicbrainzFirstRelease": "1998",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:11cb1b96-c1d4-4fa3-bf7b-b8ef9b8fedc4",
+    "originalYear": 1998,
+    "album": "Dil Se",
+    "referenceUrl": "https://musicbrainz.org/recording/11cb1b96-c1d4-4fa3-bf7b-b8ef9b8fedc4",
+    "musicbrainzFirstRelease": "1998",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:647e0d75-0e59-401d-a6c0-a21f01e29066",
+    "originalYear": 1997,
+    "album": "Dil To Pagal Hai",
+    "referenceUrl": "https://musicbrainz.org/recording/647e0d75-0e59-401d-a6c0-a21f01e29066",
+    "musicbrainzFirstRelease": "1997-08-27",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:221ae060-98cd-43b4-993d-4496063ee181",
+    "originalYear": 1997,
+    "album": "Dil To Pagal Hai",
+    "referenceUrl": "https://musicbrainz.org/recording/221ae060-98cd-43b4-993d-4496063ee181",
+    "musicbrainzFirstRelease": "1997-08-27",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:aaafb051-1a39-4c0d-8ffb-b2224db0676e",
+    "originalYear": 1994,
+    "album": "Hum Aapke Hain Koun",
+    "referenceUrl": "https://musicbrainz.org/recording/aaafb051-1a39-4c0d-8ffb-b2224db0676e",
+    "musicbrainzFirstRelease": "1994-07-30",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:713d689d-74e9-460e-925e-8ceb51f30f41",
+    "originalYear": 1994,
+    "album": "Hum Aapke Hain Koun",
+    "referenceUrl": "https://musicbrainz.org/recording/713d689d-74e9-460e-925e-8ceb51f30f41",
+    "musicbrainzFirstRelease": "1994-07-30",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:dd79a5ff-ae46-4138-8075-2b590ec42246",
+    "originalYear": 1990,
+    "album": "Aashiqui",
+    "referenceUrl": "https://musicbrainz.org/recording/dd79a5ff-ae46-4138-8075-2b590ec42246",
+    "musicbrainzFirstRelease": "1990-06-12",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:22d2c17e-fe3d-4d7b-9c18-541f8f55d132",
+    "originalYear": 1990,
+    "album": "Aashiqui",
+    "referenceUrl": "https://musicbrainz.org/recording/22d2c17e-fe3d-4d7b-9c18-541f8f55d132",
+    "musicbrainzFirstRelease": "1990-06-12",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:6af6dda6-f53d-4343-8b85-f4d4c1669d52",
+    "originalYear": 1991,
+    "album": "Dil Hai Ke Manta Nahin",
+    "referenceUrl": "https://musicbrainz.org/recording/6af6dda6-f53d-4343-8b85-f4d4c1669d52",
+    "musicbrainzFirstRelease": "1991-06-13",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:a6a74b4a-5796-4362-a022-41e0ee01ab69",
+    "originalYear": 1991,
+    "album": "Saajan",
+    "referenceUrl": "https://musicbrainz.org/recording/a6a74b4a-5796-4362-a022-41e0ee01ab69",
+    "musicbrainzFirstRelease": "1991",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:2dcca7a1-9a5f-48e4-bf77-c931268a992e",
+    "originalYear": 1995,
+    "album": "Morning Glory",
+    "referenceUrl": "https://musicbrainz.org/recording/2dcca7a1-9a5f-48e4-bf77-c931268a992e",
+    "musicbrainzFirstRelease": "1996-08-05",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:6e8b2b3e-3d28-4ae4-bba9-141089f1dac2",
+    "originalYear": 1995,
+    "album": "Morning Glory",
+    "referenceUrl": "https://musicbrainz.org/recording/6e8b2b3e-3d28-4ae4-bba9-141089f1dac2",
+    "musicbrainzFirstRelease": "1996",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:d1970a8b-b417-43d0-8d83-e013d30d9ebc",
+    "originalYear": 1992,
+    "album": "Pablo Honey",
+    "referenceUrl": "https://musicbrainz.org/recording/d1970a8b-b417-43d0-8d83-e013d30d9ebc",
+    "musicbrainzFirstRelease": "1998-06-28",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:4ba786f6-421a-427a-9ef8-260102ee3c77",
+    "originalYear": 1991,
+    "album": "Nevermind",
+    "referenceUrl": "https://musicbrainz.org/recording/4ba786f6-421a-427a-9ef8-260102ee3c77",
+    "musicbrainzFirstRelease": "1996",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:9ea2de7e-4842-4bc5-bee4-913da2e72cb7",
+    "originalYear": 1991,
+    "album": "Nevermind",
+    "referenceUrl": "https://musicbrainz.org/recording/9ea2de7e-4842-4bc5-bee4-913da2e72cb7",
+    "musicbrainzFirstRelease": "1994",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:d4e0a590-e461-499a-8f62-b595b6c65ada",
+    "originalYear": 1991,
+    "album": "Out of Time",
+    "referenceUrl": "https://musicbrainz.org/recording/d4e0a590-e461-499a-8f62-b595b6c65ada",
+    "musicbrainzFirstRelease": "1991-02",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:00fe2110-7ee3-4f91-8f8b-2b0d57de2950",
+    "originalYear": 1992,
+    "album": "Automatic for the People",
+    "referenceUrl": "https://musicbrainz.org/recording/00fe2110-7ee3-4f91-8f8b-2b0d57de2950",
+    "musicbrainzFirstRelease": "1995",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:0bd43a7b-6e91-448f-8deb-2a46d9a62c21",
+    "originalYear": 1997,
+    "album": "Let's Talk About Love",
+    "referenceUrl": "https://musicbrainz.org/recording/0bd43a7b-6e91-448f-8deb-2a46d9a62c21",
+    "musicbrainzFirstRelease": "1996",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:55b77af9-6ae1-448c-abee-f5d3739d22cd",
+    "originalYear": 1992,
+    "album": "The Bodyguard",
+    "referenceUrl": "https://musicbrainz.org/recording/55b77af9-6ae1-448c-abee-f5d3739d22cd",
+    "musicbrainzFirstRelease": "1992-11-06",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:28274912-90dc-450b-8879-99671821964b",
+    "originalYear": 1990,
+    "album": "I Do Not Want",
+    "referenceUrl": "https://musicbrainz.org/recording/28274912-90dc-450b-8879-99671821964b",
+    "musicbrainzFirstRelease": "1990",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:798cf23b-b0d4-48e9-9f95-4e9b80ab4ea5",
+    "originalYear": 1997,
+    "album": "Left of the Middle",
+    "referenceUrl": "https://musicbrainz.org/recording/798cf23b-b0d4-48e9-9f95-4e9b80ab4ea5",
+    "musicbrainzFirstRelease": "1997-12-08",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:60689cff-f904-46f4-b180-33b465b5df4c",
+    "originalYear": 1997,
+    "album": "Life Thru a Lens",
+    "referenceUrl": "https://musicbrainz.org/recording/60689cff-f904-46f4-b180-33b465b5df4c",
+    "musicbrainzFirstRelease": "1997",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:640be329-70ad-4353-9026-80d74e5e1966",
+    "originalYear": 1996,
+    "album": "Spice",
+    "referenceUrl": "https://musicbrainz.org/recording/640be329-70ad-4353-9026-80d74e5e1966",
+    "musicbrainzFirstRelease": "1996-07-03",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:f748d10a-38c1-4aa0-ba0c-be6da4938000",
+    "originalYear": 1996,
+    "album": "Spice",
+    "referenceUrl": "https://musicbrainz.org/recording/f748d10a-38c1-4aa0-ba0c-be6da4938000",
+    "musicbrainzFirstRelease": "1996",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:87dfa566-21c3-45ed-bc42-1d345b8563fa",
+    "originalYear": 1999,
+    "album": "Millennium",
+    "referenceUrl": "https://musicbrainz.org/recording/87dfa566-21c3-45ed-bc42-1d345b8563fa",
+    "musicbrainzFirstRelease": "1999-04-28",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:9aa77fa3-1a7d-4ff9-a5ce-8c3dc072fa52",
+    "originalYear": 1998,
+    "album": "Baby One More Time",
+    "referenceUrl": "https://musicbrainz.org/recording/9aa77fa3-1a7d-4ff9-a5ce-8c3dc072fa52",
+    "musicbrainzFirstRelease": "1998-09",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:c454ddd8-8d0c-419d-b4e9-65620785851e",
+    "originalYear": 1998,
+    "album": "Believe",
+    "referenceUrl": "https://musicbrainz.org/recording/c454ddd8-8d0c-419d-b4e9-65620785851e",
+    "musicbrainzFirstRelease": "1998-10-12",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:246eb953-0e29-4e09-b1c0-eb695593f0ac",
+    "originalYear": 1994,
+    "album": "Seal",
+    "referenceUrl": "https://musicbrainz.org/recording/246eb953-0e29-4e09-b1c0-eb695593f0ac",
+    "musicbrainzFirstRelease": "1994-05-23",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:75f82744-5d4d-417c-b276-37dc4c17a98d",
+    "originalYear": 1995,
+    "album": "Tragic Kingdom",
+    "referenceUrl": "https://musicbrainz.org/recording/75f82744-5d4d-417c-b276-37dc4c17a98d",
+    "musicbrainzFirstRelease": "1995-10-10",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:2f7a6735-2e09-4ce2-81e4-b148e6c39a55",
+    "originalYear": 1995,
+    "album": "Gangsta's Paradise",
+    "referenceUrl": "https://musicbrainz.org/recording/2f7a6735-2e09-4ce2-81e4-b148e6c39a55",
+    "musicbrainzFirstRelease": "1995-07-11",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:ea41a328-259c-475d-b095-bd4e292f9108",
+    "originalYear": 2008,
+    "album": "Rab Ne Bana Di Jodi",
+    "referenceUrl": "https://musicbrainz.org/recording/ea41a328-259c-475d-b095-bd4e292f9108",
+    "musicbrainzFirstRelease": "2008-11-06",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:cc47a6ee-9d98-4790-9123-1d07e59736dc",
+    "originalYear": 2007,
+    "album": "Jab We Met",
+    "referenceUrl": "https://musicbrainz.org/recording/cc47a6ee-9d98-4790-9123-1d07e59736dc",
+    "musicbrainzFirstRelease": "2007-09-21",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:1355face-c520-4b3c-a92f-3047f0643066",
+    "originalYear": 2007,
+    "album": "Jab We Met",
+    "referenceUrl": "https://musicbrainz.org/recording/1355face-c520-4b3c-a92f-3047f0643066",
+    "musicbrainzFirstRelease": "2007-09-21",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:d91bfc25-6de2-4cb5-8c5b-36456ff13556",
+    "originalYear": 2007,
+    "album": "Jab We Met",
+    "referenceUrl": "https://musicbrainz.org/recording/d91bfc25-6de2-4cb5-8c5b-36456ff13556",
+    "musicbrainzFirstRelease": "2007-09-21",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:f75531b7-e552-40c8-983a-f8ce0b92c900",
+    "originalYear": 2007,
+    "album": "Jab We Met",
+    "referenceUrl": "https://musicbrainz.org/recording/f75531b7-e552-40c8-983a-f8ce0b92c900",
+    "musicbrainzFirstRelease": "2007-09-21",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:cad64a5f-5991-4155-b701-a51497205202",
+    "originalYear": 2007,
+    "album": "Om Shanti Om",
+    "referenceUrl": "https://musicbrainz.org/recording/cad64a5f-5991-4155-b701-a51497205202",
+    "musicbrainzFirstRelease": "2007-09-18",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:bcde25e2-d060-4060-9d68-d9c377e6cbc9",
+    "originalYear": 2007,
+    "album": "Om Shanti Om",
+    "referenceUrl": "https://musicbrainz.org/recording/bcde25e2-d060-4060-9d68-d9c377e6cbc9",
+    "musicbrainzFirstRelease": "2007-09-18",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:1e1709fc-5b5a-4618-b71f-3a936f4f5a10",
+    "originalYear": 2007,
+    "album": "Aaja Nachle",
+    "referenceUrl": "https://musicbrainz.org/recording/1e1709fc-5b5a-4618-b71f-3a936f4f5a10",
+    "musicbrainzFirstRelease": "2007-10-18",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:79f0a4b0-8255-4e43-8b7b-8c4db35ab80b",
+    "originalYear": 2004,
+    "album": "Veer-Zaara",
+    "referenceUrl": "https://musicbrainz.org/recording/79f0a4b0-8255-4e43-8b7b-8c4db35ab80b",
+    "musicbrainzFirstRelease": "2004-09-18",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:4471660a-ea00-4a9f-9365-a54de9f741a2",
+    "originalYear": 2004,
+    "album": "Veer-Zaara",
+    "referenceUrl": "https://musicbrainz.org/recording/4471660a-ea00-4a9f-9365-a54de9f741a2",
+    "musicbrainzFirstRelease": "2004-09-18",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:fc20bb6e-41c8-4eb7-b780-ac5ca9dcbd8d",
+    "originalYear": 2004,
+    "album": "Veer-Zaara",
+    "referenceUrl": "https://musicbrainz.org/recording/fc20bb6e-41c8-4eb7-b780-ac5ca9dcbd8d",
+    "musicbrainzFirstRelease": "2004-09-18",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:ab099230-5c95-4c04-983c-36eee0a9a715",
+    "originalYear": 2007,
+    "album": "Anwar",
+    "referenceUrl": "https://musicbrainz.org/recording/ab099230-5c95-4c04-983c-36eee0a9a715",
+    "musicbrainzFirstRelease": "2007-09-01",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:2992cecd-0b50-44b5-8090-3f14c004f0da",
+    "originalYear": 2007,
+    "album": "Guru",
+    "referenceUrl": "https://musicbrainz.org/recording/2992cecd-0b50-44b5-8090-3f14c004f0da",
+    "musicbrainzFirstRelease": "2006-09-11",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:332e2c5f-655f-48d7-9720-4779b7a7b677",
+    "originalYear": 2007,
+    "album": "Guru",
+    "referenceUrl": "https://musicbrainz.org/recording/332e2c5f-655f-48d7-9720-4779b7a7b677",
+    "musicbrainzFirstRelease": "2006-09-11",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:c5a21cb0-7d22-4ed5-8b11-a3ba56d3eb63",
+    "originalYear": 2008,
+    "album": "Jodhaa Akbar",
+    "referenceUrl": "https://musicbrainz.org/recording/c5a21cb0-7d22-4ed5-8b11-a3ba56d3eb63",
+    "musicbrainzFirstRelease": "2007",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:84c0460c-c419-4487-a859-ef99516bc143",
+    "originalYear": 2008,
+    "album": "Ghajini",
+    "referenceUrl": "https://musicbrainz.org/recording/84c0460c-c419-4487-a859-ef99516bc143",
+    "musicbrainzFirstRelease": "2008-11-25",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:458d2443-657d-42dd-8078-0313b159f395",
+    "originalYear": 2008,
+    "album": "Ghajini",
+    "referenceUrl": "https://musicbrainz.org/recording/458d2443-657d-42dd-8078-0313b159f395",
+    "musicbrainzFirstRelease": "2008-11-25",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:0b86e458-4178-4fce-a823-da1ce91fc77a",
+    "originalYear": 2009,
+    "album": "Delhi-6",
+    "referenceUrl": "https://musicbrainz.org/recording/0b86e458-4178-4fce-a823-da1ce91fc77a",
+    "musicbrainzFirstRelease": "2009-01-14",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:dacba513-9aa5-4a63-af91-c7f9e0f38de8",
+    "originalYear": 2009,
+    "album": "3 Idiots",
+    "referenceUrl": "https://musicbrainz.org/recording/dacba513-9aa5-4a63-af91-c7f9e0f38de8",
+    "musicbrainzFirstRelease": "2009-11-09",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:04e77fa2-20b7-4461-a6ac-273965666ee8",
+    "originalYear": 2000,
+    "album": "Parachutes",
+    "referenceUrl": "https://musicbrainz.org/recording/04e77fa2-20b7-4461-a6ac-273965666ee8",
+    "musicbrainzFirstRelease": "2000",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:24d5a11c-474f-48d4-a5dd-540458a49d6e",
+    "originalYear": 2002,
+    "album": "A Rush of Blood to the Head",
+    "referenceUrl": "https://musicbrainz.org/recording/24d5a11c-474f-48d4-a5dd-540458a49d6e",
+    "musicbrainzFirstRelease": "2003-08-19",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:a478f801-521b-40e7-8bb4-5faeffb1f3e4",
+    "originalYear": 2002,
+    "album": "A Rush of Blood to the Head",
+    "referenceUrl": "https://musicbrainz.org/recording/a478f801-521b-40e7-8bb4-5faeffb1f3e4",
+    "musicbrainzFirstRelease": "2002-08-12",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:20919a48-4ad5-409c-b639-8db7ca9f9e7a",
+    "originalYear": 2005,
+    "album": "X&Y",
+    "referenceUrl": "https://musicbrainz.org/recording/20919a48-4ad5-409c-b639-8db7ca9f9e7a",
+    "musicbrainzFirstRelease": "2005-06-01",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:307ce9da-5690-4e21-ab71-9d12ea106e52",
+    "originalYear": 2008,
+    "album": "Viva la Vida",
+    "referenceUrl": "https://musicbrainz.org/recording/307ce9da-5690-4e21-ab71-9d12ea106e52",
+    "musicbrainzFirstRelease": "2008-05-26",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:72e52e92-c273-4b19-9821-5f812484d76d",
+    "originalYear": 2006,
+    "album": "Eyes Open",
+    "referenceUrl": "https://musicbrainz.org/recording/72e52e92-c273-4b19-9821-5f812484d76d",
+    "musicbrainzFirstRelease": "2006-04-26",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:5c5cae19-b26c-4542-907a-9c15b51ab6a6",
+    "originalYear": 2005,
+    "album": "How to Save a Life",
+    "referenceUrl": "https://musicbrainz.org/recording/5c5cae19-b26c-4542-907a-9c15b51ab6a6",
+    "musicbrainzFirstRelease": "2005-07-22",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:407a1156-5f02-4038-8780-f8c7f5953862",
+    "originalYear": 2004,
+    "album": "Back to Bedlam",
+    "referenceUrl": "https://musicbrainz.org/recording/407a1156-5f02-4038-8780-f8c7f5953862",
+    "musicbrainzFirstRelease": "2004-04-15",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:4a607ce9-031b-4fa8-9793-32f9a71a8ae7",
+    "originalYear": 2007,
+    "album": "Spirit",
+    "referenceUrl": "https://musicbrainz.org/recording/4a607ce9-031b-4fa8-9793-32f9a71a8ae7",
+    "musicbrainzFirstRelease": "2007-09-18",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:bbec8ec3-2382-412c-b649-50b99df451e6",
+    "originalYear": 2007,
+    "album": "Good Girl Gone Bad",
+    "referenceUrl": "https://musicbrainz.org/recording/bbec8ec3-2382-412c-b649-50b99df451e6",
+    "musicbrainzFirstRelease": "2007-05-25",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:899a043d-67bc-420c-85ea-6fee705baeb3",
+    "originalYear": 2008,
+    "album": "I Am",
+    "referenceUrl": "https://musicbrainz.org/recording/899a043d-67bc-420c-85ea-6fee705baeb3",
+    "musicbrainzFirstRelease": "2008-11-12",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:c16765ca-1641-460b-983f-a27add6e0031",
+    "originalYear": 2003,
+    "album": "Dangerously in Love",
+    "referenceUrl": "https://musicbrainz.org/recording/c16765ca-1641-460b-983f-a27add6e0031",
+    "musicbrainzFirstRelease": "2003-07",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:873eba85-b721-4728-be2e-96ce94cccb8b",
+    "originalYear": 2006,
+    "album": "Back to Black",
+    "referenceUrl": "https://musicbrainz.org/recording/873eba85-b721-4728-be2e-96ce94cccb8b",
+    "musicbrainzFirstRelease": "2006-10-23",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:b0adc7a8-0a90-4e09-8839-a66f315234a2",
+    "originalYear": 2006,
+    "album": "Back to Black",
+    "referenceUrl": "https://musicbrainz.org/recording/b0adc7a8-0a90-4e09-8839-a66f315234a2",
+    "musicbrainzFirstRelease": "2006-10-30",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:a62b9c94-55bc-4d77-86e5-32fa0e307086",
+    "originalYear": 2007,
+    "album": "Version",
+    "referenceUrl": "https://musicbrainz.org/recording/a62b9c94-55bc-4d77-86e5-32fa0e307086",
+    "musicbrainzFirstRelease": "2007-04-14",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:58faa092-f0b4-448e-a461-fa63df09901b",
+    "originalYear": 2003,
+    "album": "Speakerboxxx",
+    "referenceUrl": "https://musicbrainz.org/recording/58faa092-f0b4-448e-a461-fa63df09901b",
+    "musicbrainzFirstRelease": "2003-10-20",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:560062d0-e122-46be-9d89-0f3b44077fdf",
+    "originalYear": 2003,
+    "album": "Hot Fuss",
+    "referenceUrl": "https://musicbrainz.org/recording/560062d0-e122-46be-9d89-0f3b44077fdf",
+    "musicbrainzFirstRelease": "2003-09-29",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:24cc8311-98fd-423a-bed1-97728f5eabc5",
+    "originalYear": 2003,
+    "album": "Elephant",
+    "referenceUrl": "https://musicbrainz.org/recording/24cc8311-98fd-423a-bed1-97728f5eabc5",
+    "musicbrainzFirstRelease": "2003-02",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:0ba72f0d-70ae-4655-94d9-c1069b5abcfb",
+    "originalYear": 2004,
+    "album": "American Idiot",
+    "referenceUrl": "https://musicbrainz.org/recording/0ba72f0d-70ae-4655-94d9-c1069b5abcfb",
+    "musicbrainzFirstRelease": "2004-09-20",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:a23f107f-36cd-4a4c-b8d5-6dd73b9148c7",
+    "originalYear": 2004,
+    "album": "American Idiot",
+    "referenceUrl": "https://musicbrainz.org/recording/a23f107f-36cd-4a4c-b8d5-6dd73b9148c7",
+    "musicbrainzFirstRelease": "2004-09-20",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:312aadac-fb48-4add-a8ab-57fed42de21f",
+    "originalYear": 2013,
+    "album": "Aashiqui 2",
+    "referenceUrl": "https://musicbrainz.org/recording/312aadac-fb48-4add-a8ab-57fed42de21f",
+    "musicbrainzFirstRelease": "2013-04-03",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:8a843152-2794-448a-b306-82111ebf091e",
+    "originalYear": 2013,
+    "album": "Aashiqui 2",
+    "referenceUrl": "https://musicbrainz.org/recording/8a843152-2794-448a-b306-82111ebf091e",
+    "musicbrainzFirstRelease": "2013-04-03",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:a005e809-c884-4ac8-acfc-fbc4b2468c49",
+    "originalYear": 2016,
+    "album": "Sanam Re",
+    "referenceUrl": "https://musicbrainz.org/recording/a005e809-c884-4ac8-acfc-fbc4b2468c49",
+    "musicbrainzFirstRelease": "2016-01-04",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:9533d977-9ba9-46dc-8713-673c2a429f77",
+    "originalYear": 2015,
+    "album": "Dilwale",
+    "referenceUrl": "https://musicbrainz.org/recording/9533d977-9ba9-46dc-8713-673c2a429f77",
+    "musicbrainzFirstRelease": "2015-11-20",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:755de8d7-4055-4ce2-b056-6aa92aed1343",
+    "originalYear": 2015,
+    "album": "Dilwale",
+    "referenceUrl": "https://musicbrainz.org/recording/755de8d7-4055-4ce2-b056-6aa92aed1343",
+    "musicbrainzFirstRelease": "2015-12-04",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:f13677b9-5d5c-4ba9-8423-011b5c1e73ce",
+    "originalYear": 2016,
+    "album": "Ae Dil Hai Mushkil",
+    "referenceUrl": "https://musicbrainz.org/recording/f13677b9-5d5c-4ba9-8423-011b5c1e73ce",
+    "musicbrainzFirstRelease": "2016-10-26",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:d238bda0-da14-4977-9e3d-a2fb276c31b8",
+    "originalYear": 2016,
+    "album": "Ae Dil Hai Mushkil",
+    "referenceUrl": "https://musicbrainz.org/recording/d238bda0-da14-4977-9e3d-a2fb276c31b8",
+    "musicbrainzFirstRelease": "2016-10-26",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:83a5e533-64d6-462e-b360-7d53d37db0da",
+    "originalYear": 2017,
+    "album": "Raees",
+    "referenceUrl": "https://musicbrainz.org/recording/83a5e533-64d6-462e-b360-7d53d37db0da",
+    "musicbrainzFirstRelease": "2017-01-24",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:c5ddadca-efb9-4345-8545-ed8cf022e9df",
+    "originalYear": 2017,
+    "album": "Jab Harry Met Sejal",
+    "referenceUrl": "https://musicbrainz.org/recording/c5ddadca-efb9-4345-8545-ed8cf022e9df",
+    "musicbrainzFirstRelease": "2017-08-03",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:6e29af7a-dc0f-4486-9681-0dadefdb3509",
+    "originalYear": 2018,
+    "album": "Sonu Ke Titu Ki Sweety",
+    "referenceUrl": "https://musicbrainz.org/recording/6e29af7a-dc0f-4486-9681-0dadefdb3509",
+    "musicbrainzFirstRelease": "2018-02-08",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:7982bbc9-de06-4720-bcec-710bcfc2f009",
+    "originalYear": 2019,
+    "album": "Kabir Singh",
+    "referenceUrl": "https://musicbrainz.org/recording/7982bbc9-de06-4720-bcec-710bcfc2f009",
+    "musicbrainzFirstRelease": "2019-05-24",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:1a13c710-4b7e-4701-8968-cd61f2e58110",
+    "originalYear": 2010,
+    "album": "21",
+    "referenceUrl": "https://musicbrainz.org/recording/1a13c710-4b7e-4701-8968-cd61f2e58110",
+    "musicbrainzFirstRelease": "2010-10-21",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:d1e0a99e-1894-457b-ba6a-985eeef4d0c4",
+    "originalYear": 2011,
+    "album": "21",
+    "referenceUrl": "https://musicbrainz.org/recording/d1e0a99e-1894-457b-ba6a-985eeef4d0c4",
+    "musicbrainzFirstRelease": "2011-01-19",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:0a8e8d55-4b83-4f8a-9732-fbb5ded9f344",
+    "originalYear": 2015,
+    "album": "25",
+    "referenceUrl": "https://musicbrainz.org/recording/0a8e8d55-4b83-4f8a-9732-fbb5ded9f344",
+    "musicbrainzFirstRelease": "2015-10-23",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:cb2cc207-8125-445c-9ef9-6ea44eee959a",
+    "originalYear": 2014,
+    "album": "x",
+    "referenceUrl": "https://musicbrainz.org/recording/cb2cc207-8125-445c-9ef9-6ea44eee959a",
+    "musicbrainzFirstRelease": "2014-06-20",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:7dcbc1be-4257-4d64-b915-045dfb23ae88",
+    "originalYear": 2014,
+    "album": "x",
+    "referenceUrl": "https://musicbrainz.org/recording/7dcbc1be-4257-4d64-b915-045dfb23ae88",
+    "musicbrainzFirstRelease": "2014-06-20",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:d5548b1d-63db-4aa7-b3d5-3f864f248eee",
+    "originalYear": 2013,
+    "album": "Love in the Future",
+    "referenceUrl": "https://musicbrainz.org/recording/d5548b1d-63db-4aa7-b3d5-3f864f248eee",
+    "musicbrainzFirstRelease": "2013-08-08",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:4658bb93-57c4-4710-86f1-b87869f5781b",
+    "originalYear": 2010,
+    "album": "Doo-Wops",
+    "referenceUrl": "https://musicbrainz.org/recording/4658bb93-57c4-4710-86f1-b87869f5781b",
+    "musicbrainzFirstRelease": "2010-07-20",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:2ef0762b-b19d-4355-b19a-7af087497599",
+    "originalYear": 2010,
+    "album": "Doo-Wops",
+    "referenceUrl": "https://musicbrainz.org/recording/2ef0762b-b19d-4355-b19a-7af087497599",
+    "musicbrainzFirstRelease": "2010-09-28",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:38e06968-af06-44ea-9eba-a1a275832767",
+    "originalYear": 2014,
+    "album": "Uptown Special",
+    "referenceUrl": "https://musicbrainz.org/recording/38e06968-af06-44ea-9eba-a1a275832767",
+    "musicbrainzFirstRelease": "2014-11-10",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:f367ad6e-efd5-4496-aba5-21a4edcd82c6",
+    "originalYear": 2013,
+    "album": "G I R L",
+    "referenceUrl": "https://musicbrainz.org/recording/f367ad6e-efd5-4496-aba5-21a4edcd82c6",
+    "musicbrainzFirstRelease": "2013-06-18",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:59fc5ddf-a1d9-4746-902d-71fb5a9a78c2",
+    "originalYear": 2014,
+    "album": "1989",
+    "referenceUrl": "https://musicbrainz.org/recording/59fc5ddf-a1d9-4746-902d-71fb5a9a78c2",
+    "musicbrainzFirstRelease": "2014-08-18",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:c3fe7791-0a91-4f0a-a89b-b056f38d3cde",
+    "originalYear": 2014,
+    "album": "1989",
+    "referenceUrl": "https://musicbrainz.org/recording/c3fe7791-0a91-4f0a-a89b-b056f38d3cde",
+    "musicbrainzFirstRelease": "2014-10-24",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:cc3f3c3d-aa63-4bad-9f4e-adfc1127d7fd",
+    "originalYear": 2015,
+    "album": "Purpose",
+    "referenceUrl": "https://musicbrainz.org/recording/cc3f3c3d-aa63-4bad-9f4e-adfc1127d7fd",
+    "musicbrainzFirstRelease": "2015-11-09",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:5a3637a0-aa83-402c-b56e-e1f7304df316",
+    "originalYear": 2015,
+    "album": "Purpose",
+    "referenceUrl": "https://musicbrainz.org/recording/5a3637a0-aa83-402c-b56e-e1f7304df316",
+    "musicbrainzFirstRelease": "2015-10-23",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:1682cf55-a9a6-429c-a7f0-ff756781570a",
+    "originalYear": 2012,
+    "album": "All the Little Lights",
+    "referenceUrl": "https://musicbrainz.org/recording/1682cf55-a9a6-429c-a7f0-ff756781570a",
+    "musicbrainzFirstRelease": "2012-02-24",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:d03a0d3b-a3c5-44f4-9af7-34c76ccaedb2",
+    "originalYear": 2013,
+    "album": "Native",
+    "referenceUrl": "https://musicbrainz.org/recording/d03a0d3b-a3c5-44f4-9af7-34c76ccaedb2",
+    "musicbrainzFirstRelease": "2013-03-22",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:bd61eda3-eb77-4634-ba66-4a084f7f8455",
+    "originalYear": 2012,
+    "album": "Night Visions",
+    "referenceUrl": "https://musicbrainz.org/recording/bd61eda3-eb77-4634-ba66-4a084f7f8455",
+    "musicbrainzFirstRelease": "2012-02-14",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:714f89b3-7e22-4d6d-8570-0259812717f7",
+    "originalYear": 2020,
+    "album": "Love Aaj Kal",
+    "referenceUrl": "https://musicbrainz.org/recording/714f89b3-7e22-4d6d-8570-0259812717f7",
+    "musicbrainzFirstRelease": "2020-02-14",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:620e8d51-7319-43fc-986d-1f6e1a05a6d3",
+    "originalYear": 2020,
+    "album": "Love Aaj Kal",
+    "referenceUrl": "https://musicbrainz.org/recording/620e8d51-7319-43fc-986d-1f6e1a05a6d3",
+    "musicbrainzFirstRelease": "2020-02-14",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:3e36a49e-f83d-4ff2-a4a7-0d80e0eb60c0",
+    "originalYear": 2020,
+    "album": "Love Aaj Kal",
+    "referenceUrl": "https://musicbrainz.org/recording/3e36a49e-f83d-4ff2-a4a7-0d80e0eb60c0",
+    "musicbrainzFirstRelease": "2020-02-14",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:22765d54-4bff-4cbf-94b1-35d5b05766b2",
+    "originalYear": 2020,
+    "album": "Malang",
+    "referenceUrl": "https://musicbrainz.org/recording/22765d54-4bff-4cbf-94b1-35d5b05766b2",
+    "musicbrainzFirstRelease": "2020-02-06",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:cafdeb62-bcfb-4373-b0c2-e1789bedc93b",
+    "originalYear": 2020,
+    "album": "Dil Bechara",
+    "referenceUrl": "https://musicbrainz.org/recording/cafdeb62-bcfb-4373-b0c2-e1789bedc93b",
+    "musicbrainzFirstRelease": "2020-07-10",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:c30a96e2-c999-4d12-acb3-43eff27c341a",
+    "originalYear": 2020,
+    "album": "Ludo",
+    "referenceUrl": "https://musicbrainz.org/recording/c30a96e2-c999-4d12-acb3-43eff27c341a",
+    "musicbrainzFirstRelease": "2020-11-13",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:a6a40825-7b71-4807-b9d2-65af18dda7f4",
+    "originalYear": 2022,
+    "album": "Bhediya",
+    "referenceUrl": "https://musicbrainz.org/recording/a6a40825-7b71-4807-b9d2-65af18dda7f4",
+    "musicbrainzFirstRelease": "2022-11-05",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:57858e69-3f5f-45b6-bdbf-8fa5ff85a8c6",
+    "originalYear": 2022,
+    "album": "Laal Singh Chaddha",
+    "referenceUrl": "https://musicbrainz.org/recording/57858e69-3f5f-45b6-bdbf-8fa5ff85a8c6",
+    "musicbrainzFirstRelease": "2022-08-04",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:f622ac94-7108-4137-a432-adba4a7404bc",
+    "originalYear": 2022,
+    "album": "Laal Singh Chaddha",
+    "referenceUrl": "https://musicbrainz.org/recording/f622ac94-7108-4137-a432-adba4a7404bc",
+    "musicbrainzFirstRelease": "2022-06-24",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:10dcad74-75ed-4fdc-9a14-6ec824e9ec24",
+    "originalYear": 2023,
+    "album": "Tu Jhoothi Main Makkaar",
+    "referenceUrl": "https://musicbrainz.org/recording/10dcad74-75ed-4fdc-9a14-6ec824e9ec24",
+    "musicbrainzFirstRelease": "2023-02-10",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:f34d9ece-f4b2-41c9-82ed-5b6d035eb49e",
+    "originalYear": 2023,
+    "album": "Rocky Aur Rani",
+    "referenceUrl": "https://musicbrainz.org/recording/f34d9ece-f4b2-41c9-82ed-5b6d035eb49e",
+    "musicbrainzFirstRelease": "2023-06-28",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:73e27b29-376c-4f4e-a3ab-d4090459b12d",
+    "originalYear": 2023,
+    "album": "Jawan",
+    "referenceUrl": "https://musicbrainz.org/recording/73e27b29-376c-4f4e-a3ab-d4090459b12d",
+    "musicbrainzFirstRelease": "2023-08-14",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:23191e44-234c-48fb-bceb-88e50469b22a",
+    "originalYear": 2023,
+    "album": "Animal",
+    "referenceUrl": "https://musicbrainz.org/recording/23191e44-234c-48fb-bceb-88e50469b22a",
+    "musicbrainzFirstRelease": "2023-10-27",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:372ddf04-3851-4e1b-876f-1ef90625223a",
+    "originalYear": 2023,
+    "album": "Animal",
+    "referenceUrl": "https://musicbrainz.org/recording/372ddf04-3851-4e1b-876f-1ef90625223a",
+    "musicbrainzFirstRelease": "2023-11-24",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:72779091-839b-49d9-8496-a2ba1dcbcb48",
+    "originalYear": 2023,
+    "album": "Husn",
+    "referenceUrl": "https://musicbrainz.org/recording/72779091-839b-49d9-8496-a2ba1dcbcb48",
+    "musicbrainzFirstRelease": "2023-12-01",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:e99d7c5e-2999-4f88-9868-9f0cfa78e3f7",
+    "originalYear": 2024,
+    "album": "Laapataa Ladies",
+    "referenceUrl": "https://musicbrainz.org/recording/e99d7c5e-2999-4f88-9868-9f0cfa78e3f7",
+    "musicbrainzFirstRelease": "2024-02-12",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:d7738af4-b1ce-4203-affd-0466c336f0fe",
+    "originalYear": 2023,
+    "album": "Dunki",
+    "referenceUrl": "https://musicbrainz.org/recording/d7738af4-b1ce-4203-affd-0466c336f0fe",
+    "musicbrainzFirstRelease": "2023-12-11",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:dea064c5-a169-437d-8fb1-c9cad3ddd5aa",
+    "originalYear": 2024,
+    "album": "Stree 2",
+    "referenceUrl": "https://musicbrainz.org/recording/dea064c5-a169-437d-8fb1-c9cad3ddd5aa",
+    "musicbrainzFirstRelease": "2024-07-24",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:8ad4f39e-4312-4983-9795-3edb42dd2c0b",
+    "originalYear": 2024,
+    "album": "Teri Baaton Mein Aisa Uljha Jiya",
+    "referenceUrl": "https://musicbrainz.org/recording/8ad4f39e-4312-4983-9795-3edb42dd2c0b",
+    "musicbrainzFirstRelease": "2024-01-19",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:0f431b3e-ddb0-4cea-9b32-e59d47b1ae8c",
+    "originalYear": 2020,
+    "album": "After Hours",
+    "referenceUrl": "https://musicbrainz.org/recording/0f431b3e-ddb0-4cea-9b32-e59d47b1ae8c",
+    "musicbrainzFirstRelease": "2020-02-19",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:957df7c5-9c3a-4dbc-b139-f339f2378986",
+    "originalYear": 2020,
+    "album": "Future Nostalgia",
+    "referenceUrl": "https://musicbrainz.org/recording/957df7c5-9c3a-4dbc-b139-f339f2378986",
+    "musicbrainzFirstRelease": "2020-03-21",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:53969964-673a-4407-9396-3087be9245f6",
+    "originalYear": 2022,
+    "album": "Harry's House",
+    "referenceUrl": "https://musicbrainz.org/recording/53969964-673a-4407-9396-3087be9245f6",
+    "musicbrainzFirstRelease": "2022-04-01",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:4ddebe69-6db5-4338-97d3-299cfdc72fb2",
+    "originalYear": 2023,
+    "album": "Endless Summer Vacation",
+    "referenceUrl": "https://musicbrainz.org/recording/4ddebe69-6db5-4338-97d3-299cfdc72fb2",
+    "musicbrainzFirstRelease": "2023-01-13",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:617b29ec-df5d-473e-87b8-9ac2b8d28ec7",
+    "originalYear": 2022,
+    "album": "Midnights",
+    "referenceUrl": "https://musicbrainz.org/recording/617b29ec-df5d-473e-87b8-9ac2b8d28ec7",
+    "musicbrainzFirstRelease": "2022-10-21",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:9daeff0e-5d66-45cd-9bf2-09a50674d64a",
+    "originalYear": 2021,
+    "album": "SOUR",
+    "referenceUrl": "https://musicbrainz.org/recording/9daeff0e-5d66-45cd-9bf2-09a50674d64a",
+    "musicbrainzFirstRelease": "2021-08",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:c0f4542d-bb04-4e4a-aa2f-89b346934a7a",
+    "originalYear": 2021,
+    "album": "SOUR",
+    "referenceUrl": "https://musicbrainz.org/recording/c0f4542d-bb04-4e4a-aa2f-89b346934a7a",
+    "musicbrainzFirstRelease": "2021-09-12",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:0c846a8e-debd-4a63-bb93-6c57f5178b45",
+    "originalYear": 2023,
+    "album": "GUTS",
+    "referenceUrl": "https://musicbrainz.org/recording/0c846a8e-debd-4a63-bb93-6c57f5178b45",
+    "musicbrainzFirstRelease": "2023-06-30",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:5aba5838-fb97-4dd4-a671-0946f7039ba6",
+    "originalYear": 2021,
+    "album": "",
+    "referenceUrl": "https://musicbrainz.org/recording/5aba5838-fb97-4dd4-a671-0946f7039ba6",
+    "musicbrainzFirstRelease": "2021",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:6c139885-5eb7-4390-984e-34b0353cbfb6",
+    "originalYear": 2021,
+    "album": "Justice",
+    "referenceUrl": "https://musicbrainz.org/recording/6c139885-5eb7-4390-984e-34b0353cbfb6",
+    "musicbrainzFirstRelease": "2021-03-19",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:2d24a8d7-66ad-40b2-8ae7-5f6fc9981646",
+    "originalYear": 2021,
+    "album": "Equals",
+    "referenceUrl": "https://musicbrainz.org/recording/2d24a8d7-66ad-40b2-8ae7-5f6fc9981646",
+    "musicbrainzFirstRelease": "2021-06-25",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:121036d2-fa48-4113-be1c-6f82d7fc160a",
+    "originalYear": 2021,
+    "album": "Equals",
+    "referenceUrl": "https://musicbrainz.org/recording/121036d2-fa48-4113-be1c-6f82d7fc160a",
+    "musicbrainzFirstRelease": "2021-11-17",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:a7720370-b5a1-49b0-983a-85081f0bcbfe",
+    "originalYear": 2021,
+    "album": "30",
+    "referenceUrl": "https://musicbrainz.org/recording/a7720370-b5a1-49b0-983a-85081f0bcbfe",
+    "musicbrainzFirstRelease": "2021-10-14",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:9f61e4a7-d4c3-4d0d-a6e4-dc62e31e30db",
+    "originalYear": 2020,
+    "album": "Dreamland",
+    "referenceUrl": "https://musicbrainz.org/recording/9f61e4a7-d4c3-4d0d-a6e4-dc62e31e30db",
+    "musicbrainzFirstRelease": "2020-06-29",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:baded4c1-1bda-4891-bee8-2074383b6c2e",
+    "originalYear": 2021,
+    "album": "An Evening with Silk Sonic",
+    "referenceUrl": "https://musicbrainz.org/recording/baded4c1-1bda-4891-bee8-2074383b6c2e",
+    "musicbrainzFirstRelease": "2021-03-04",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:db965fe4-9e56-4fc7-837b-b2a0dcdb3206",
+    "originalYear": 2020,
+    "album": "BE",
+    "referenceUrl": "https://musicbrainz.org/recording/db965fe4-9e56-4fc7-837b-b2a0dcdb3206",
+    "musicbrainzFirstRelease": "2020-08-21",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:e139bd8d-410c-41c1-967c-a30ee3b444e8",
+    "originalYear": 2021,
+    "album": "Butter",
+    "referenceUrl": "https://musicbrainz.org/recording/e139bd8d-410c-41c1-967c-a30ee3b444e8",
+    "musicbrainzFirstRelease": "2021-05-21",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:80bb466a-f303-486e-adf0-b0d9968b5c32",
+    "originalYear": 2024,
+    "album": "Short n' Sweet",
+    "referenceUrl": "https://musicbrainz.org/recording/80bb466a-f303-486e-adf0-b0d9968b5c32",
+    "musicbrainzFirstRelease": "2024-05-03",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:3a7e1970-069c-4761-a6b2-9046e54406bc",
+    "originalYear": 2024,
+    "album": "HIT ME HARD AND SOFT",
+    "referenceUrl": "https://musicbrainz.org/recording/3a7e1970-069c-4761-a6b2-9046e54406bc",
+    "musicbrainzFirstRelease": "2024-05-17",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:292effe0-7b50-4eee-bb16-cf470b2a503d",
+    "originalYear": 2024,
+    "album": "Fireworks",
+    "referenceUrl": "https://musicbrainz.org/recording/292effe0-7b50-4eee-bb16-cf470b2a503d",
+    "musicbrainzFirstRelease": "2024-01-18",
+    "yearBasis": "Curated original song/film release; compilation dates are not used"
+  }
+]

@@ -1,0 +1,12 @@
+import { createRequire } from 'node:module';
+import { dirname, resolve } from 'node:path';
+import { mkdirSync } from 'node:fs';
+import { spawn } from 'node:child_process';
+const require = createRequire(import.meta.url);
+const [tool, ...args] = process.argv.slice(2);
+const pkgPath = require.resolve(`${tool}/package.json`), pkg = require(pkgPath);
+const bin = typeof pkg.bin === 'string' ? pkg.bin : pkg.bin[tool] || Object.values(pkg.bin)[0];
+mkdirSync('.runtime-config', { recursive: true });
+const child = spawn(process.execPath, [resolve(dirname(pkgPath), bin), ...args], { stdio: 'inherit', env: { ...process.env, ASTRO_TELEMETRY_DISABLED: '1', WRANGLER_SEND_METRICS: 'false', WRANGLER_LOG_PATH: resolve('.wrangler/logs'), XDG_CONFIG_HOME: resolve('.runtime-config'), PLAYWRIGHT_BROWSERS_PATH: process.env.PLAYWRIGHT_BROWSERS_PATH || resolve('.playwright-browsers') } });
+child.on('exit', code => process.exit(code || 0));
+child.on('error', error => { console.error(error.message); process.exit(1); });

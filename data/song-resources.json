@@ -1,0 +1,466 @@
+[
+  {
+    "songId": "mb:4dd0f910-5739-4fa3-be84-a48d7b9b2753",
+    "lyrics": {
+      "url": "https://www.lyricsmint.com/tamasha/agar-tum-saath-ho",
+      "provider": "LyricsMINT",
+      "format": "text"
+    },
+    "original": {
+      "url": "https://www.youtube.com/watch?v=6SGRn9OHtFY",
+      "provider": "T-Series",
+      "format": "video"
+    },
+    "karaoke": {
+      "url": "https://www.youtube.com/watch?v=f8xuZQ3QORI",
+      "provider": "Sing India Karaoke"
+    }
+  },
+  {
+    "songId": "mb:e53edec4-4e56-4543-8737-2a25be46ba2d",
+    "lyrics": {
+      "url": "https://www.youtube.com/watch?v=jFKBR1ggTMY",
+      "provider": "Queen Official",
+      "format": "lyric_video"
+    },
+    "original": {
+      "url": "https://www.youtube.com/watch?v=fJ9rUzIMcZQ",
+      "provider": "Queen Official",
+      "format": "video"
+    },
+    "karaoke": {
+      "url": "https://www.youtube.com/watch?v=yvEcMrstp80",
+      "provider": "Zoom Karaoke Official"
+    }
+  },
+  {
+    "songId": "mb:e27ee5d7-703d-4985-a183-e5eef0020fb5",
+    "lyrics": {
+      "url": "https://www.lyricsmint.com/ae-dil-hai-mushkil/channa-mereya",
+      "provider": "LyricsMINT",
+      "format": "text"
+    },
+    "original": {
+      "url": "https://www.youtube.com/watch?v=284Ov7ysmfA",
+      "provider": "Sony Music India",
+      "format": "video"
+    },
+    "karaoke": {
+      "url": "https://www.youtube.com/watch?v=vlsoqMJDsjM",
+      "provider": "Sing Tunes"
+    }
+  },
+  {
+    "songId": "mb:d792099b-7189-4598-860a-2513f634b06f",
+    "lyrics": {
+      "url": "https://www.lyricsbogie.com/ek-ajnabee-haseena-se/",
+      "provider": "LyricsBogie",
+      "format": "text"
+    },
+    "original": {
+      "url": "https://www.youtube.com/watch?v=vS_JXshiu68",
+      "provider": "Saregama Music",
+      "format": "video"
+    },
+    "karaoke": {
+      "url": "https://www.youtube.com/watch?v=KesiUZyYS1c",
+      "provider": "Saregama Karaoke"
+    }
+  },
+  {
+    "songId": "mb:47a1520a-c583-40c6-b208-1501a33e7e90",
+    "lyrics": {
+      "url": "https://www.lyricsmint.com/hamari-adhuri-kahani/hasi-male-version",
+      "provider": "LyricsMINT",
+      "format": "text"
+    },
+    "original": {
+      "url": "https://www.youtube.com/watch?v=FOkVXadnO88",
+      "provider": "Sony Music India",
+      "format": "video"
+    },
+    "karaoke": {
+      "url": "https://www.youtube.com/watch?v=E9tWUCV-A_o",
+      "provider": "Arslan Ali Butt"
+    }
+  },
+  {
+    "songId": "mb:eb97a500-e1a5-4f07-bcbc-8bd510fb65cc",
+    "lyrics": {
+      "url": "https://www.shazam.com/song/1070912815/ilahi",
+      "provider": "Shazam",
+      "format": "text"
+    },
+    "original": {
+      "url": "https://www.youtube.com/watch?v=AicKz1ISNjU",
+      "provider": "T-Series",
+      "format": "video"
+    },
+    "karaoke": {
+      "url": "https://www.youtube.com/watch?v=6uJjVI98I0o",
+      "provider": "RuCho"
+    }
+  },
+  {
+    "songId": "mb:1366b057-6d90-4880-a1ba-9b8029bc759c",
+    "lyrics": {
+      "url": "https://www.johnlennon.com/music/singles/imagine/",
+      "provider": "John Lennon Official",
+      "format": "text"
+    },
+    "original": {
+      "url": "https://www.youtube.com/watch?v=YkgkThdzX-8",
+      "provider": "johnlennon",
+      "format": "video"
+    },
+    "karaoke": {
+      "url": "https://www.youtube.com/watch?v=Adb4fbt4Y0g",
+      "provider": "Zoom Karaoke Official"
+    }
+  },
+  {
+    "songId": "mb:2c79b42b-6c9a-4df7-a0ea-94f859bea3f3",
+    "lyrics": {
+      "url": "https://lyricsmint.com/atif-aslam/jeena-jeena-79d2b3b6-ba61-40f0-af31-e20a6656a143",
+      "provider": "LyricsMINT",
+      "format": "text"
+    },
+    "original": {
+      "url": "https://www.youtube.com/watch?v=mAfdNgWfWKU",
+      "provider": "Sony Music India",
+      "format": "video"
+    },
+    "karaoke": {
+      "url": "https://www.youtube.com/watch?v=V2nlV-GSUmg",
+      "provider": "TR Sound Project"
+    }
+  },
+  {
+    "songId": "mb:fb43bc8c-99d0-42cd-b1d8-9293ec7bd377",
+    "lyrics": {
+      "url": "https://www.shazam.com/song/1070912818/kabira",
+      "provider": "Shazam",
+      "format": "text"
+    },
+    "original": {
+      "url": "https://www.youtube.com/watch?v=jHNNMj5bNQw",
+      "provider": "T-Series",
+      "format": "video"
+    },
+    "karaoke": {
+      "url": "https://www.youtube.com/watch?v=aAHH0rpeNh8",
+      "provider": "Nepali Karaoke"
+    }
+  },
+  {
+    "songId": "mb:f2a2ffcc-4ca6-4534-b02a-6eb9befa1bb3",
+    "lyrics": {
+      "url": "https://www.lyricsmint.com/kal-ho-naa-ho/kal-ho-naa-ho",
+      "provider": "LyricsMINT",
+      "format": "text"
+    },
+    "original": {
+      "url": "https://www.youtube.com/watch?v=g0eO74UmRBs",
+      "provider": "Sony Music India",
+      "format": "video"
+    },
+    "karaoke": {
+      "url": "https://www.youtube.com/watch?v=lNxFzIK-TwU",
+      "provider": "Karaoke Unplugged"
+    }
+  },
+  {
+    "songId": "mb:393ad701-a13d-4f1c-9e3f-65dfd7cac167",
+    "lyrics": {
+      "url": "https://lyricsmint.com/arijit-singh/kesariya",
+      "provider": "LyricsMINT",
+      "format": "text"
+    },
+    "original": {
+      "url": "https://www.youtube.com/watch?v=g6fnFALEseI",
+      "provider": "SonyMusicIndiaVEVO",
+      "format": "video"
+    },
+    "karaoke": {
+      "url": "https://www.youtube.com/watch?v=L3Lv0ISR9oQ",
+      "provider": "Shahbaz Siddiqui"
+    }
+  },
+  {
+    "songId": "mb:a522733c-8808-4e8f-8ea0-28f2c01fb97f",
+    "lyrics": {
+      "url": "https://www.bobdylan.com/songs/knockin-heavens-door/",
+      "provider": "Bob Dylan Official",
+      "format": "text"
+    },
+    "original": {
+      "url": "https://www.youtube.com/watch?v=rm9coqlk8fY",
+      "provider": "BobDylanVEVO",
+      "format": "audio"
+    },
+    "karaoke": {
+      "url": "https://www.youtube.com/watch?v=GdbNa-KHmtk",
+      "provider": "Zoom Karaoke Official"
+    },
+    "video": {
+      "url": "https://www.youtube.com/watch?v=cJpB_AEZf6U",
+      "provider": "Bob Dylan",
+      "label": "Live performance video"
+    }
+  },
+  {
+    "songId": "mb:2bba1a1d-39eb-4caf-aeac-33fa5baf4eb2",
+    "lyrics": {
+      "url": "https://www.lyricsmint.com/rockstar/kun-faya-kun",
+      "provider": "LyricsMINT",
+      "format": "text"
+    },
+    "original": {
+      "url": "https://www.youtube.com/watch?v=T94PHkuydcw",
+      "provider": "T-Series",
+      "format": "video"
+    },
+    "karaoke": {
+      "url": "https://www.youtube.com/watch?v=Ezz5bP5r8-c",
+      "provider": "Arhaan Khan Music"
+    }
+  },
+  {
+    "songId": "mb:8b6a8b89-4d4c-4164-8433-75b58bd48799",
+    "lyrics": {
+      "url": "https://lyricsweb.com/song/gary-jules-michael-andrews/gary-jules-and-michael-andrews-mad-world",
+      "provider": "LyricsWeb",
+      "format": "text"
+    },
+    "original": {
+      "url": "https://www.youtube.com/watch?v=etSbOs3aUqI",
+      "provider": "Gary Jules Official",
+      "format": "video"
+    },
+    "karaoke": {
+      "url": "https://www.youtube.com/watch?v=B6baTDvZJJ4",
+      "provider": "Sing4Moon Karaoke"
+    }
+  },
+  {
+    "songId": "mb:932a1647-af79-41d8-8efe-145a7bd5c7d8",
+    "lyrics": {
+      "url": "https://bharatlyrics.com/nazm-nazm-lyrics/",
+      "provider": "BharatLyrics",
+      "format": "text"
+    },
+    "original": {
+      "url": "https://www.youtube.com/watch?v=DK_UsATwoxI",
+      "provider": "Zee Music Company",
+      "format": "video"
+    },
+    "karaoke": {
+      "url": "https://www.youtube.com/watch?v=DQeoSkNUWAI",
+      "provider": "Sing India Karaoke"
+    }
+  },
+  {
+    "songId": "mb:c53f4c04-feda-43b8-b341-6eecffc47133",
+    "lyrics": {
+      "url": "https://lyricsmint.com/mohit-chauhan/pee-loon",
+      "provider": "LyricsMINT",
+      "format": "text"
+    },
+    "original": {
+      "url": "https://www.youtube.com/watch?v=D8XFTglfSMg",
+      "provider": "T-Series",
+      "format": "video"
+    },
+    "karaoke": {
+      "url": "https://www.youtube.com/watch?v=UaS3_RxIuRI",
+      "provider": "Brain Dead Karaoke"
+    }
+  },
+  {
+    "songId": "mb:332a9bd7-e7b2-4fbe-a18a-fa956c7fc06b",
+    "lyrics": {
+      "url": "https://nsrgm-www.saregama.com/song-lyrics/pehla-nasha_24817",
+      "provider": "Saregama",
+      "format": "text"
+    },
+    "original": {
+      "url": "https://www.youtube.com/watch?v=ZYotlBxpM3Q",
+      "provider": "Saregama Music",
+      "format": "video"
+    },
+    "karaoke": {
+      "url": "https://www.youtube.com/watch?v=17bJ89Ht7zs",
+      "provider": "Saregama Karaoke"
+    }
+  },
+  {
+    "songId": "mb:b84dd2d1-2bf1-4fcc-aadc-6cc39c36ba35",
+    "lyrics": {
+      "url": "https://www.youtube.com/watch?v=iKzRIweSBLA",
+      "provider": "Ed Sheeran",
+      "format": "lyric_video"
+    },
+    "original": {
+      "url": "https://www.youtube.com/watch?v=2Vv-BfVoq4g",
+      "provider": "Ed Sheeran",
+      "format": "video"
+    },
+    "karaoke": {
+      "url": "https://www.youtube.com/watch?v=Z-njOmb1-mo",
+      "provider": "Zoom Karaoke Official"
+    }
+  },
+  {
+    "songId": "mb:a12467af-5c00-4fbf-8615-4dbab2cf8ea2",
+    "lyrics": {
+      "url": "https://www.lyricsmint.com/agent-vinod/raabta",
+      "provider": "LyricsMINT",
+      "format": "text"
+    },
+    "original": {
+      "url": "https://www.youtube.com/watch?v=HDVw7Y6uAws",
+      "provider": "T-Series Bollywood Classics",
+      "format": "video"
+    },
+    "karaoke": {
+      "url": "https://www.youtube.com/watch?v=EFfQ3u9bzCQ",
+      "provider": "Groov On Karaoke"
+    }
+  },
+  {
+    "songId": "mb:d7500dd6-b815-4299-88c6-3fbda358f1fc",
+    "lyrics": {
+      "url": "https://www.youtube.com/watch?v=_dK2tDK9grQ",
+      "provider": "Ed Sheeran",
+      "format": "lyric_video"
+    },
+    "original": {
+      "url": "https://www.youtube.com/watch?v=JGwWNGJdvx8",
+      "provider": "Ed Sheeran",
+      "format": "video"
+    },
+    "karaoke": {
+      "url": "https://www.youtube.com/watch?v=Mbt6nFx4irU",
+      "provider": "Zoom Karaoke Official"
+    }
+  },
+  {
+    "songId": "mb:028efe7f-cdfb-4135-846f-848f2fff15b1",
+    "lyrics": {
+      "url": "https://www.shazam.com/song/1544491998/someone-like-you",
+      "provider": "Shazam",
+      "format": "text"
+    },
+    "original": {
+      "url": "https://www.youtube.com/watch?v=hLQl3WQQoQ0",
+      "provider": "Adele",
+      "format": "video"
+    },
+    "karaoke": {
+      "url": "https://www.youtube.com/watch?v=rMSQwIp4Jg8",
+      "provider": "Musisi Karaoke"
+    }
+  },
+  {
+    "songId": "mb:b3a891ad-83a5-4080-bb1d-5b5386e24161",
+    "lyrics": {
+      "url": "https://www.shazam.com/song/880423676/stand-by-me",
+      "provider": "Shazam",
+      "format": "text"
+    },
+    "original": {
+      "url": "https://www.youtube.com/watch?v=z5i9vT8wGY8",
+      "provider": "RHINO",
+      "format": "video"
+    },
+    "karaoke": {
+      "url": "https://www.youtube.com/watch?v=Ve5tKGh1t8o",
+      "provider": "Zoom Karaoke Official"
+    }
+  },
+  {
+    "songId": "mb:195d5e57-96b8-4fd4-9212-3d17d2334a1f",
+    "lyrics": {
+      "url": "https://www.lyricsmint.com/kabir-singh-singer/tera-ban-jaunga",
+      "provider": "LyricsMINT",
+      "format": "text"
+    },
+    "original": {
+      "url": "https://www.youtube.com/watch?v=Qdz5n1Xe5Qo",
+      "provider": "T-Series",
+      "format": "video"
+    },
+    "karaoke": {
+      "url": "https://www.youtube.com/watch?v=UvFHNrnb078",
+      "provider": "Sing Tunes"
+    }
+  },
+  {
+    "songId": "mb:a8b58047-ec5c-441a-a289-c77426cf986e",
+    "lyrics": {
+      "url": "https://www.shazam.com/song/1625213809/three-little-birds",
+      "provider": "Shazam",
+      "format": "text"
+    },
+    "original": {
+      "url": "https://www.youtube.com/watch?v=HNBCVM4KbUM",
+      "provider": "BobMarleyVEVO",
+      "format": "video"
+    },
+    "karaoke": {
+      "url": "https://www.youtube.com/watch?v=qgxVkTmX2mQ",
+      "provider": "Zoom Karaoke Official"
+    }
+  },
+  {
+    "songId": "mb:3e5bc764-dfa4-454d-a2a9-0ee84ae35db2",
+    "lyrics": {
+      "url": "https://www.lyricsoff.com/songs/tum-hi-ho",
+      "provider": "LyricsOff",
+      "format": "text"
+    },
+    "original": {
+      "url": "https://www.youtube.com/watch?v=WWZxDA81JFk",
+      "provider": "T-Series",
+      "format": "video"
+    },
+    "karaoke": {
+      "url": "https://www.youtube.com/watch?v=Mqkmk29SqlA",
+      "provider": "Sing Tunes"
+    }
+  },
+  {
+    "songId": "mb:34fa4a16-dac7-4413-a59f-e6a8f021b19c",
+    "lyrics": {
+      "url": "https://www.saregama.com/song-lyrics/yeh-sham-mastani_20451",
+      "provider": "Saregama",
+      "format": "text"
+    },
+    "original": {
+      "url": "https://www.youtube.com/watch?v=wp7zOathDFo",
+      "provider": "Saregama Music",
+      "format": "video"
+    },
+    "karaoke": {
+      "url": "https://www.youtube.com/watch?v=Y_BsWE1Wldw",
+      "provider": "RK Studios"
+    }
+  },
+  {
+    "songId": "mb:45310e75-4252-424c-a62f-09a3082d30e8",
+    "lyrics": {
+      "url": "https://www.thebeatles.com/yellow-submarine-0",
+      "provider": "The Beatles Official",
+      "format": "text"
+    },
+    "original": {
+      "url": "https://www.youtube.com/watch?v=m2uTFF_3MaA",
+      "provider": "TheBeatlesVEVO",
+      "format": "video"
+    },
+    "karaoke": {
+      "url": "https://www.youtube.com/watch?v=1ANevHinhpc",
+      "provider": "Zoom Karaoke Official"
+    }
+  }
+]

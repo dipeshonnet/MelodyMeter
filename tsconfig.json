@@ -1,0 +1,6 @@
+{
+  "extends": "astro/tsconfigs/strict",
+  "include": [".astro/types.d.ts", "src/**/*", "shared/**/*"],
+  "exclude": ["dist", "node_modules", "worker", "tests", "scripts", "functions"],
+  "compilerOptions": { "types": ["node"], "resolveJsonModule": true }
+}

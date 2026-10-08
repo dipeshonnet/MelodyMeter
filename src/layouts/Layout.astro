@@ -1,0 +1,44 @@
+---
+import '../styles/global.css';
+interface Props { title?: string; description?: string; privatePage?: boolean; }
+const { title = 'MelodyMeter — find a song you can sing', description = 'Find out how easy a song is to sing. Explore Hindi and English songs with AI estimates and verified audience ratings.', privatePage = false } = Astro.props;
+const pathname = Astro.url.pathname;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#101b31" />
+    <meta name="description" content={description} />
+    <meta name="referrer" content="no-referrer" />
+    {privatePage && <meta name="robots" content="noindex,nofollow" />}
+    <title>{title}</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/icons/icon-192.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    {!privatePage && <link rel="canonical" href={new URL(pathname, Astro.site || Astro.url.origin).href} />}
+  </head>
+  <body>
+    <a href="#main" class="skip-link">Skip to content</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a href="/" class="brand" aria-label="MelodyMeter home"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span>Melody<span class="brand-accent">Meter</span></span></a>
+        <nav aria-label="Main navigation">
+          <a href="/" class:list={[pathname === '/' && 'current']}>Explore</a>
+          <a href="/?saved=1">Saved songs <span class="saved-count" id="saved-count">0</span></a>
+          <a href="/how-we-rate/" class:list={[pathname === '/how-we-rate/' && 'current']}>How we rate</a>
+        </nav>
+        <button class="install-button" id="install-app" hidden>Install app</button>
+      </div>
+    </header>
+    <div id="connection-notice" class="connection-notice" role="status" hidden>You’re offline. Saved songs and estimates are available.</div>
+    <main id="main"><slot /></main>
+    <footer class="site-footer"><a class="brand-text" href="/">MelodyMeter</a><span>Your next song, within reach.</span><a href="/privacy/">Privacy</a><a href="/how-we-rate/">Rating guide</a><a id="local-mail-link" href="/dev-mail/" hidden>Local test inbox</a></footer>
+    <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+    <script>import '../scripts/common';</script>
+  </body>
+</html>

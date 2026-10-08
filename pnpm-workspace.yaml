@@ -1,0 +1,11 @@
+packages:
+  - '.'
+allowBuilds:
+  esbuild: true
+  sharp: true
+  workerd: true
+minimumReleaseAgeExclude:
+  - astro@7.3.8
+overrides:
+  sharp: 0.35.5
+  http-cache-semantics: 4.3.0

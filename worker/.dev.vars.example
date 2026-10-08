@@ -1,0 +1,5 @@
+# Copy to worker/.dev.vars for LOCAL development only. Never deploy DEV_MODE=true.
+DEV_MODE=true
+EMAIL_HMAC_SECRET=local-development-only-replace-with-random-secret
+# Production secrets: EMAIL_HMAC_SECRET, RESEND_API_KEY, TURNSTILE_SECRET_KEY, ADMIN_SECRET
+# Generate secrets with: node -e "console.log(require('node:crypto').randomBytes(32).toString('hex'))"

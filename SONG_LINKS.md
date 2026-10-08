@@ -1,0 +1,9 @@
+# Song practice resources
+
+The original 27 songs retain 82 researched external links: lyrics, original audio/video, and a karaoke backing track for every recording, plus a separately labeled Bob Dylan live performance video. Links were discovered using web search on 4 October 2026 and matched to the named singer and song. Original uploads prefer artist/label channels. Karaoke providers are named separately; backing tracks can use a different key or arrangement.
+
+`data/song-resources.json` is a separate curated resource catalog keyed by MusicBrainz recording identity. Catalog exports and live rating refreshes do not erase the links. Both pre-rendered pages and the dynamic `/song/?id=…` page use the same resource mapping. Newly added recordings have song/artist/album-specific lyrics, original-song, and karaoke search links, explicitly labeled “link not yet curated.” These are search destinations, not verified direct recordings. No runtime search service, paid API, embedded player, or third-party media download is required. Lyrics are linked externally and are not copied into this repository.
+
+`scripts/check-song-resources.mjs` validates unique recording identities and HTTPS/video identities for direct links. `--network` checks public lyrics pages and YouTube oEmbed availability/title/channel metadata, recording only metadata in `artifacts/song-resource-check.json`. All 82 direct links returned success in the original check. This verifies page/metadata availability, not full playback in every country. `--built` checks exact direct links for the original songs and clearly labeled search links for new songs, with secure new-tab attributes on every pre-rendered page.
+
+The resource section does not analyze the linked audio and does not change any AI assessment or audience vote.

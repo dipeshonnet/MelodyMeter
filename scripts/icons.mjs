@@ -1,0 +1,10 @@
+import { createRequire } from 'node:module';
+import { readFileSync, mkdirSync } from 'node:fs';
+const require = createRequire(import.meta.url), astroRequire = createRequire(require.resolve('astro/package.json'));
+const sharp = astroRequire('sharp');
+mkdirSync('public/icons', { recursive: true });
+const svg = readFileSync('public/favicon.svg');
+await sharp(svg).resize(192, 192).png().toFile('public/icons/icon-192.png');
+await sharp(svg).resize(512, 512).png().toFile('public/icons/icon-512.png');
+const mask = Buffer.from('<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512"><rect width="512" height="512" fill="#101b31"/></svg>');
+await sharp(mask).composite([{ input: await sharp(svg).resize(310, 310).png().toBuffer(), left: 101, top: 101 }]).png().toFile('public/icons/maskable-512.png');
