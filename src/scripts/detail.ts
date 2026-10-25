@@ -1,4 +1,4 @@
-import { FACTORS, emptyAudience, primaryScore, overallLabel, easeLabel, type Song, type VoteInput, type RatingResponse } from '../../shared/rating';
+import { FACTORS, emptyAudience, primaryScore, overallLabel, easeLabel, type Song, type VoteInput, type RatingResponse, type PartialAudioRating, type FullAudioRating } from '../../shared/rating';
 import { api, ClientError, readStorage, writeStorage, toast, updateFavorites } from './common';
 import { challenge, resetChallenge } from './challenges';
 import { practiceLinks } from '../../shared/song-resources';
@@ -33,8 +33,47 @@ function applySession() {
   document.querySelector<HTMLElement>('#google-login')!.hidden = active || !googleEnabled;
   submit.textContent = active ? 'Submit rating' : 'Verify & submit rating';
 }
+function renderPartialAudio(audio?: PartialAudioRating) {
+  document.querySelector<HTMLElement>('#partial-audio-panel')!.hidden = !audio;
+  document.querySelector('#ai-status-label')!.textContent = audio ? 'Full-song audio not analyzed' : 'Audio not analyzed';
+  if (!audio) return;
+  const full = audio.scope === 'full_recording';
+  document.querySelector('#partial-audio-heading')!.textContent = full ? 'Partial scores from full-song audio' : 'Partial audio preview scores';
+  document.querySelector('#ai-status-label')!.textContent = full ? 'Full audio analyzed · Partial factors available' : 'Full-song audio not analyzed';
+  document.querySelector('#partial-audio-coverage')!.textContent = `${audio.confidentPitchSeconds} confident pitch seconds from a ${audio.clipSeconds}-second ${full ? 'full recording' : 'preview'}. No overall is computed from these measurements; blank factors were not measured.`;
+  document.querySelector('#partial-audio-factors')!.replaceChildren(...FACTORS.map(factor => {
+    const row = document.createElement('div'); row.className = 'partial-audio-factor';
+    const description = document.createElement('div');
+    const label = document.createElement('strong'); label.textContent = factor.id === 'range' ? 'Sampled pitch range' : factor.label;
+    const reason = document.createElement('p'); reason.textContent = audio.reasons[factor.id] || 'Not measured from this preview.';
+    description.append(label, reason);
+    const score = document.createElement('strong'); score.textContent = audio.factors[factor.id] === undefined ? '—' : `${audio.factors[factor.id]}/10`;
+    row.append(description, score); return row;
+  }));
+  const source = document.querySelector<HTMLAnchorElement>('#partial-audio-source')!;
+  source.href = audio.sourceUrl;
+  source.textContent = `Audio source: ${audio.sourceTitle} · ${audio.sourceArtist} on ${full ? 'YouTube' : 'Apple Music'} ↗`;
+}
+function renderFullAudio(audio?: FullAudioRating) {
+  document.querySelector<HTMLElement>('#full-audio-panel')!.hidden = !audio;
+  if (!audio) return;
+  document.querySelector('#ai-status-label')!.textContent = 'Full audio estimate · 9 factors · Low confidence';
+  document.querySelector('#full-audio-overall')!.textContent = String(audio.overall);
+  document.querySelector('#full-audio-coverage')!.textContent = `${audio.trackingPitchSeconds} low-threshold pitch seconds (${audio.confidentPitchSeconds} at high confidence) across a ${audio.clipSeconds}-second recording. Weighted overall uses the nine factors below.`;
+  document.querySelector('#full-audio-factors')!.replaceChildren(...FACTORS.map(f => {
+    const row = document.createElement('div'); row.className = 'audio-factor';
+    const description = document.createElement('div'), label = document.createElement('strong'), reason = document.createElement('p');
+    label.textContent = f.label; reason.textContent = audio.reasons[f.id]; description.append(label, reason);
+    const score = document.createElement('strong'), confidence = document.createElement('small');
+    score.textContent = `${audio.factors[f.id]}/10`; confidence.textContent = 'Low confidence'; score.append(confidence); row.append(description, score); return row;
+  }));
+  document.querySelector('#full-audio-limitations')!.replaceChildren(...audio.limitations.map(text => { const item = document.createElement('li'); item.textContent = text; return item; }));
+  const link = document.querySelector<HTMLAnchorElement>('#full-audio-source')!; link.href = audio.sourceUrl; link.textContent = `Audio source: ${audio.sourceTitle} · ${audio.sourceArtist} ↗`;
+}
 function render(value: RatingResponse, cached = false) {
   song = value.song; songId = song.id; root.dataset.songId = songId;
+  renderPartialAudio(song.audioEstimate ? undefined : song.audio);
+  renderFullAudio(song.audioEstimate);
   const links = practiceLinks(songId, song);
   const practicePanel = document.querySelector<HTMLElement>('#practice-panel')!;
   const practiceContainer = document.querySelector<HTMLElement>('#practice-links')!;
@@ -49,7 +88,7 @@ function render(value: RatingResponse, cached = false) {
     const provider = document.createElement('small'); provider.textContent = link.provider;
     anchor.append(icon, title, action, provider); return anchor;
   }));
-  const { score, source } = primaryScore(value.ai, value.audience);
+  const { score, source } = primaryScore(value.ai, value.audience, song.audioEstimate);
   document.querySelectorAll('[data-song-title]').forEach(el => { el.textContent = song!.title; });
   document.querySelector('[data-song-artist]')!.textContent = song.artist;
   document.querySelector('[data-language]')!.textContent = song.language;
@@ -62,22 +101,24 @@ function render(value: RatingResponse, cached = false) {
   scoreElement.querySelector('strong')!.textContent = score === null ? '—' : source === 'community' ? score.toFixed(1) : String(score);
   scoreElement.dataset.tier = score === null ? 'pending' : score >= 7 ? 'easy' : score >= 5 ? 'medium' : 'hard';
   document.querySelector('#primary-label')!.textContent = score === null ? 'Estimate not available yet' : overallLabel(score);
-  document.querySelector('#primary-source')!.textContent = source === 'community' ? `Community rated · ${value.audience.overall.count} verified ratings` : value.ai ? 'AI estimate · 10 is easiest' : 'Request an estimate below';
+  document.querySelector('#primary-source')!.textContent = source === 'community' ? `Community rated · ${value.audience.overall.count} verified ratings` : source === 'audio' ? 'Automated audio estimate · Low confidence · 10 is easiest' : value.ai ? 'AI estimate · 10 is easiest' : 'Request an estimate below';
   const secondary = document.querySelector<HTMLElement>('#ai-secondary')!; secondary.hidden = source !== 'community' || !value.ai; secondary.textContent = value.ai ? `AI estimate: ${value.ai.overall}/10` : '';
   document.querySelector('#community-count')!.textContent = value.audience.overall.qualified ? `${value.audience.overall.count} verified audience ratings` : `${value.audience.overall.count} of 10 audience ratings received`;
   document.querySelector<HTMLElement>('#community-progress')!.style.width = `${Math.min(100, value.audience.overall.count * 10)}%`;
-  document.querySelector('#assessment')!.textContent = value.ai?.explanation || 'An AI estimate will appear here when enough information is available. You can still share your own singing experience.';
+  document.querySelector('#assessment')!.textContent = song.audioEstimate ? 'Automated acoustic proxies across the complete recording. All factors are low confidence; see measurements and limitations below.' : value.ai?.explanation || 'An AI estimate will appear here when enough information is available. You can still share your own singing experience.';
   document.querySelector<HTMLElement>('#tip-panel')!.hidden = !value.ai;
   document.querySelector('#singing-tip')!.textContent = value.ai?.tip || '';
+  document.querySelector('#factor-estimate-label')!.textContent = song.audioEstimate ? 'Audio' : 'AI';
+  const estimate = song.audioEstimate ?? value.ai;
   FACTORS.forEach(f => {
     const row = document.querySelector<HTMLElement>(`[data-factor="${f.id}"]`)!;
-    const ai = value.ai?.factors[f.id]; const community = value.audience.factors[f.id];
-    row.querySelector('[data-factor-reason]')!.textContent = value.ai?.reasons[f.id] || f.description;
+    const ai = estimate?.factors[f.id]; const community = value.audience.factors[f.id];
+    row.querySelector('[data-factor-reason]')!.textContent = estimate?.reasons[f.id] || f.description;
     row.querySelector('[data-factor-ai]')!.innerHTML = `${ai ?? '—'}<small>${ai ? easeLabel(ai) : 'Pending'}</small>`;
     row.querySelector('[data-factor-community]')!.innerHTML = community.qualified && community.score !== null ? `<b>${community.score.toFixed(1)}/10</b>${community.count} ratings` : `${community.count} of 10<br>ratings`;
   });
-  document.querySelector('#rating-date')!.textContent = `${cached ? 'Saved snapshot · ' : ''}${value.ai ? `${value.ai.model === 'authoring-ai-provisional' ? 'Provisional AI judgment' : 'AI estimate'} updated ${new Date(value.ai.generatedAt).toLocaleDateString()}` : 'Main lead melody in a comfortable key'}${cached ? ' · Community counts may have changed since this was saved.' : ''}`;
-  pendingPanel.hidden = !!value.ai;
+  document.querySelector('#rating-date')!.textContent = `${cached ? 'Saved snapshot · ' : ''}${song.audioEstimate ? `Low-confidence audio estimate updated ${new Date(song.audioEstimate.generatedAt).toLocaleDateString()}` : value.ai ? `${value.ai.model === 'authoring-ai-provisional' ? 'Provisional AI judgment' : 'AI estimate'} updated ${new Date(value.ai.generatedAt).toLocaleDateString()}` : 'Main lead melody in a comfortable key'}${cached ? ' · Community counts may have changed since this was saved.' : ''}`;
+  pendingPanel.hidden = !!value.ai || !!song.audioEstimate;
   const generation = document.querySelector<HTMLButtonElement>('#request-estimate')!;
   const job = value.job;
   document.querySelector('#generation-copy')!.textContent = job?.message || (job ? 'Your estimate is waiting to be generated. It will be saved for everyone.' : 'Request an AI estimate for this recording.');
@@ -146,6 +187,8 @@ async function initialize() {
   if (!songId) { showStatus('Choose a recording from the catalog first.', true); submit.disabled = true; return; }
   if (!song) { try { song = JSON.parse(sessionStorage.getItem(`mm:found:${songId}`) || 'null'); } catch {} }
   const cached = readStorage<RatingResponse | null>(`mm:rating:${songId}`, null);
+  if (cached && song?.audio && (!cached.song.audio || song.audio.generatedAt > cached.song.audio.generatedAt)) cached.song.audio = song.audio;
+  if (cached && song?.audioEstimate && (!cached.song.audioEstimate || song.audioEstimate.generatedAt > cached.song.audioEstimate.generatedAt)) cached.song.audioEstimate = song.audioEstimate;
   if (cached && song?.ai && (!cached.ai || song.ai.generatedAt > cached.ai.generatedAt)) {
     cached.ai = song.ai; cached.song = song;
     writeStorage(`mm:rating:${songId}`, cached);

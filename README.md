@@ -1,8 +1,8 @@
 # MelodyMeter
 
-An Astro + TypeScript PWA that rates **ease of singing**. Higher is easier. The main lead melody is judged in a comfortable key; there is no playback, audio upload, or claim of audio analysis.
+An Astro + TypeScript PWA that rates **ease of singing**. Higher is easier. AI overall estimates use song knowledge. Separate sound analysis supports partial preview measurements and complete nine-factor estimates from matching full YouTube or public Monochrome recordings. Complete estimates explicitly have low confidence, disclose their acoustic proxies and pitch coverage, and do not verify the lead singer; see [AUDIO_ANALYSIS.md](AUDIO_ANALYSIS.md). There is no in-app playback or audio upload.
 
-The deployed catalog contains 325 songs (164 Hindi, 161 English), with at least 20 per language in every decade from the 1950s through the 2020s. Use the decade dropdown alongside language and difficulty filters. Existing estimates are preserved; 298 new entries await assessment. See [DECADE_CATALOG.md](DECADE_CATALOG.md) for metadata provenance and the expansion workflow.
+The catalog contains 325 songs (164 Hindi, 161 English), with at least 20 per language in every decade from the 1950s through the 2020s. Use the decade dropdown alongside language and difficulty filters. Existing AI estimates and audience votes are preserved. Qualified audience ratings take precedence, then complete audio estimates, then AI knowledge estimates. Partial audio measurements have no overall. See [DECADE_CATALOG.md](DECADE_CATALOG.md) for metadata provenance and the expansion workflow.
 
 ## Run locally without accounts
 
@@ -114,6 +114,21 @@ Current source references for setup: [Cloudflare Pages service bindings](https:/
 ## Score and privacy rules
 
 Weights: singing speed 15%, pitch range 20%, note jumps 15%, held notes 10%, breathing room 10%, rhythm/timing 10%, vocal runs 10%, stamina 5%, section changes 5%. AI factors are integers, and the application computes the rounded weighted mean.
+
+Full-recording automated estimates can also supply all nine factors. Every audio
+factor is explicitly low confidence and uses an unvalidated acoustic proxy, with
+source, duration, pitch coverage, reasons and limitations shown on the song page.
+Qualified community ratings take precedence, followed by complete audio estimates,
+then AI knowledge ratings. Partial audio factors never produce an overall.
+See [AUDIO_ANALYSIS.md](AUDIO_ANALYSIS.md) for the analysis and import workflow.
+
+The finite continuation runner `scripts/finish-complete-audio.mjs` waits for existing
+analysis batches, retries missing sources, applies neural vocal separation to
+remaining incomplete recordings, and publishes supported checkpoints to both the
+API and frontend. It verifies every published assessment against the saved data.
+Progress and deployment failures are recorded in
+`artifacts/complete-audio-workflow.json`; coverage is in
+`artifacts/complete-audio-summary.md`. It creates no recurring schedule.
 
 Audience overall is required; factors are optional and are never filled with AI values. Equal-weight means are shown to one decimal only after ten verified votes for the relevant overall or factor. The audience overall comes from overall submissions, independently of factor means. Invalid vote removal immediately rebuilds aggregates; counts below ten revert to AI primary. Ten votes are a publication threshold, not a claim of certainty.
 

@@ -1,0 +1,19 @@
+---
+import { FACTORS, type PartialAudioRating } from '../../shared/rating';
+interface Props { audio?: PartialAudioRating; }
+const { audio } = Astro.props;
+---
+<section id="partial-audio-panel" class="panel partial-audio-panel" aria-labelledby="partial-audio-heading" hidden={!audio}>
+  <h2 id="partial-audio-heading">{audio?.scope === 'full_recording' ? 'Partial scores from full-song audio' : 'Partial audio preview scores'}</h2>
+  <p>Provisional estimates of sampled sound. The lead voice and recording version are unverified; instruments and pitch-tracking errors can affect these scores.</p>
+  <p id="partial-audio-coverage">{audio ? `${audio.confidentPitchSeconds} confident pitch seconds from a ${audio.clipSeconds}-second ${audio.scope === 'full_recording' ? 'full recording' : 'preview'}. No overall is computed from these measurements; blank factors were not measured.` : ''}</p>
+  <div id="partial-audio-factors">{FACTORS.map(factor => <div class="partial-audio-factor"><div><strong>{factor.id === 'range' ? 'Sampled pitch range' : factor.label}</strong><p>{audio?.reasons[factor.id] || 'Not measured from this preview.'}</p></div><strong>{audio?.factors[factor.id] === undefined ? '—' : `${audio.factors[factor.id]}/10`}</strong></div>)}</div>
+  <a id="partial-audio-source" href={audio?.sourceUrl} target="_blank" rel="noopener noreferrer">{audio ? `Audio source: ${audio.sourceTitle} · ${audio.sourceArtist} on ${audio.scope === 'full_recording' ? 'YouTube' : 'Apple Music'} ↗` : ''}</a>
+</section>
+<style>
+  .partial-audio-panel { margin: 20px 0; padding: 24px; }
+  .partial-audio-panel > p { color: var(--muted, #6a7380); line-height: 1.6; }
+  .partial-audio-panel :global(.partial-audio-factor) { display: flex; justify-content: space-between; gap: 20px; padding: 14px 0; border-top: 1px solid var(--border, #e4e8eb); }
+  .partial-audio-panel :global(.partial-audio-factor p) { margin: 6px 0 0; font-size: 13px; line-height: 1.5; color: var(--muted, #6a7380); }
+  .partial-audio-panel :global(.partial-audio-factor > strong) { white-space: nowrap; }
+</style>

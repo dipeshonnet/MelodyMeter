@@ -16,7 +16,7 @@ export class SongCatalog {
 
   add(song: Song): boolean {
     if (this.entries.has(song.id)) return false;
-    this.entries.set(song.id, { song, text: songSearchText(song), score: song.ai?.overall ?? null });
+    this.entries.set(song.id, { song, text: songSearchText(song), score: song.audioEstimate?.overall ?? song.ai?.overall ?? null });
     this.orders.clear();
     return true;
   }

@@ -1,9 +1,10 @@
 import { FACTOR_IDS, audienceFromPayload, type AIRating, type Song, type VoteInput } from '../../shared/rating';
 import type { Env, SongRow } from './types';
 import { ApiError, now } from './security';
+import { partialAudioFor, fullAudioFor } from '../../shared/audio-assessments';
 
 export function songFromRow(row: SongRow): Song {
-  return { id: row.id, slug: row.slug, title: row.title, artist: row.artist, language: row.language, album: row.album, year: row.year ?? undefined, version: row.version, aliases: JSON.parse(row.aliases_json), musicbrainzId: row.musicbrainz_id ?? undefined, referenceUrl: row.reference_url ?? undefined, color: row.color };
+  return { id: row.id, slug: row.slug, title: row.title, artist: row.artist, language: row.language, album: row.album, year: row.year ?? undefined, version: row.version, aliases: JSON.parse(row.aliases_json), musicbrainzId: row.musicbrainz_id ?? undefined, referenceUrl: row.reference_url ?? undefined, color: row.color, audio: partialAudioFor(row.id), audioEstimate: fullAudioFor(row.id) };
 }
 export async function getSong(env: Env, id: string): Promise<Song> {
   const row = await env.DB.prepare('SELECT * FROM songs WHERE id=?').bind(id).first<SongRow>();

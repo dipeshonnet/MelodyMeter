@@ -13,5 +13,6 @@ worker/.dev.vars
 playwright-report/
 test-results/
 artifacts/
+__pycache__/
 *.local.json
 data/imports/

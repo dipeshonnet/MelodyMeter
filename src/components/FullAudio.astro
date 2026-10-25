@@ -1,0 +1,20 @@
+---
+import { FACTORS, type FullAudioRating } from '../../shared/rating';
+interface Props { audio?: FullAudioRating; }
+const { audio } = Astro.props;
+---
+<section class="panel" id="full-audio-panel" hidden={!audio} style="margin:20px 0;padding:24px">
+  <h2>Full-song audio estimate · <span id="full-audio-overall">{audio?.overall ?? '—'}</span>/10</h2>
+  <p>All nine factors are automated acoustic estimates with low confidence. The lead singer is unverified. Higher scores are easier.</p>
+  <p id="full-audio-coverage">{audio ? `${audio.trackingPitchSeconds} low-threshold pitch seconds (${audio.confidentPitchSeconds} at high confidence) across a ${audio.clipSeconds}-second recording. Weighted overall uses the nine factors below.` : ''}</p>
+  <div id="full-audio-factors">{FACTORS.map(f => <div class="audio-factor"><div><strong>{f.label}</strong><p>{audio?.reasons[f.id]}</p></div><strong>{audio?.factors[f.id] ?? '—'}/10<small>Low confidence</small></strong></div>)}</div>
+  <ul id="full-audio-limitations">{audio?.limitations.map(line => <li>{line}</li>)}</ul>
+  <a id="full-audio-source" href={audio?.sourceUrl} target="_blank" rel="noopener noreferrer">Audio source: {audio?.sourceTitle} · {audio?.sourceArtist} ↗</a>
+</section>
+<style>
+  p, ul { color: var(--muted); line-height: 1.6; }
+  :global(.audio-factor) { display:flex;justify-content:space-between;gap:20px;padding:14px 0;border-top:1px solid var(--border); }
+  :global(.audio-factor p) { margin:6px 0;font-size:13px; }
+  :global(.audio-factor > strong) { min-width:90px;text-align:right; }
+  :global(.audio-factor small) { display:block;font-size:11px;font-weight:normal; }
+</style>

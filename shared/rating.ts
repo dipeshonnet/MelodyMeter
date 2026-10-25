@@ -37,11 +37,68 @@ export const aiOutputSchema = z.discriminatedUnion('status', [
 ]);
 export type AIOutput = Extract<z.infer<typeof aiOutputSchema>, { status: 'rated' }>;
 export interface AIRating extends AIOutput { overall: number; model: string; generatedAt: string; rubricVersion: string; }
+function parsedAudioUrl(value: string): URL | null {
+  try { return new URL(value); } catch { return null; }
+}
+export const partialAudioSchema = z.object({
+  factors: factorScoresSchema.partial().refine(factors => Object.keys(factors).length > 0 && Object.keys(factors).length < FACTORS.length, 'Provide available factors only.'),
+  reasons: z.record(z.enum(FACTOR_IDS as [FactorId, ...FactorId[]]), z.string().min(10).max(400)),
+  generatedAt: z.string().datetime(),
+  method: z.enum(['foreground-pyin-partial-v2', 'foreground-pyin-full-v1']),
+  scope: z.enum(['preview', 'full_recording']).optional(),
+  clipSeconds: z.number().min(15).max(900),
+  confidentPitchSeconds: z.number().min(2).max(900),
+  sourceUrl: z.string().url().refine(url => {
+    const source = parsedAudioUrl(url);
+    if (!source) return false;
+    return source.protocol === 'https:' && (source.hostname === 'music.apple.com' ||
+      (source.hostname === 'www.youtube.com' && source.pathname === '/watch' && /^[\w-]{11}$/.test(source.searchParams.get('v') || '')));
+  }),
+  sourceTitle: z.string().min(1).max(300),
+  sourceArtist: z.string().min(1).max(300),
+}).strict().superRefine((value, ctx) => {
+  if (value.confidentPitchSeconds > value.clipSeconds) ctx.addIssue({ code: 'custom', message: 'Pitch evidence exceeds clip duration.' });
+  const full = value.scope === 'full_recording';
+  if (full !== (value.method === 'foreground-pyin-full-v1') || (!full && value.clipSeconds > 95)) ctx.addIssue({ code: 'custom', message: 'Analysis scope and method or duration are inconsistent.' });
+  const source = parsedAudioUrl(value.sourceUrl);
+  if (source && full !== (source.hostname === 'www.youtube.com')) ctx.addIssue({ code: 'custom', message: 'Source and analysis scope are inconsistent.' });
+  for (const id of FACTOR_IDS) if ((value.factors[id] === undefined) !== (value.reasons[id] === undefined)) ctx.addIssue({ code: 'custom', message: 'Each measured factor needs its reason, and no unmeasured reasons.' });
+});
+export type PartialAudioRating = z.infer<typeof partialAudioSchema>;
+export const fullAudioSchema = z.object({
+  factors: factorScoresSchema,
+  overall: ease,
+  reasons: z.object(Object.fromEntries(FACTOR_IDS.map(id => [id, z.string().min(10).max(400)])) as Record<FactorId, z.ZodString>).strict(),
+  confidence: z.object(Object.fromEntries(FACTOR_IDS.map(id => [id, z.literal('low')])) as Record<FactorId, z.ZodLiteral<'low'>>).strict(),
+  method: z.enum(['foreground-nine-proxies-v1', 'mdx-pyin-nine-proxies-v1']),
+  scope: z.literal('full_recording'),
+  generatedAt: z.string().datetime(),
+  clipSeconds: z.number().min(15).max(900),
+  confidentPitchSeconds: z.number().min(0).max(900),
+  trackingPitchSeconds: z.number().min(10).max(900),
+  trackingProbabilityThreshold: z.literal(.35),
+  pitchResolutionSemitones: z.union([z.literal(.1), z.literal(.25)]),
+  sourceUrl: z.string().url().refine(value => {
+    const url = parsedAudioUrl(value);
+    return !!url && url.protocol === 'https:' && ((url.hostname === 'www.youtube.com' && url.pathname === '/watch' && /^[\w-]{11}$/.test(url.searchParams.get('v') || '')) ||
+      (url.hostname === 'monochrome.st' && /^\/(search|track)\/.+/.test(url.pathname)));
+  }),
+  sourceTitle: z.string().min(1).max(300),
+  sourceArtist: z.string().min(1).max(300),
+  limitations: z.array(z.string().min(10).max(400)).min(3).max(10),
+  measurements: z.object(Object.fromEntries(FACTOR_IDS.map(id => [id, z.number().finite().nonnegative()])) as Record<FactorId, z.ZodNumber>).strict(),
+}).strict().superRefine((value, ctx) => {
+  if (value.confidentPitchSeconds > value.trackingPitchSeconds || value.trackingPitchSeconds > value.clipSeconds || value.trackingPitchSeconds / value.clipSeconds < .03) ctx.addIssue({ code: 'custom', message: 'Insufficient pitch coverage for a complete estimate.' });
+  if (value.overall !== overallScore(value.factors)) ctx.addIssue({ code: 'custom', message: 'Overall must equal the weighted factor score.' });
+});
+export type FullAudioRating = z.infer<typeof fullAudioSchema>;
 export interface Song {
   id: string; slug: string; title: string; artist: string; language: 'Hindi' | 'English' | 'Other';
   album: string; year?: number; version: string; aliases: string[];
   musicbrainzId?: string; referenceUrl?: string; color: string;
   ai?: AIRating;
+  audio?: PartialAudioRating;
+  audioEstimate?: FullAudioRating;
 }
 export interface AudienceMetric { count: number; score: number | null; qualified: boolean; }
 export interface AudienceRating { overall: AudienceMetric; factors: Record<FactorId, AudienceMetric>; updatedAt?: string; }
@@ -68,8 +125,9 @@ export function audienceFromPayload(raw: string | null): AudienceRating {
   const parsed = JSON.parse(raw) as { count: number; overall: number | null; factors: Record<FactorId, { count: number; score: number | null }> };
   return { overall: metric(parsed.count, parsed.overall), factors: Object.fromEntries(FACTOR_IDS.map(id => [id, metric(parsed.factors[id]?.count || 0, parsed.factors[id]?.score ?? null)])) as AudienceRating['factors'] };
 }
-export function primaryScore(ai: AIRating | null | undefined, audience: AudienceRating): { score: number | null; source: 'community' | 'ai' | 'pending' } {
+export function primaryScore(ai: AIRating | null | undefined, audience: AudienceRating, audio?: FullAudioRating): { score: number | null; source: 'community' | 'audio' | 'ai' | 'pending' } {
   if (audience.overall.qualified) return { score: audience.overall.score, source: 'community' };
+  if (audio) return { score: audio.overall, source: 'audio' };
   return { score: ai?.overall ?? null, source: ai ? 'ai' : 'pending' };
 }
 export function searchTerms(query: string): string[] {

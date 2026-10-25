@@ -62,7 +62,7 @@ function filter() {
 function hydrateScores(targets = cards) { for (const card of targets) {
   const song = catalog.get(card.dataset.songId!)!;
   const audience = audienceFor(song.id);
-  catalog.setScore(song.id, audience?.overall.qualified ? audience.overall.score : song.ai?.overall ?? null);
+  catalog.setScore(song.id, audience?.overall.qualified ? audience.overall.score : song.audioEstimate?.overall ?? song.ai?.overall ?? null);
   if (audience?.overall.qualified && audience.overall.score !== null) {
     const score = audience.overall.score;
     card.querySelector('.score-badge strong')!.textContent = score.toFixed(1);
@@ -70,11 +70,16 @@ function hydrateScores(targets = cards) { for (const card of targets) {
     card.querySelector('[data-card-source]')!.textContent = `Community · ${audience.overall.count} ratings`;
     const badge = card.querySelector('.score-badge')!; badge.className = `score-badge ${score >= 7 ? 'easy' : score >= 5 ? 'medium' : 'hard'}`;
   } else {
-    card.querySelector('.score-badge strong')!.textContent = String(song.ai?.overall ?? '—');
-    card.querySelector('[data-card-label]')!.textContent = song.ai ? overallLabel(song.ai.overall) : 'Not rated yet';
-    card.querySelector('[data-card-source]')!.textContent = song.ai ? 'AI estimate' : 'Audience ratings welcome';
-    const score = song.ai?.overall; card.querySelector('.score-badge')!.className = `score-badge ${score === undefined ? '' : score >= 7 ? 'easy' : score >= 5 ? 'medium' : 'hard'}`;
+    const score = song.audioEstimate?.overall ?? song.ai?.overall;
+    card.querySelector('.score-badge strong')!.textContent = String(score ?? '—');
+    card.querySelector('[data-card-label]')!.textContent = score !== undefined ? overallLabel(score) : song.audio ? 'Partial audio scores' : 'Not rated yet';
+    card.querySelector('[data-card-source]')!.textContent = song.audioEstimate ? 'Audio estimate · Low confidence' : song.ai ? 'AI estimate' : song.audio ? `${Object.keys(song.audio.factors).length}/9 factors · Overall pending` : 'Audience ratings welcome';
+    card.querySelector('.score-badge')!.className = `score-badge ${score === undefined ? '' : score >= 7 ? 'easy' : score >= 5 ? 'medium' : 'hard'}`;
   }
+  card.querySelectorAll('.mini-factors b').forEach((element, index) => {
+    const factor = ['pace', 'range', 'jumps'][index] as 'pace' | 'range' | 'jumps';
+    element.textContent = String(song.audioEstimate?.factors[factor] ?? song.ai?.factors[factor] ?? song.audio?.factors[factor] ?? '—');
+  });
 } }
 function addSongs(incoming: Song[], refresh = true) {
   const added: HTMLElement[] = [];
