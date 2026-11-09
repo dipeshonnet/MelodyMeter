@@ -4876,5 +4876,21 @@
     "durationReferenceBasis": "MusicBrainz recording or release track",
     "matchBasis": "Previously curated direct original-song link",
     "recordingVersion": "Canonical recording equivalence unverified"
+  },
+  {
+    "songId": "mb:6f0d85f5-dbe0-4c53-820c-dc23402af982",
+    "url": "https://www.youtube.com/watch?v=XPrg3MqoJTc",
+    "channel": "Olivia Rodrigo",
+    "channelId": "UCE5XNpliPM-SmyFEp61tL_g",
+    "titleIncludes": [
+      "stupid song"
+    ],
+    "matchedTitle": "stupid song",
+    "durationSeconds": 210,
+    "expectedSongSeconds": 209.68,
+    "durationReferenceUrl": "https://musicbrainz.org/ws/2/recording/6f0d85f5-dbe0-4c53-820c-dc23402af982?fmt=json",
+    "durationReferenceBasis": "MusicBrainz recording or release track",
+    "matchBasis": "Previously curated direct original-song link",
+    "recordingVersion": "Canonical recording equivalence unverified"
   }
 ]

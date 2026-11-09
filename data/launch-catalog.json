@@ -6671,5 +6671,23 @@
     "musicbrainzId": "292effe0-7b50-4eee-bb16-cf470b2a503d",
     "referenceUrl": "https://musicbrainz.org/recording/292effe0-7b50-4eee-bb16-cf470b2a503d",
     "color": "teal"
+  },
+  {
+    "id": "mb:6f0d85f5-dbe0-4c53-820c-dc23402af982",
+    "slug": "recording-6f0d85f5-dbe0-4c53-820c-dc23402af982",
+    "title": "stupid song",
+    "artist": "Olivia Rodrigo",
+    "language": "English",
+    "album": "you seem pretty sad for a girl so in love",
+    "year": 2026,
+    "version": "Original studio lead melody",
+    "aliases": [
+      "Stupid Song",
+      "Olivia Rodrigo",
+      "you seem pretty sad for a girl so in love"
+    ],
+    "musicbrainzId": "6f0d85f5-dbe0-4c53-820c-dc23402af982",
+    "referenceUrl": "https://musicbrainz.org/recording/6f0d85f5-dbe0-4c53-820c-dc23402af982",
+    "color": "teal"
   }
 ]

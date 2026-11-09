@@ -2582,5 +2582,17 @@
     "referenceUrl": "https://musicbrainz.org/recording/292effe0-7b50-4eee-bb16-cf470b2a503d",
     "musicbrainzFirstRelease": "2024-01-18",
     "yearBasis": "Curated original song/film release; compilation dates are not used"
+  },
+  {
+    "songId": "mb:6f0d85f5-dbe0-4c53-820c-dc23402af982",
+    "originalYear": 2026,
+    "album": "you seem pretty sad for a girl so in love",
+    "referenceUrl": "https://musicbrainz.org/recording/6f0d85f5-dbe0-4c53-820c-dc23402af982",
+    "musicbrainzFirstRelease": "2026-06-12",
+    "yearBasis": "Original album release verified against Apple Music and MusicBrainz; later single release dates are not used",
+    "sources": [
+      "https://music.apple.com/us/song/stupid-song/6779846976",
+      "https://musicbrainz.org/recording/6f0d85f5-dbe0-4c53-820c-dc23402af982"
+    ]
   }
 ]

@@ -462,5 +462,22 @@
       "url": "https://www.youtube.com/watch?v=1ANevHinhpc",
       "provider": "Zoom Karaoke Official"
     }
+  },
+  {
+    "songId": "mb:6f0d85f5-dbe0-4c53-820c-dc23402af982",
+    "lyrics": {
+      "url": "https://www.youtube.com/watch?v=ngyaXb9BohU",
+      "provider": "Olivia Rodrigo Official",
+      "format": "lyric_video"
+    },
+    "original": {
+      "url": "https://www.youtube.com/watch?v=XPrg3MqoJTc",
+      "provider": "Olivia Rodrigo / Universal Music Group",
+      "format": "audio"
+    },
+    "karaoke": {
+      "url": "https://www.youtube.com/watch?v=KhRSyoCK_T4",
+      "provider": "Sing King"
+    }
   }
 ]

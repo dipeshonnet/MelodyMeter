@@ -10096,5 +10096,71 @@
         "changes": 0.5
       }
     }
+  },
+  {
+    "songId": "mb:6f0d85f5-dbe0-4c53-820c-dc23402af982",
+    "assessment": {
+      "factors": {
+        "pace": 2,
+        "range": 4,
+        "jumps": 9,
+        "sustain": 8,
+        "breath": 9,
+        "rhythm": 6,
+        "runs": 9,
+        "stamina": 8,
+        "changes": 2
+      },
+      "overall": 6,
+      "reasons": {
+        "pace": "Foreground pitch-event rate reached 5.303/second in supported windows; this estimates note speed, not words or syllables.",
+        "range": "The low-confidence foreground pitch span was 18.75 semitones (5th–95th percentiles). Instruments and octave errors can widen it.",
+        "jumps": "The 90th-percentile connected foreground pitch change was 2.0 semitones. Changes across uncertain gaps are excluded.",
+        "sustain": "The longest smoothed low-confidence foreground pitch event lasted 1.664 seconds; its singer identity is unverified.",
+        "breath": "The 90th-percentile detected foreground phrase lasted 2.928 seconds. Detector gaps were bridged; this does not measure actual breaths.",
+        "rhythm": "43% of pitch-event entrances fell away from an estimated eighth-note grid (125 BPM). Beat alignment is uncertain.",
+        "runs": "Rapid small-step pitch clusters occurred at 0.0/tracked minute. No syllables were analyzed, so melismatic runs are not verified.",
+        "stamina": "Detected foreground pitch activity totalled 1.438 minutes. This is an activity-load proxy, not physiological effort.",
+        "changes": "5 of 6 supported adjacent 30-second blocks changed pitch centre or spread substantially; song-section labels were not verified."
+      },
+      "confidence": {
+        "pace": "low",
+        "range": "low",
+        "jumps": "low",
+        "sustain": "low",
+        "breath": "low",
+        "rhythm": "low",
+        "runs": "low",
+        "stamina": "low",
+        "changes": "low"
+      },
+      "method": "mdx-pyin-nine-proxies-v1",
+      "scope": "full_recording",
+      "generatedAt": "2026-11-09T16:08:52.067Z",
+      "clipSeconds": 209.69,
+      "confidentPitchSeconds": 34.82,
+      "trackingPitchSeconds": 66.82,
+      "trackingProbabilityThreshold": 0.35,
+      "pitchResolutionSemitones": 0.25,
+      "sourceUrl": "https://www.youtube.com/watch?v=XPrg3MqoJTc",
+      "sourceTitle": "stupid song",
+      "sourceArtist": "Olivia Rodrigo",
+      "limitations": [
+        "Unvalidated heuristic difficulty bands; not listening-reviewed.",
+        "Foreground separation does not identify the lead singer; instruments, backing vocals and octave errors can affect every score.",
+        "Pitch-event estimates use a lower pYIN probability threshold (0.35) than confident pitch reporting (0.75). Words, syllables, actual breaths and physiological effort are not measured. All nine factors have low confidence."
+      ],
+      "measurements": {
+        "pace": 5.303,
+        "range": 18.75,
+        "jumps": 2,
+        "sustain": 1.664,
+        "breath": 2.928,
+        "rhythm": 0.429,
+        "runs": 0,
+        "stamina": 1.438,
+        "changes": 0.833
+      }
+    }
   }
 ]
