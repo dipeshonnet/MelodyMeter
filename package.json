@@ -6,7 +6,7 @@
   "packageManager": "pnpm@11.19.0",
   "scripts": {
     "dev": "node scripts/run.mjs astro dev --host 127.0.0.1",
-    "build": "node scripts/run.mjs astro check && node scripts/run.mjs astro build",
+    "build": "node scripts/run.mjs astro check && node scripts/run.mjs astro build && node scripts/verify-seo.mjs",
     "preview": "node scripts/run.mjs astro preview --host 127.0.0.1",
     "check": "node scripts/run.mjs astro check && node scripts/run.mjs typescript -p tsconfig.worker.json --noEmit",
     "test": "node scripts/run.mjs tsx --test tests/*.test.ts",
@@ -22,7 +22,8 @@
     "catalog:status": "node scripts/run.mjs tsx scripts/catalog.ts status",
     "launch:check": "node scripts/run.mjs tsx scripts/launch-check.ts",
     "deploy:api": "node scripts/run.mjs wrangler deploy --config worker/wrangler.jsonc",
-    "deploy:web": "node scripts/run.mjs wrangler pages deploy dist --project-name melodymeter --branch main"
+    "deploy:web": "node scripts/run.mjs wrangler pages deploy dist --project-name melodymeter --branch main",
+    "seo:check": "node scripts/verify-seo.mjs"
   },
   "dependencies": {
     "astro": "^7.3.8",

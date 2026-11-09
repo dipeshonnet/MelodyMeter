@@ -5,6 +5,22 @@
 /dev-mail/*
   Cache-Control: no-store
   X-Robots-Tag: noindex, nofollow
+/song/*
+  X-Robots-Tag: noindex, nofollow
+/offline/*
+  X-Robots-Tag: noindex, nofollow
+/songs/*.md
+  Content-Type: text/markdown; charset=utf-8
+  X-Robots-Tag: noindex
+/catalog.json
+  Content-Type: application/json; charset=utf-8
+  X-Robots-Tag: noindex
+/sitemap.xml
+  Content-Type: application/xml; charset=utf-8
+/robots.txt
+  Content-Type: text/plain; charset=utf-8
+/llms.txt
+  Content-Type: text/plain; charset=utf-8
 /*
   X-Content-Type-Options: nosniff
   Referrer-Policy: no-referrer

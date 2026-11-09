@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#101b31"/>
+  <circle cx="1140" cy="110" r="340" fill="#152d3a"/>
+  <circle cx="1140" cy="110" r="240" fill="#1c3d45"/>
+  <g fill="#70d1b1"><rect x="76" y="72" width="9" height="27" rx="4"/><rect x="91" y="58" width="9" height="55" rx="4"/><rect x="106" y="67" width="9" height="37" rx="4"/><rect x="121" y="78" width="9" height="16" rx="4"/></g>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <text x="152" y="101" fill="#ffffff" font-size="38" font-weight="650">Melody<tspan fill="#70d1b1">Meter</tspan></text>
+    <text x="76" y="268" fill="#ffffff" font-size="84" font-weight="700" letter-spacing="-3">Find a song</text>
+    <text x="76" y="365" fill="#ffffff" font-size="84" font-weight="700" letter-spacing="-3">you can sing.</text>
+    <rect x="76" y="420" width="1048" height="1" fill="#34505d"/>
+    <text x="76" y="477" fill="#b7c9d4" font-size="29">Hindi &amp; English songs, rated for singing ease.</text>
+    <text x="76" y="549" fill="#70d1b1" font-size="24">melody.everydayai.work</text>
+  </g>
+</svg>

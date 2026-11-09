@@ -1,0 +1,6 @@
+---
+import { collections } from '../lib/collections';
+---
+<nav class="browse-links" aria-label="Browse song collections">
+  {collections.map(collection => <a href={`/${collection.slug}/`}>{collection.label}<span aria-hidden="true"> ↗</span></a>)}
+</nav>

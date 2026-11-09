@@ -4,6 +4,28 @@ An Astro + TypeScript PWA that rates **ease of singing**. Higher is easier. AI o
 
 The catalog contains 325 songs (164 Hindi, 161 English), with at least 20 per language in every decade from the 1950s through the 2020s. Use the decade dropdown alongside language and difficulty filters. Existing AI estimates and audience votes are preserved. Qualified audience ratings take precedence, then complete audio estimates, then AI knowledge estimates. Partial audio measurements have no overall. See [DECADE_CATALOG.md](DECADE_CATALOG.md) for metadata provenance and the expansion workflow.
 
+## Search and chatbot discovery
+
+Public pages render song facts and saved estimates without JavaScript. Each has a
+canonical URL, a unique description, sharing metadata and JSON-LD describing the
+website, recordings, breadcrumbs or song collections. Automated ease estimates
+are never marked up as audience star ratings. `/easy-songs/`, `/hindi-songs/` and
+`/english-songs/` provide linked collections alongside the interactive catalog.
+
+`/sitemap.xml` lists canonical public HTML pages. `/robots.txt` permits public-page
+crawling while excluding private API routes; utility pages use `noindex`.
+`/llms.txt` links the rating guide and `/catalog.json`. Every catalog entry links a
+plain-text `/songs/<slug>.md` summary. These exports contain saved estimates, their
+provenance and limitations; they do not include live audience votes or private data.
+The text index is an optional convenience for AI tools, not a search-ranking requirement.
+
+Production defaults to `https://melody.everydayai.work`; set `SITE_URL` when building
+for a different canonical origin. Run `node scripts/verify-seo.mjs` after a build.
+The production build and GitHub deployment workflow both run this check. Submit
+`https://melody.everydayai.work/sitemap.xml` in a verified Search Console or Bing
+Webmaster Tools property to monitor discovery; ownership verification happens in
+those services. Crawling, indexing and AI citations remain each provider's decision.
+
 ## Run locally without accounts
 
 Requirements: Node.js 22.13+ (Node 24 recommended), pnpm, Windows/macOS/Linux. All generated local configuration is ignored by Git.

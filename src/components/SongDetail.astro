@@ -3,6 +3,7 @@ import { FACTORS, overallLabel, easeLabel, type Song } from '../../shared/rating
 import { practiceLinks } from '../../shared/song-resources';
 import PartialAudio from './PartialAudio.astro';
 import FullAudio from './FullAudio.astro';
+import { songSummary } from '../lib/seo';
 interface Props { song?: Song; }
 const { song } = Astro.props;
 const estimate = song?.audioEstimate ?? song?.ai;
@@ -14,6 +15,7 @@ const links = practiceLinks(song?.id || '', song);
   <div class="breadcrumb"><a href="/">Explore songs</a><span>/</span><span data-song-title>{song?.title || 'Selected recording'}</span></div>
   <div class="detail-grid"><div>
     <div class="detail-header"><div class:list={['song-art', 'detail-art', `art-${song?.color || 'teal'}`]} aria-hidden="true"><span data-initials>{initials}</span><div class="art-bars"><i></i><i></i><i></i><i></i><i></i></div></div><div class="detail-title"><p class="eyebrow">YOUR NEXT SONG</p><h1 data-song-title>{song?.title || 'Loading recording…'}</h1><p class="artist" data-song-artist>{song?.artist}</p><div class="song-meta"><span data-language>{song?.language || 'Recording'}</span><span data-year>{song?.year || 'Studio recording'}</span><span data-version>{song?.version || 'Main lead melody'}</span></div></div></div>
+    {song && <p class="song-summary">{songSummary(song)} <a href="/how-we-rate/">How we rate singing difficulty</a>.</p>}
     <div class="detail-actions"><button class="save-button" data-save={song?.id || ''} aria-label={`Save ${song?.title || 'song'}`} aria-pressed="false"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4z"/></svg> Save song</button><button class="secondary-button" id="share-song">Share song</button></div>
     <section class="practice-panel" id="practice-panel" aria-labelledby="practice-heading" hidden={!links.length}>
       <h2 id="practice-heading">Lyrics, listen & sing along</h2>

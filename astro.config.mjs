@@ -5,7 +5,7 @@ import { fileURLToPath } from 'node:url';
 import { join } from 'node:path';
 
 export default defineConfig({
-  site: process.env.SITE_URL || 'http://localhost:4321',
+  site: process.env.SITE_URL || 'https://melody.everydayai.work',
   output: 'static',
   integrations: [{ name: 'offline-assets', hooks: { 'astro:build:done': ({ dir }) => {
     const output = fileURLToPath(dir);

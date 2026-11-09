@@ -11,4 +11,4 @@ for (const song of launchCatalog as Song[]) {
 }
 for (const song of songs) { song.audio = partialAudioFor(song.id); song.audioEstimate = fullAudioFor(song.id); }
 export const decades = [...new Set(songs.filter(song => song.year).map(song => Math.floor(song.year! / 10) * 10))].sort((a, b) => a - b);
-export const catalogStats = { total: songs.length, hindi: songs.filter(s => s.language === 'Hindi').length, english: songs.filter(s => s.language === 'English').length, rated: songs.filter(s => s.ai).length, launchTarget: 1000 };
+export const catalogStats = { total: songs.length, hindi: songs.filter(s => s.language === 'Hindi').length, english: songs.filter(s => s.language === 'English').length, rated: songs.filter(s => s.ai).length, audioComplete: songs.filter(s => s.audioEstimate).length, audioPartial: songs.filter(s => s.audio && !s.audioEstimate).length, launchTarget: 1000 };

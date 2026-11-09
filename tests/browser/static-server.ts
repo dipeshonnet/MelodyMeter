@@ -12,7 +12,7 @@ export async function startStatic() {
       if (file !== root && !file.startsWith(root + sep)) { response.writeHead(403).end(); return; }
       if (existsSync(file) && statSync(file).isDirectory()) file = resolve(file, 'index.html');
       if (!existsSync(file)) { response.writeHead(404, { 'Content-Type': 'application/json' }).end('{"error":"Offline test server has no API"}'); return; }
-      const mime: Record<string, string> = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.webmanifest': 'application/manifest+json', '.png': 'image/png', '.svg': 'image/svg+xml' };
+      const mime: Record<string, string> = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.webmanifest': 'application/manifest+json', '.png': 'image/png', '.svg': 'image/svg+xml', '.txt': 'text/plain; charset=utf-8', '.xml': 'application/xml; charset=utf-8', '.md': 'text/markdown; charset=utf-8' };
       response.writeHead(200, { 'Content-Type': mime[extname(file)] || 'application/octet-stream' }); response.end(readFileSync(file));
     } catch { response.writeHead(500).end(); }
   });

@@ -1,8 +1,12 @@
 ---
 import '../styles/global.css';
-interface Props { title?: string; description?: string; privatePage?: boolean; }
-const { title = 'MelodyMeter — find a song you can sing', description = 'Find out how easy a song is to sing. Explore Hindi and English songs with AI estimates and verified audience ratings.', privatePage = false } = Astro.props;
+import { canonicalUrl, jsonLd, pageSchema, SITE_TITLE, SITE_DESCRIPTION } from '../lib/seo';
+interface Props { title?: string; description?: string; privatePage?: boolean; structuredData?: unknown; markdownPath?: string; }
+const { title = SITE_TITLE, description = SITE_DESCRIPTION, privatePage = false, structuredData, markdownPath } = Astro.props;
 const pathname = Astro.url.pathname;
+const canonical = canonicalUrl(pathname, Astro.site);
+const image = new URL('/social-card.png', canonical).href;
+const schema = structuredData ?? pageSchema(pathname, title, description, Astro.site);
 ---
 <!doctype html>
 <html lang="en">
@@ -12,7 +16,7 @@ const pathname = Astro.url.pathname;
     <meta name="theme-color" content="#101b31" />
     <meta name="description" content={description} />
     <meta name="referrer" content="no-referrer" />
-    {privatePage && <meta name="robots" content="noindex,nofollow" />}
+    <meta name="robots" content={privatePage ? 'noindex,nofollow' : 'index,follow,max-image-preview:large'} />
     <title>{title}</title>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="apple-touch-icon" href="/icons/icon-192.png" />
@@ -20,7 +24,25 @@ const pathname = Astro.url.pathname;
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
-    {!privatePage && <link rel="canonical" href={new URL(pathname, Astro.site || Astro.url.origin).href} />}
+    <meta property="og:site_name" content="MelodyMeter" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={image} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="MelodyMeter — Find a song you can sing. Hindi and English songs, rated for singing ease." />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={image} />
+    <meta name="twitter:image:alt" content="MelodyMeter — Find a song you can sing." />
+    {!privatePage && <>
+      <link rel="canonical" href={canonical} />
+      <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
+      <link rel="alternate" type="application/json" href="/catalog.json" title="Public song catalog and saved estimates" />
+      {markdownPath && <link rel="alternate" type="text/markdown" href={markdownPath} title="Song facts in plain text" />}
+      <script type="application/ld+json" set:html={jsonLd(schema)} />
+    </>}
   </head>
   <body>
     <a href="#main" class="skip-link">Skip to content</a>

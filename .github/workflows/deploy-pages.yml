@@ -44,6 +44,9 @@ jobs:
       - name: Build public pages
         run: node scripts/run.mjs astro build
 
+      - name: Verify search and chatbot discovery
+        run: node scripts/verify-seo.mjs
+
       - name: Deploy to the existing production project
         env:
           CLOUDFLARE_ACCOUNT_ID: 68f7d76f0db9c20630b0b4b97505f5d0
