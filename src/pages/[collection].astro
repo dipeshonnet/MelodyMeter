@@ -5,6 +5,7 @@ import BrowseLinks from '../components/BrowseLinks.astro';
 import { songs } from '../lib/catalog';
 import { collections, collectionSongs } from '../lib/collections';
 import { collectionSchema } from '../lib/seo';
+import top2026 from '../../data/top-2026.json';
 export function getStaticPaths() { return collections.map(collection => ({ params: { collection: collection.slug }, props: { collection } })); }
 interface Props { collection: typeof collections[number]; }
 const { collection } = Astro.props;
@@ -15,6 +16,7 @@ const selected = collectionSongs(collection, songs);
     <div class="breadcrumb"><a href="/">Explore songs</a><span>/</span><span>{collection.label}</span></div>
     <div class="collection-intro"><p class="eyebrow">FIND YOUR NEXT SING-ALONG</p><h1>{collection.heading}</h1><p class="intro-copy">{collection.intro}</p><p><a class="method-link" href="/how-we-rate/">How singing difficulty is scored</a></p></div>
     <BrowseLinks />
+    {collection.slug === 'top-2026-songs' && <p class="intro-copy">Chart sources: {top2026.sources.map((source, index) => <>{index > 0 && ' · '}<a class="method-link" href={source.url} target="_blank" rel="noopener noreferrer">{source.label}</a></>)}</p>}
     <p class="results-caption">{selected.length} recordings · Higher scores mean easier singing</p>
     <div class="song-grid">{selected.map(song => <SongCard song={song} />)}</div>
     <div class="catalog-bottom"><div><h2>Find a song that fits your voice</h2><p>Search the full catalog, filter by decade, or save songs for practice.</p></div><a class="secondary-button" href="/">Explore all songs</a></div>

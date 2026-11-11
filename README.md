@@ -2,7 +2,9 @@
 
 An Astro + TypeScript PWA that rates **ease of singing**. Higher is easier. AI overall estimates use song knowledge. Separate sound analysis supports partial preview measurements and complete nine-factor estimates from matching full YouTube or public Monochrome recordings. Complete estimates explicitly have low confidence, disclose their acoustic proxies and pitch coverage, and do not verify the lead singer; see [AUDIO_ANALYSIS.md](AUDIO_ANALYSIS.md). There is no in-app playback or audio upload.
 
-The catalog contains 325 songs (164 Hindi, 161 English), with at least 20 per language in every decade from the 1950s through the 2020s. Use the decade dropdown alongside language and difficulty filters. Existing AI estimates and audience votes are preserved. Qualified audience ratings take precedence, then complete audio estimates, then AI knowledge estimates. Partial audio measurements have no overall. See [DECADE_CATALOG.md](DECADE_CATALOG.md) for metadata provenance and the expansion workflow.
+The catalog contains 336 songs (169 Hindi, 167 English), with at least 20 per language in every decade from the 1950s through the 2020s. Use the decade dropdown alongside language and difficulty filters. Existing AI estimates and audience votes are preserved. Qualified audience ratings take precedence, then complete audio estimates, then AI knowledge estimates. Partial audio measurements have no overall. See [DECADE_CATALOG.md](DECADE_CATALOG.md) for metadata provenance and the expansion workflow.
+
+`/top-2026-songs/` adds a curated mix of five Hindi and five English chart hits released in 2026, checked on 11 November. This is an editorial selection using a Hindi daily chart and UK year-to-date data through Q3, not a combined global or final year-end ranking. `data/top-2026.json` records chart positions, sources and verified MusicBrainz studio identities. New songs have no invented singing scores. `node scripts/add-2026-songs.mjs` repeats the metadata import without replacing existing recordings or assessments.
 
 ## Search and chatbot discovery
 

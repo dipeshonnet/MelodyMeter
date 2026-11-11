@@ -6689,5 +6689,179 @@
     "musicbrainzId": "6f0d85f5-dbe0-4c53-820c-dc23402af982",
     "referenceUrl": "https://musicbrainz.org/recording/6f0d85f5-dbe0-4c53-820c-dc23402af982",
     "color": "teal"
+  },
+  {
+    "id": "mb:7311ccc9-0868-46fd-abf1-ef6e20912784",
+    "slug": "recording-7311ccc9-0868-46fd-abf1-ef6e20912784",
+    "title": "Mangal Rang",
+    "artist": "A.R. Rahman, Arijit Singh, Shreya Ghoshal & Kumar Vishwas",
+    "language": "Hindi",
+    "album": "Ramayana",
+    "year": 2026,
+    "version": "Original studio lead melody",
+    "aliases": [
+      "मंगल रंग",
+      "Mangal Rang",
+      "Ramayana"
+    ],
+    "musicbrainzId": "7311ccc9-0868-46fd-abf1-ef6e20912784",
+    "referenceUrl": "https://musicbrainz.org/recording/7311ccc9-0868-46fd-abf1-ef6e20912784",
+    "color": "amber"
+  },
+  {
+    "id": "mb:99ea0f03-9c4b-448b-8c4f-335468526f6d",
+    "slug": "recording-99ea0f03-9c4b-448b-8c4f-335468526f6d",
+    "title": "iloveitiloveitiloveit",
+    "artist": "Bella Kay",
+    "language": "English",
+    "album": "iloveitiloveitiloveit",
+    "year": 2026,
+    "version": "Original studio lead melody",
+    "aliases": [
+      "iloveitiloveitiloveit"
+    ],
+    "musicbrainzId": "99ea0f03-9c4b-448b-8c4f-335468526f6d",
+    "referenceUrl": "https://musicbrainz.org/recording/99ea0f03-9c4b-448b-8c4f-335468526f6d",
+    "color": "teal"
+  },
+  {
+    "id": "mb:c42ed6fe-a005-4d93-983d-5718e4134a96",
+    "slug": "recording-c42ed6fe-a005-4d93-983d-5718e4134a96",
+    "title": "Tu Mil Jaaye",
+    "artist": "Sachin-Jigar, Ed Sheeran, Arijit Singh, Kumaar & Madhubanti Bagchi",
+    "language": "Hindi",
+    "album": "KING",
+    "year": 2026,
+    "version": "Original studio lead melody",
+    "aliases": [
+      "तू मिल जाए",
+      "Tu Mil Jaaye (From \"KING\")",
+      "KING"
+    ],
+    "musicbrainzId": "c42ed6fe-a005-4d93-983d-5718e4134a96",
+    "referenceUrl": "https://musicbrainz.org/recording/c42ed6fe-a005-4d93-983d-5718e4134a96",
+    "color": "amber"
+  },
+  {
+    "id": "mb:dc971aed-66be-4ba8-9f21-31511227fca4",
+    "slug": "recording-dc971aed-66be-4ba8-9f21-31511227fca4",
+    "title": "Homewrecker",
+    "artist": "sombr",
+    "language": "English",
+    "album": "Homewrecker",
+    "year": 2026,
+    "version": "Original studio lead melody",
+    "aliases": [
+      "Homewrecker"
+    ],
+    "musicbrainzId": "dc971aed-66be-4ba8-9f21-31511227fca4",
+    "referenceUrl": "https://musicbrainz.org/recording/dc971aed-66be-4ba8-9f21-31511227fca4",
+    "color": "teal"
+  },
+  {
+    "id": "mb:414eba2c-422d-4063-a19a-125bac7cf501",
+    "slug": "recording-414eba2c-422d-4063-a19a-125bac7cf501",
+    "title": "Hriday Mein Jinke Sitaram",
+    "artist": "Vishal Chaturvedi",
+    "language": "Hindi",
+    "album": "Hanuman Ansh",
+    "year": 2026,
+    "version": "Original studio lead melody",
+    "aliases": [
+      "हृदय में जिनके सीताराम",
+      "Hriday Mein Jinke Sitaram",
+      "Hanuman Ansh"
+    ],
+    "musicbrainzId": "414eba2c-422d-4063-a19a-125bac7cf501",
+    "referenceUrl": "https://musicbrainz.org/recording/414eba2c-422d-4063-a19a-125bac7cf501",
+    "color": "amber"
+  },
+  {
+    "id": "mb:781018b7-f4f0-4fae-9b41-f45ecbe34024",
+    "slug": "recording-781018b7-f4f0-4fae-9b41-f45ecbe34024",
+    "title": "I Just Might",
+    "artist": "Bruno Mars",
+    "language": "English",
+    "album": "The Romantic",
+    "year": 2026,
+    "version": "Original studio lead melody",
+    "aliases": [
+      "I Just Might",
+      "The Romantic"
+    ],
+    "musicbrainzId": "781018b7-f4f0-4fae-9b41-f45ecbe34024",
+    "referenceUrl": "https://musicbrainz.org/recording/781018b7-f4f0-4fae-9b41-f45ecbe34024",
+    "color": "teal"
+  },
+  {
+    "id": "mb:bec58d9d-ca25-40ca-921b-c9d4d51ab565",
+    "slug": "recording-bec58d9d-ca25-40ca-921b-c9d4d51ab565",
+    "title": "Jaiye Sajana",
+    "artist": "Jasmine Sandlas & Satinder Sartaaj",
+    "language": "Hindi",
+    "album": "Dhurandhar: The Revenge",
+    "year": 2026,
+    "version": "Original studio lead melody",
+    "aliases": [
+      "जाइए सजना",
+      "Jaiye Sajana",
+      "Dhurandhar: The Revenge"
+    ],
+    "musicbrainzId": "bec58d9d-ca25-40ca-921b-c9d4d51ab565",
+    "referenceUrl": "https://musicbrainz.org/recording/bec58d9d-ca25-40ca-921b-c9d4d51ab565",
+    "color": "amber"
+  },
+  {
+    "id": "mb:3e6e9956-f059-411f-b661-5c2eefcebc02",
+    "slug": "recording-3e6e9956-f059-411f-b661-5c2eefcebc02",
+    "title": "Fever Dream",
+    "artist": "Alex Warren",
+    "language": "English",
+    "album": "WILDCHILD",
+    "year": 2026,
+    "version": "Original studio lead melody",
+    "aliases": [
+      "FEVER DREAM",
+      "WILDCHILD"
+    ],
+    "musicbrainzId": "3e6e9956-f059-411f-b661-5c2eefcebc02",
+    "referenceUrl": "https://musicbrainz.org/recording/3e6e9956-f059-411f-b661-5c2eefcebc02",
+    "color": "teal"
+  },
+  {
+    "id": "mb:5dab6f23-6ea9-42b9-b09f-cba30f47243f",
+    "slug": "recording-5dab6f23-6ea9-42b9-b09f-cba30f47243f",
+    "title": "Judi Jodi",
+    "artist": "A.R. Rahman, Shreya Ghoshal & Kumar Vishwas",
+    "language": "Hindi",
+    "album": "Ramayana",
+    "year": 2026,
+    "version": "Original studio lead melody",
+    "aliases": [
+      "जुड़ी जोड़ी",
+      "Judi Jodi - HINDI",
+      "Judi Jodi",
+      "Ramayana"
+    ],
+    "musicbrainzId": "5dab6f23-6ea9-42b9-b09f-cba30f47243f",
+    "referenceUrl": "https://musicbrainz.org/recording/5dab6f23-6ea9-42b9-b09f-cba30f47243f",
+    "color": "amber"
+  },
+  {
+    "id": "mb:2c85fe70-3c0e-4b43-8d97-f5b5c4757f3a",
+    "slug": "recording-2c85fe70-3c0e-4b43-8d97-f5b5c4757f3a",
+    "title": "American Girls",
+    "artist": "Harry Styles",
+    "language": "English",
+    "album": "Kiss All the Time. Disco, Occasionally.",
+    "year": 2026,
+    "version": "Original studio lead melody",
+    "aliases": [
+      "American Girls",
+      "Kiss All the Time. Disco, Occasionally."
+    ],
+    "musicbrainzId": "2c85fe70-3c0e-4b43-8d97-f5b5c4757f3a",
+    "referenceUrl": "https://musicbrainz.org/recording/2c85fe70-3c0e-4b43-8d97-f5b5c4757f3a",
+    "color": "teal"
   }
 ]

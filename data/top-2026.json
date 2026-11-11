@@ -1,0 +1,118 @@
+{
+  "checkedOn": "2026-11-11",
+  "selection": "Editorial selection of five Hindi and five English chart hits released in 2026 with verified studio recording identities. Hindi uses a daily chart; English uses UK year-to-date data through Q3. This is not a combined global ranking or a final year-end chart.",
+  "sources": [
+    {
+      "language": "Hindi",
+      "label": "Hindi Top 100 · 11 November 2026",
+      "url": "https://www.boxofficeindia24.com/music/charts/hindi"
+    },
+    {
+      "language": "English",
+      "label": "Official Charts · biggest songs of 2026 through Q3",
+      "url": "https://www.officialcharts.com/chart-news/official-biggest-songs-of-2026/"
+    }
+  ],
+  "entries": [
+    {
+      "songId": "mb:7311ccc9-0868-46fd-abf1-ef6e20912784",
+      "title": "Mangal Rang",
+      "language": "Hindi",
+      "chartPosition": 4,
+      "sourceUrl": "https://www.boxofficeindia24.com/music/charts/hindi",
+      "musicbrainzTitle": "Mangal Rang",
+      "musicbrainzFirstRelease": "2026-10-25",
+      "referenceUrl": "https://musicbrainz.org/recording/7311ccc9-0868-46fd-abf1-ef6e20912784"
+    },
+    {
+      "songId": "mb:99ea0f03-9c4b-448b-8c4f-335468526f6d",
+      "title": "iloveitiloveitiloveit",
+      "language": "English",
+      "chartPosition": 7,
+      "sourceUrl": "https://www.officialcharts.com/chart-news/official-biggest-songs-of-2026/",
+      "musicbrainzTitle": "iloveitiloveitiloveit",
+      "musicbrainzFirstRelease": "2026-01-11",
+      "referenceUrl": "https://musicbrainz.org/recording/99ea0f03-9c4b-448b-8c4f-335468526f6d"
+    },
+    {
+      "songId": "mb:c42ed6fe-a005-4d93-983d-5718e4134a96",
+      "title": "Tu Mil Jaaye",
+      "language": "Hindi",
+      "chartPosition": 5,
+      "sourceUrl": "https://www.boxofficeindia24.com/music/charts/hindi",
+      "musicbrainzTitle": "Tu Mil Jaaye (From \"KING\")",
+      "musicbrainzFirstRelease": "2026-11-02",
+      "referenceUrl": "https://musicbrainz.org/recording/c42ed6fe-a005-4d93-983d-5718e4134a96"
+    },
+    {
+      "songId": "mb:dc971aed-66be-4ba8-9f21-31511227fca4",
+      "title": "Homewrecker",
+      "language": "English",
+      "chartPosition": 14,
+      "sourceUrl": "https://www.officialcharts.com/chart-news/official-biggest-songs-of-2026/",
+      "musicbrainzTitle": "Homewrecker",
+      "musicbrainzFirstRelease": "2026-02-05",
+      "referenceUrl": "https://musicbrainz.org/recording/dc971aed-66be-4ba8-9f21-31511227fca4"
+    },
+    {
+      "songId": "mb:414eba2c-422d-4063-a19a-125bac7cf501",
+      "title": "Hriday Mein Jinke Sitaram",
+      "language": "Hindi",
+      "chartPosition": 7,
+      "sourceUrl": "https://www.boxofficeindia24.com/music/charts/hindi",
+      "musicbrainzTitle": "Hriday Mein Jinke Sitaram",
+      "musicbrainzFirstRelease": "2026-07-11",
+      "referenceUrl": "https://musicbrainz.org/recording/414eba2c-422d-4063-a19a-125bac7cf501"
+    },
+    {
+      "songId": "mb:781018b7-f4f0-4fae-9b41-f45ecbe34024",
+      "title": "I Just Might",
+      "language": "English",
+      "chartPosition": 18,
+      "sourceUrl": "https://www.officialcharts.com/chart-news/official-biggest-songs-of-2026/",
+      "musicbrainzTitle": "I Just Might",
+      "musicbrainzFirstRelease": "2026-01-09",
+      "referenceUrl": "https://musicbrainz.org/recording/781018b7-f4f0-4fae-9b41-f45ecbe34024"
+    },
+    {
+      "songId": "mb:bec58d9d-ca25-40ca-921b-c9d4d51ab565",
+      "title": "Jaiye Sajana",
+      "language": "Hindi",
+      "chartPosition": 9,
+      "sourceUrl": "https://www.boxofficeindia24.com/music/charts/hindi",
+      "musicbrainzTitle": "Jaiye Sajana",
+      "musicbrainzFirstRelease": "2026-03-17",
+      "referenceUrl": "https://musicbrainz.org/recording/bec58d9d-ca25-40ca-921b-c9d4d51ab565"
+    },
+    {
+      "songId": "mb:3e6e9956-f059-411f-b661-5c2eefcebc02",
+      "title": "Fever Dream",
+      "language": "English",
+      "chartPosition": 21,
+      "sourceUrl": "https://www.officialcharts.com/chart-news/official-biggest-songs-of-2026/",
+      "musicbrainzTitle": "FEVER DREAM",
+      "musicbrainzFirstRelease": "2026-02-26",
+      "referenceUrl": "https://musicbrainz.org/recording/3e6e9956-f059-411f-b661-5c2eefcebc02"
+    },
+    {
+      "songId": "mb:5dab6f23-6ea9-42b9-b09f-cba30f47243f",
+      "title": "Judi Jodi",
+      "language": "Hindi",
+      "chartPosition": 23,
+      "sourceUrl": "https://www.boxofficeindia24.com/music/charts/hindi",
+      "musicbrainzTitle": "Judi Jodi",
+      "musicbrainzFirstRelease": "2026-10-29",
+      "referenceUrl": "https://musicbrainz.org/recording/5dab6f23-6ea9-42b9-b09f-cba30f47243f"
+    },
+    {
+      "songId": "mb:2c85fe70-3c0e-4b43-8d97-f5b5c4757f3a",
+      "title": "American Girls",
+      "language": "English",
+      "chartPosition": 23,
+      "sourceUrl": "https://www.officialcharts.com/chart-news/official-biggest-songs-of-2026/",
+      "musicbrainzTitle": "American Girls",
+      "musicbrainzFirstRelease": "2026-03-06",
+      "referenceUrl": "https://musicbrainz.org/recording/2c85fe70-3c0e-4b43-8d97-f5b5c4757f3a"
+    }
+  ]
+}

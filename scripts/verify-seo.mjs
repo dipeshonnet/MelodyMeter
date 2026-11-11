@@ -8,7 +8,7 @@ const catalog = JSON.parse(read('catalog.json'));
 const origin = new URL(catalog.url).origin;
 const sitemap = read('sitemap.xml');
 const locations = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(match => match[1]);
-const expected = ['/', '/how-we-rate/', '/privacy/', '/easy-songs/', '/hindi-songs/', '/english-songs/', ...catalog.songs.map(song => new URL(song.url).pathname)];
+const expected = ['/', '/how-we-rate/', '/privacy/', '/easy-songs/', '/hindi-songs/', '/english-songs/', '/top-2026-songs/', ...catalog.songs.map(song => new URL(song.url).pathname)];
 assert.equal(locations.length, expected.length, 'Sitemap must include every public page exactly once.');
 assert.equal(new Set(locations).size, locations.length);
 const titles = new Set();
